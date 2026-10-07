@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "_comment": "Committed policy table. fixture_values.py resolves against this; it never invents. Every value below is an inert JSON scalar -- never Dart source -- and dart_literal() is the single place one becomes an expression. Edit here, never in a generated dependencies.dart: the values_version() digest over this file invalidates every affected checkpoint.",
+  "cardinality": 3,
+  "_cardinality_provenance": "Median of 12,353 non-empty data collection literals in probe_v2 (101 unseen repos). Quantile declared before computation, ahead of any measurement.",
+  "types": {
+    "String": "",
+    "int": 0,
+    "double": 0.0,
+    "num": 0,
+    "bool": false
+  },
+  "_types_provenance": "Primitives only, amended 2026-09-05. Until then this table also declared Dart source strings for thirteen object types -- `TextEditingController()`, `const Color(0xFF000000)`, `const SizedBox.shrink()` and so on -- which an authored policy file compiled into a shipped transplant three phases later, where a typo surfaced as a Dart compile error far from its cause. A stand-in for an object type is also a stand-in whose construction has cost, in a study that measures cost. What survives is the set for which a value is inert and unambiguous. A type absent from this table is not thereby unconstructible: `constructible()` still synthesises a call for any class DECLARED IN THE TRANSPLANT, which is where the corpus's own element types live. What the trim removes is the framework types no transplant declares. See decisions/2026-09-05-arm2-primitive-only-fixture-policy.md.",
+  "unrecoverable": {
+    "TabController": {
+      "id": "ticker_provider",
+      "reason": "requires a TickerProvider vsync; cannot be constructed at top level"
+    },
+    "AnimationController": {
+      "id": "ticker_provider",
+      "reason": "requires a TickerProvider vsync, and animation is out of scope"
+    },
+    "BuildContext": {
+      "id": "no_element_tree",
+      "reason": "cannot exist outside the element tree"
+    },
+    "GlobalKey": {
+      "id": "per_element_identity",
+      "reason": "identity is per-element; a shared top-level key would collide across roles"
+    }
+  },
+  "_unrecoverable_provenance": "Type-keyed refusals, each carrying a stable `id`. The id exists because the screen classifies an R16 exclusion as DECLARED or not, and until 2026-09-05 it did so by testing whether the stored note was string-identical to one of these sentences -- an English sentence used as a primary key, where an editorial reword silently flipped a verdict for every table already on disk. Verdicts key on `id`; `reason` is for the reader and may be reworded freely.",
+  "out_of_scope": {
+    "TextEditingController": {
+      "id": "object_type_out_of_scope",
+      "reason": "a controller owning mutable text state and a listener list"
+    },
+    "FocusNode": {
+      "id": "object_type_out_of_scope",
+      "reason": "a node that registers with the focus manager"
+    },
+    "ScrollController": {
+      "id": "object_type_out_of_scope",
+      "reason": "a controller that attaches to a scroll position"
+    },
+    "PageController": {
+      "id": "object_type_out_of_scope",
+      "reason": "a scroll controller with a page-sized viewport"
+    },
+    "ThemeData": {
+      "id": "object_type_out_of_scope",
+      "reason": "a large value object whose defaults are resolved at construction"
+    },
+    "Color": {
+      "id": "object_type_out_of_scope",
+      "reason": "a value object; a const stand-in for one is recovered, never defaulted"
+    },
+    "Widget": {
+      "id": "object_type_out_of_scope",
+      "reason": "a widget stand-in is a subtree, and subtree size is what the study measures"
+    },
+    "VoidCallback": {
+      "id": "object_type_out_of_scope",
+      "reason": "a closure; what it does is the application's, not the fixture's"
+    },
+    "Function": {
+      "id": "object_type_out_of_scope",
+      "reason": "a closure; what it does is the application's, not the fixture's"
+    },
+    "DateTime": {
+      "id": "object_type_out_of_scope",
+      "reason": "a value object, and a fixed instant is still a chosen one"
+    },
+    "TimeOfDay": {
+      "id": "object_type_out_of_scope",
+      "reason": "a value object, and a fixed time is still a chosen one"
+    },
+    "Duration": {
+      "id": "object_type_out_of_scope",
+      "reason": "a value object feeding animation and timing, both out of scope"
+    },
+    "EdgeInsets": {
+      "id": "object_type_out_of_scope",
+      "reason": "a value object feeding layout geometry"
+    }
+  },
+  "_out_of_scope_provenance": "The thirteen object types this table declared a Dart stand-in for until 2026-09-05, named rather than merely dropped. A group whose fill needs one is excluded by R16 as a DECLARED refusal -- a recorded decision -- while a type named nowhere stays undeclared and loud, which is the signal that the policy is short rather than that the group deserves to go. Deleting an entry from `types` without naming it here would silently convert the second kind into the first, and the `--from-nothing` gate's check 6 would stop catching a typo. Nothing here is unconstructible in Dart -- that is `unrecoverable` -- these are types a fixture will not stand in for, because a stand-in whose construction has cost is a confound in a study that measures cost.",
+  "unrecoverable_rules": {
+    "const_standin_unrecovered": "no self-contained upstream literal, and a const declaration takes no primitive stand-in",
+    "class_standin_authored": "a class declared in the transplant; the generated fill does not construct one, because a stand-in whose construction has cost is a confound in a study that measures cost. The value is authored under config/authored_fixtures/"
+  },
+  "_unrecoverable_rules_provenance": "Refusals that belong to a resolution ROUTE rather than to a named type, declared here so R16 can call them declared. `const_standin_unrecovered` replaces the hard-coded `types[\"Color\"]` fallback deleted from fixture_values.py on 2026-09-05: an unrecovered `const dynamic X = null;` stand-in used to default to a colour, which meant a missing blobless clone -- the documented way recovery fails -- produced a plausible value and no error anywhere. The fill protocol's own rule is that unrecoverable values are reported, never guessed. It fires zero times on the committed table. `class_standin_authored` was added 2026-09-08, when `constructible()` stopped emitting a constructor call for every class the transplant declares. Until then `Translations.build()`, `CardBean()` and `AppInfo(name: '', packageName: '')` reached the compiler as fixture values: the 2026-09-05 trim closed the AUTHORED door -- this `types` table -- and left the DERIVED one open. It is a refusal the policy names precisely so the `--from-nothing` gate can still tell a deliberate hand-off to the author from a typo that emptied the table."
+}

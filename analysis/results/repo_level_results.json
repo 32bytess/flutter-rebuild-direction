@@ -1,0 +1,457 @@
+{
+  "device": "redmi9t",
+  "stage": "03b_repo_level_validation",
+  "question": "Does holding out whole repositories, rather than whole widgets, change the estimate?",
+  "model": {
+    "name": "logreg_balanced",
+    "provenance": "frozen from stage 03; not refitted, reselected or retuned here",
+    "grid": {
+      "model__C": [
+        0.03,
+        0.3,
+        3.0,
+        30.0
+      ]
+    }
+  },
+  "inputs": {
+    "pairs": {
+      "path": "redmi9t_pairs_labelled.csv",
+      "size_bytes": 386577,
+      "mtime": 1787645632.3478959
+    },
+    "sources": {
+      "path": "sources.jsonl",
+      "size_bytes": 20227,
+      "mtime": 1786440193.6080456
+    }
+  },
+  "concentration": {
+    "repositories": 8,
+    "effective_repositories": 6.1591417076441655,
+    "largest_share": 0.21987951807228914,
+    "largest_repository": "SatoshiPortal_bullbitcoin-mobile",
+    "seed_groups": 43,
+    "contrasts": 332,
+    "prevalence_min": 0.25,
+    "prevalence_max": 0.5
+  },
+  "composition_by_repository": {
+    "SatoshiPortal_bullbitcoin-mobile": {
+      "contrasts": 73,
+      "groups": 10,
+      "slower": 33,
+      "prevalence": 0.4520547945205479,
+      "share_of_contrasts": 0.21987951807228914
+    },
+    "deckerst_aves": {
+      "contrasts": 71,
+      "groups": 9,
+      "slower": 26,
+      "prevalence": 0.36619718309859156,
+      "share_of_contrasts": 0.21385542168674698
+    },
+    "DompetApp_Dompet.flutter": {
+      "contrasts": 56,
+      "groups": 7,
+      "slower": 25,
+      "prevalence": 0.44642857142857145,
+      "share_of_contrasts": 0.1686746987951807
+    },
+    "fluttercandies_wechat_flutter": {
+      "contrasts": 47,
+      "groups": 6,
+      "slower": 17,
+      "prevalence": 0.3617021276595745,
+      "share_of_contrasts": 0.14156626506024098
+    },
+    "Hash-Studios_Prism": {
+      "contrasts": 31,
+      "groups": 4,
+      "slower": 15,
+      "prevalence": 0.4838709677419355,
+      "share_of_contrasts": 0.09337349397590361
+    },
+    "WheretoSleepinNJU_NJU-Class-Shedule-Flutter": {
+      "contrasts": 30,
+      "groups": 4,
+      "slower": 15,
+      "prevalence": 0.5,
+      "share_of_contrasts": 0.09036144578313253
+    },
+    "nknorg_nMobile": {
+      "contrasts": 16,
+      "groups": 2,
+      "slower": 6,
+      "prevalence": 0.375,
+      "share_of_contrasts": 0.04819277108433735
+    },
+    "amugofjava_anytime_podcast_player": {
+      "contrasts": 8,
+      "groups": 1,
+      "slower": 2,
+      "prevalence": 0.25,
+      "share_of_contrasts": 0.024096385542168676
+    }
+  },
+  "seed_group_folds_viewed_by_repository": {
+    "per_fold": {
+      "0": {
+        "n_test": 62,
+        "test_repositories": 4,
+        "repositories_also_in_train": 4,
+        "test_rows_whose_repo_is_in_train": 1.0
+      },
+      "1": {
+        "n_test": 70,
+        "test_repositories": 5,
+        "repositories_also_in_train": 5,
+        "test_rows_whose_repo_is_in_train": 1.0
+      },
+      "2": {
+        "n_test": 69,
+        "test_repositories": 4,
+        "repositories_also_in_train": 3,
+        "test_rows_whose_repo_is_in_train": 0.8840579710144928
+      },
+      "3": {
+        "n_test": 68,
+        "test_repositories": 5,
+        "repositories_also_in_train": 5,
+        "test_rows_whose_repo_is_in_train": 1.0
+      },
+      "4": {
+        "n_test": 63,
+        "test_repositories": 6,
+        "repositories_also_in_train": 6,
+        "test_rows_whose_repo_is_in_train": 1.0
+      }
+    },
+    "mean_test_rows_whose_repo_is_in_train": 0.9768115942028984
+  },
+  "schemes": {
+    "seed_group_5fold": {
+      "metrics": {
+        "roc_auc": 0.7771275207813024,
+        "average_precision": 0.7149267323476104,
+        "mcc": 0.46410839334786247,
+        "balanced_accuracy": 0.7298989823685094,
+        "sensitivity": 0.6618705035971223,
+        "specificity": 0.7979274611398963
+      },
+      "intervals": {
+        "roc_auc": {
+          "point": 0.7771275207813024,
+          "ci_low": 0.7281205884743608,
+          "ci_high": 0.8282960181436557,
+          "resample_unit": "group",
+          "n_units": 43,
+          "draws_used": 2000,
+          "draws_discarded": 0
+        },
+        "mcc": {
+          "point": 0.46410839334786247,
+          "ci_low": 0.36451908016283624,
+          "ci_high": 0.5614890516225226,
+          "resample_unit": "group",
+          "n_units": 43,
+          "draws_used": 2000,
+          "draws_discarded": 0
+        }
+      },
+      "per_fold": [
+        {
+          "fold": 0,
+          "held_out": "8 groups",
+          "n_test": 62,
+          "prevalence": 0.43548387096774194,
+          "roc_auc": 0.8174603174603174,
+          "mcc": 0.6157016714643505
+        },
+        {
+          "fold": 1,
+          "held_out": "9 groups",
+          "n_test": 70,
+          "prevalence": 0.37142857142857144,
+          "roc_auc": 0.7517482517482517,
+          "mcc": 0.32651644673382046
+        },
+        {
+          "fold": 2,
+          "held_out": "9 groups",
+          "n_test": 69,
+          "prevalence": 0.43478260869565216,
+          "roc_auc": 0.7350427350427351,
+          "mcc": 0.31514263857532193
+        },
+        {
+          "fold": 3,
+          "held_out": "9 groups",
+          "n_test": 68,
+          "prevalence": 0.4411764705882353,
+          "roc_auc": 0.7978070175438596,
+          "mcc": 0.5510273776779447
+        },
+        {
+          "fold": 4,
+          "held_out": "8 groups",
+          "n_test": 63,
+          "prevalence": 0.4126984126984127,
+          "roc_auc": 0.8139293139293139,
+          "mcc": 0.5842332539145736
+        }
+      ]
+    },
+    "repository_5fold": {
+      "metrics": {
+        "roc_auc": 0.784675886234018,
+        "average_precision": 0.735223081481196,
+        "mcc": 0.466812122879564,
+        "balanced_accuracy": 0.7329183285495955,
+        "sensitivity": 0.6834532374100719,
+        "specificity": 0.7823834196891192
+      },
+      "intervals": {
+        "roc_auc": {
+          "point": 0.784675886234018,
+          "ci_low": 0.7612744552606594,
+          "ci_high": 0.811332742316785,
+          "resample_unit": "project",
+          "n_units": 8,
+          "draws_used": 2000,
+          "draws_discarded": 0
+        },
+        "mcc": {
+          "point": 0.466812122879564,
+          "ci_low": 0.3706466118773558,
+          "ci_high": 0.5332775627555955,
+          "resample_unit": "project",
+          "n_units": 8,
+          "draws_used": 2000,
+          "draws_discarded": 0
+        }
+      },
+      "per_fold": [
+        {
+          "fold": 0,
+          "held_out": "WheretoSleepinNJU_NJU-Class-Shedule-Flutter, fluttercandies_wechat_flutter",
+          "n_test": 77,
+          "prevalence": 0.4155844155844156,
+          "roc_auc": 0.8291666666666667,
+          "mcc": 0.494471753303275
+        },
+        {
+          "fold": 1,
+          "held_out": "SatoshiPortal_bullbitcoin-mobile",
+          "n_test": 73,
+          "prevalence": 0.4520547945205479,
+          "roc_auc": 0.7731060606060607,
+          "mcc": 0.39166666666666666
+        },
+        {
+          "fold": 2,
+          "held_out": "DompetApp_Dompet.flutter",
+          "n_test": 56,
+          "prevalence": 0.44642857142857145,
+          "roc_auc": 0.7961290322580645,
+          "mcc": 0.5301247570756493
+        },
+        {
+          "fold": 3,
+          "held_out": "Hash-Studios_Prism, amugofjava_anytime_podcast_player, nknorg_nMobile",
+          "n_test": 55,
+          "prevalence": 0.41818181818181815,
+          "roc_auc": 0.7411684782608696,
+          "mcc": 0.3472161835223683
+        },
+        {
+          "fold": 4,
+          "held_out": "deckerst_aves",
+          "n_test": 71,
+          "prevalence": 0.36619718309859156,
+          "roc_auc": 0.8158119658119659,
+          "mcc": 0.5692856905723636
+        }
+      ]
+    },
+    "leave_one_project_out": {
+      "metrics": {
+        "roc_auc": 0.7836880754463786,
+        "average_precision": 0.7278664291934335,
+        "mcc": 0.49570422963284727,
+        "balanced_accuracy": 0.7458716964252432,
+        "sensitivity": 0.6834532374100719,
+        "specificity": 0.8082901554404145
+      },
+      "intervals": {
+        "roc_auc": {
+          "point": 0.7836880754463786,
+          "ci_low": 0.7579380150415097,
+          "ci_high": 0.8101118652589241,
+          "resample_unit": "project",
+          "n_units": 8,
+          "draws_used": 2000,
+          "draws_discarded": 0
+        },
+        "mcc": {
+          "point": 0.49570422963284727,
+          "ci_low": 0.4080626100150401,
+          "ci_high": 0.5670095647686824,
+          "resample_unit": "project",
+          "n_units": 8,
+          "draws_used": 2000,
+          "draws_discarded": 0
+        }
+      },
+      "per_fold": [
+        {
+          "fold": 0,
+          "held_out": "DompetApp_Dompet.flutter",
+          "n_test": 56,
+          "prevalence": 0.44642857142857145,
+          "roc_auc": 0.7961290322580645,
+          "mcc": 0.5301247570756493
+        },
+        {
+          "fold": 1,
+          "held_out": "Hash-Studios_Prism",
+          "n_test": 31,
+          "prevalence": 0.4838709677419355,
+          "roc_auc": 0.8250000000000001,
+          "mcc": 0.6778302010921357
+        },
+        {
+          "fold": 2,
+          "held_out": "SatoshiPortal_bullbitcoin-mobile",
+          "n_test": 73,
+          "prevalence": 0.4520547945205479,
+          "roc_auc": 0.7731060606060607,
+          "mcc": 0.39166666666666666
+        },
+        {
+          "fold": 3,
+          "held_out": "WheretoSleepinNJU_NJU-Class-Shedule-Flutter",
+          "n_test": 30,
+          "prevalence": 0.5,
+          "roc_auc": 0.8355555555555556,
+          "mcc": 0.565685424949238
+        },
+        {
+          "fold": 4,
+          "held_out": "amugofjava_anytime_podcast_player",
+          "n_test": 8,
+          "prevalence": 0.25,
+          "roc_auc": 0.5,
+          "mcc": 0.0
+        },
+        {
+          "fold": 5,
+          "held_out": "deckerst_aves",
+          "n_test": 71,
+          "prevalence": 0.36619718309859156,
+          "roc_auc": 0.8158119658119659,
+          "mcc": 0.5692856905723636
+        },
+        {
+          "fold": 6,
+          "held_out": "fluttercandies_wechat_flutter",
+          "n_test": 47,
+          "prevalence": 0.3617021276595745,
+          "roc_auc": 0.8509803921568628,
+          "mcc": 0.5529063574157609
+        },
+        {
+          "fold": 7,
+          "held_out": "nknorg_nMobile",
+          "n_test": 16,
+          "prevalence": 0.375,
+          "roc_auc": 0.7333333333333333,
+          "mcc": 0.2581988897471611
+        }
+      ]
+    }
+  },
+  "leave_one_project_out": {
+    "pooled_auc": 0.7836880754463786,
+    "per_repository": {
+      "SatoshiPortal_bullbitcoin-mobile": {
+        "fold": 2,
+        "n_test": 73,
+        "prevalence": 0.4520547945205479,
+        "roc_auc": 0.7731060606060607,
+        "mcc": 0.39166666666666666,
+        "groups": 10
+      },
+      "deckerst_aves": {
+        "fold": 5,
+        "n_test": 71,
+        "prevalence": 0.36619718309859156,
+        "roc_auc": 0.8158119658119659,
+        "mcc": 0.5692856905723636,
+        "groups": 9
+      },
+      "DompetApp_Dompet.flutter": {
+        "fold": 0,
+        "n_test": 56,
+        "prevalence": 0.44642857142857145,
+        "roc_auc": 0.7961290322580645,
+        "mcc": 0.5301247570756493,
+        "groups": 7
+      },
+      "fluttercandies_wechat_flutter": {
+        "fold": 6,
+        "n_test": 47,
+        "prevalence": 0.3617021276595745,
+        "roc_auc": 0.8509803921568628,
+        "mcc": 0.5529063574157609,
+        "groups": 6
+      },
+      "Hash-Studios_Prism": {
+        "fold": 1,
+        "n_test": 31,
+        "prevalence": 0.4838709677419355,
+        "roc_auc": 0.8250000000000001,
+        "mcc": 0.6778302010921357,
+        "groups": 4
+      },
+      "WheretoSleepinNJU_NJU-Class-Shedule-Flutter": {
+        "fold": 3,
+        "n_test": 30,
+        "prevalence": 0.5,
+        "roc_auc": 0.8355555555555556,
+        "mcc": 0.565685424949238,
+        "groups": 4
+      },
+      "nknorg_nMobile": {
+        "fold": 7,
+        "n_test": 16,
+        "prevalence": 0.375,
+        "roc_auc": 0.7333333333333333,
+        "mcc": 0.2581988897471611,
+        "groups": 2
+      },
+      "amugofjava_anytime_podcast_player": {
+        "fold": 4,
+        "n_test": 8,
+        "prevalence": 0.25,
+        "roc_auc": 0.5,
+        "mcc": 0.0,
+        "groups": 1
+      }
+    },
+    "repositories_above_chance": 7,
+    "sign_test_p": 0.03515625,
+    "caveat": "Eight repositories is a small number of points and the per-repository test folds are very uneven (8 to 73 contrasts). Treat the pooled figure as the estimate and the spread as the uncertainty; the sign test is reported to keep its weakness visible."
+  },
+  "thresholds_fixed_in_advance": {
+    "hold": 0.72,
+    "collapse": 0.65
+  },
+  "verdict": "holds",
+  "reading": "Leave-one-project-out AUC 0.784 is at or above the 0.72 threshold set in advance, against a seed-group reference of 0.777. Holding out whole applications costs little, which is the delta-cancellation argument confirmed: the model reads the structural change, not the application's house style. Repository concentration is then a SCOPE LIMIT to state plainly -- eight applications, effective count 6.16 -- not a confound that invalidates the seed-group result. Corpus effort is better spent on the directive confound than on project diversity.",
+  "claim_boundaries": [
+    "This notebook does not replace stage 03; it reports what stage 03's number becomes under a stricter grouping.",
+    "Whichever figure is quoted, the held-out unit must be named with it.",
+    "Eight repositories, effective count 6.16. No claim about Flutter applications in general follows."
+  ]
+}

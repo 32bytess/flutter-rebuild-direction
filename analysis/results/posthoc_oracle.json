@@ -1,0 +1,209 @@
+{
+ "at_threshold_0.5": {
+  "directive_oracle": {
+   "flagged": 128,
+   "precision": 0.78125,
+   "precision_reported": 0.78125,
+   "recall": 0.7194244604316546,
+   "tp": 100
+  },
+  "lightgbm": {
+   "flagged": 143,
+   "precision": 0.6923076923076923,
+   "precision_reported": 0.6923076923076923,
+   "recall": 0.7122302158273381,
+   "tp": 99
+  },
+  "logreg_balanced": {
+   "flagged": 131,
+   "precision": 0.7022900763358778,
+   "precision_reported": 0.7022900763358778,
+   "recall": 0.6618705035971223,
+   "tp": 92
+  },
+  "random_forest": {
+   "flagged": 131,
+   "precision": 0.7175572519083969,
+   "precision_reported": 0.7175572519083969,
+   "recall": 0.6762589928057554,
+   "tp": 94
+  },
+  "rbf_svm": {
+   "flagged": 130,
+   "precision": 0.6846153846153846,
+   "precision_reported": 0.6846153846153846,
+   "recall": 0.6402877697841727,
+   "tp": 89
+  }
+ },
+ "auc_minus_oracle": {
+  "lightgbm": {
+   "ci95": [
+    -0.08674399854986256,
+    -0.007707038822913678
+   ],
+   "point": -0.04771312483691803,
+   "share_draws_above_0": 0.008
+  },
+  "logreg_balanced": {
+   "ci95": [
+    -0.10214606116706991,
+    -0.029372928706377366
+   ],
+   "point": -0.06573601222648828,
+   "share_draws_above_0": 0.0005
+  },
+  "random_forest": {
+   "ci95": [
+    -0.044432208246941884,
+    0.014426744191636968
+   ],
+   "point": -0.015078092966041678,
+   "share_draws_above_0": 0.156
+  },
+  "rbf_svm": {
+   "ci95": [
+    -0.08880984254281338,
+    -0.00742960364039817
+   ],
+   "point": -0.04773176277630764,
+   "share_draws_above_0": 0.009
+  }
+ },
+ "bootstrap": {
+  "draws": 2000,
+  "draws_discarded": 0,
+  "draws_used": 2000,
+  "groups": 43,
+  "seed": 20260803,
+  "unit": "seed group"
+ },
+ "n": 332,
+ "oracle_at_131_flags": {
+  "expected_precision": 0.7684478371501272,
+  "flag_count": 131,
+  "note": "oracle scores are one value per directive within a fold; the last tier is split at random, so precision is its expectation",
+  "tiers": [
+   {
+    "n": 9,
+    "score": 0.9168063447509956,
+    "slower": 7,
+    "taken": 9
+   },
+   {
+    "n": 9,
+    "score": 0.9003383457047961,
+    "slower": 8,
+    "taken": 9
+   },
+   {
+    "n": 8,
+    "score": 0.884872605444791,
+    "slower": 8,
+    "taken": 8
+   },
+   {
+    "n": 8,
+    "score": 0.8837699495677046,
+    "slower": 8,
+    "taken": 8
+   },
+   {
+    "n": 9,
+    "score": 0.8780629562297964,
+    "slower": 9,
+    "taken": 9
+   },
+   {
+    "n": 8,
+    "score": 0.8655735520791502,
+    "slower": 6,
+    "taken": 8
+   },
+   {
+    "n": 9,
+    "score": 0.8586534256918066,
+    "slower": 7,
+    "taken": 9
+   },
+   {
+    "n": 8,
+    "score": 0.8484479468070432,
+    "slower": 7,
+    "taken": 8
+   },
+   {
+    "n": 9,
+    "score": 0.8447811795016815,
+    "slower": 8,
+    "taken": 9
+   },
+   {
+    "n": 9,
+    "score": 0.825874523746722,
+    "slower": 9,
+    "taken": 9
+   },
+   {
+    "n": 8,
+    "score": 0.6233555044981681,
+    "slower": 4,
+    "taken": 8
+   },
+   {
+    "n": 8,
+    "score": 0.6193556681722984,
+    "slower": 4,
+    "taken": 8
+   },
+   {
+    "n": 9,
+    "score": 0.6120440638323953,
+    "slower": 5,
+    "taken": 9
+   },
+   {
+    "n": 8,
+    "score": 0.6002702863316639,
+    "slower": 5,
+    "taken": 8
+   },
+   {
+    "n": 9,
+    "score": 0.59835552339159,
+    "slower": 5,
+    "taken": 9
+   },
+   {
+    "n": 9,
+    "score": 0.46816420715437684,
+    "slower": 2,
+    "taken": 3
+   }
+  ]
+ },
+ "precision_95ci_at_0.5": {
+  "directive_oracle": [
+   0.7109375,
+   0.8527131782945736
+  ],
+  "lightgbm": [
+   0.6111111111111112,
+   0.7841726618705036
+  ],
+  "logreg_balanced": [
+   0.6165278195488721,
+   0.7938931297709924
+  ],
+  "random_forest": [
+   0.6357129014396455,
+   0.8048832162050434
+  ],
+  "rbf_svm": [
+   0.6073797025371829,
+   0.7698412698412699
+  ]
+ },
+ "prevalence": 0.4186746987951807,
+ "slower": 139
+}

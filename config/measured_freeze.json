@@ -1,0 +1,1246 @@
+{
+  "_comment": "Groups with device measurements on disk. Their files at the corpus root are pinned: `scripts/screen/export.py` refuses any write or delete that would change one. Written by scripts/screen/freeze.py. An entry with `released` set is history -- the pin is off and the group's existing rows describe code that has since changed.",
+  "_groups_provenance": "`files` is sha256 per filename at the moment of seeding. `devices` and `exclusions_sha256` say what the rows were taken under; `exclusions_sha256` is the digest the measurement manifest recorded, so a row can be tied back to the screening record that selected it.",
+  "groups": {
+    "0314": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "ef63b6a771b5662ca805135860b7e26cf671588f20db969f76431fa7ac6e2a46",
+        "rev_002_df5ca135.dart": "17348ca81ea889234ee0635b0ff7b537c61961773f5926d5e7f1938a52bee476",
+        "rev_003_883908ec.dart": "02dc39a183f99d123bbeed12ca06dd4150a27c9860a37990279b2292acede893",
+        "rev_004_52c491c2.dart": "0ef9b6b5fb9ff86a91c41ca7054bf5ffc1f52b51d905dd44cdf79ff7068b4a50",
+        "rev_005_dc1aad41.dart": "02dc39a183f99d123bbeed12ca06dd4150a27c9860a37990279b2292acede893"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 3 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0331": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "69825a4f9662dbf2d9df747ef95aa907ec19a60e36f9e23cbc08755fb5a92042",
+        "rev_001_e9b9b621.dart": "6fd0dc0f6fa1e196b4d1dd986932eac054f21d35cfb58dcf8755a910ae2f4a80",
+        "rev_002_15933220.dart": "1b3c1b864bf942fce84814721a9c8c2b82ca4e58af184aa75a4d7a3258c4dfaf",
+        "rev_003_de871847.dart": "1b3c1b864bf942fce84814721a9c8c2b82ca4e58af184aa75a4d7a3258c4dfaf",
+        "rev_004_058037db.dart": "58f75da8fa4163226671c3a5e9f1db84b72a6238e3796561e6f8255c7c7895e8",
+        "rev_005_65801721.dart": "66addf4a974c15e3d47d905b35021f7fa5c80e9b263d219b3fc8a072020d820a"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 4 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0334": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "5df7ed44ba47ffb46e9cec274278c10685ea8580f6957277401917f2d73de0bc",
+        "rev_002_de871847.dart": "b5a9af6051b292d1839ca12b7c14782d88f1c434a58563785ce2f93ff97ccdf9",
+        "rev_003_c8c6f4e7.dart": "b5a9af6051b292d1839ca12b7c14782d88f1c434a58563785ce2f93ff97ccdf9",
+        "rev_004_2e6a34d3.dart": "b5a9af6051b292d1839ca12b7c14782d88f1c434a58563785ce2f93ff97ccdf9",
+        "rev_005_54e60730.dart": "cdf486c99a039cfd2525760ada6bed2935e8937629c84b7af5851ad2d9479494",
+        "rev_006_7781acc1.dart": "7729bfee3246e8286d684dc41ffa06052548b6d3d42e613ce00bf0bd89adaa04",
+        "rev_007_e854d9d7.dart": "ec57712ae16892527601b13f8a50b876cae408dcd5e8a96180a54e88e92acc7d"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 4 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0344": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "8846fc859e2ef7f7beb87153993e9bd51c04ffc63810e7830aee10c1570c8d9f",
+        "rev_001_ff230faf.dart": "1d09d7cca43469da73f11a3f15a6d35ab59843bef3aff49e6aad420cea8ab468",
+        "rev_002_76cef4b8.dart": "d5895c2888c922a475e9555cc68440b1a19db1ed21b01cc98ef10845c521ab19",
+        "rev_003_759046c6.dart": "2c7abcea274e78fe8e3c8e87989c40dc1c5137d5aed3c046623870d75fd225d8",
+        "rev_004_ac39b5d2.dart": "ff127ef326579584b459252023e4ca692a3d04e33ffd7e9afc4cc120af7b23b0",
+        "rev_005_18c0a1e4.dart": "51b20f1bd02789ee32787d8fc37ed48723893273e2047a70600b46ca63fc9a69",
+        "rev_006_972e1f89.dart": "08ee6e51e26cc1564ea77990039e32cb1f8e7ac46ecf59582d79f076f4a01856"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 4 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0348": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "1313d127305cb9ad006dbef9107e5dc860329be28f9f6712ff9d5ae47175fed1",
+        "rev_001_ac39b5d2.dart": "3cc84ca922738ed8ec641bb988a3f2a74e64891cb993e827ca3116da09d5188d",
+        "rev_002_ae402f3c.dart": "b4cd6d4af7a24737af6ab4a624e548cc5675da054d184ac435e7f4abae4dc644",
+        "rev_003_2b387dd1.dart": "900d9e2ab5928b25fd72b0560151bc1fed9ccf7dccbaf6f383e107db8d6c9a20",
+        "rev_004_ebecf1c9.dart": "f200407560c0fc9a452ff54db3ab762e6a489518a3358621b7546eb7009e5a46",
+        "rev_005_45fde1be.dart": "5017462178ee8c9dcc2f727ee97d6fc4441fee8d99576a543b49d072ec8542a0"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "0349": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "3dab89a60f97c13ac0c3b694c4f18d7725bc948c61171a92a605bbd339ac5fdf",
+        "rev_001_ac39b5d2.dart": "5d0be7335d12b155ee6f023e7e043b9c01f1f94dfa9f23dcc88813f2b08ea576",
+        "rev_002_ae402f3c.dart": "922ea34f6ce015da8f9f7062817fd0ea2da67c851734b993025a8c686122edc5",
+        "rev_003_2b387dd1.dart": "c667fabfcaa18af48c864de5098e8b969a150827c872f4f9f7f55dbb696fc293",
+        "rev_004_ebecf1c9.dart": "9e3a0db438421764dac1533b5178abb0218d1b130686009dbaf33ceec88ef709",
+        "rev_005_972e1f89.dart": "4423d3106e84bb516f3cc3d5a23ae15b2164f3c0c391dd153e8e4ee2ea5b79e1",
+        "rev_006_bbaf5720.dart": "4c499e3faaf32e704226aebe5be208c71e2db299e066602fa90dcd8d07a9fa41",
+        "rev_007_e1b4cfdb.dart": "efce71d6ab6d4377809f8447c3125895dca9ed393d207178c5546dbef56f0004",
+        "rev_008_362bb349.dart": "4d3ac061d7c898928a4e71f273a87ed2ef3f8320c560dbcc9169b63a31d160e3"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 3 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0452": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "ebcdfe191dbaeeb0df6b281e6b0b069e8b8cce2e6d84dfed2a186873cf9269f0",
+        "fixture_provenance.json": "0f371e069cafee6b8023ab0291e677b6b68adfe09512b79ab6e3e8e453c51abd",
+        "rev_001_3f451479.dart": "47fc200ce0fedbff82c5091075d10a5a7fa74c443cec2331c299c299ab9aee00",
+        "rev_001_869c247e.dart": "47fc200ce0fedbff82c5091075d10a5a7fa74c443cec2331c299c299ab9aee00",
+        "rev_002_46f1fb92.dart": "bfe141738c17adddaf1f1cdbb70bc5b64d07242b80423d286e25bcee98b3759a",
+        "rev_002_ee1942f0.dart": "bfe141738c17adddaf1f1cdbb70bc5b64d07242b80423d286e25bcee98b3759a",
+        "rev_003_46f1fb92.dart": "cebc1d6128a520eb1c25a4452413d34db696ba475ad25f6a6d2f15764238b689",
+        "rev_003_ad5eaf6b.dart": "cebc1d6128a520eb1c25a4452413d34db696ba475ad25f6a6d2f15764238b689",
+        "rev_004_58cb26b6.dart": "063f6d2a289c364c97e62313d1e54d0c2f5a1632329c30fe96f02b5247d62c05",
+        "rev_004_ad5eaf6b.dart": "063f6d2a289c364c97e62313d1e54d0c2f5a1632329c30fe96f02b5247d62c05",
+        "rev_005_1cdd2926.dart": "063f6d2a289c364c97e62313d1e54d0c2f5a1632329c30fe96f02b5247d62c05",
+        "rev_005_74cf5528.dart": "063f6d2a289c364c97e62313d1e54d0c2f5a1632329c30fe96f02b5247d62c05",
+        "rev_006_1cdd2926.dart": "268f742c65c629a632c67d74837ff8fa52989de4704b25a342eaf78bd99f2c9a",
+        "rev_006_e175dd19.dart": "268f742c65c629a632c67d74837ff8fa52989de4704b25a342eaf78bd99f2c9a",
+        "rev_007_2e67182d.dart": "e73cd05b97b47d21dfba6decfdeb9cd6f765580a6c47e48397e590f45d0d100a",
+        "rev_007_e175dd19.dart": "e73cd05b97b47d21dfba6decfdeb9cd6f765580a6c47e48397e590f45d0d100a",
+        "rev_008_246cca85.dart": "0cddfdcb72eaa9a5fcb714403d2f4e78a05a08bd688c8aa0bd238abbf3fabc8b",
+        "rev_008_4e96ad35.dart": "0cddfdcb72eaa9a5fcb714403d2f4e78a05a08bd688c8aa0bd238abbf3fabc8b",
+        "rev_009_dc81542d.dart": "e72ebdf292a6e4f1bf631ba6817bebfd8514a7942c517f0eb05e8fbc6d837187",
+        "rev_010_110db3c0.dart": "0553e3b38360e86c062d978c7efca043e267179fbf5ba024830ba65886e76e3d",
+        "rev_011_032be162.dart": "89a7e60950a46ec2b26c98859c431948d24041b2440a8853dfc46c5ad28355f9",
+        "rev_011_1dd8cb48.dart": "89a7e60950a46ec2b26c98859c431948d24041b2440a8853dfc46c5ad28355f9",
+        "rev_012_2c8ace37.dart": "ef787a546577e1db2b19041289c245b2d3ac870d40a4e5856240c9b3463730ec"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 3 role(s): type '_Stub' is not a subtype of type 'EdgeInsetsGeometry?' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0455": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "437393b4f12badf4c1e9763fbdd4b23056756cee63267ff6048273583f48633d",
+        "rev_001_48efa32a.dart": "fa871b356574862e56f1c2149cef23f10167748232da0b7d7c549933ea866f57",
+        "rev_001_612306c5.dart": "fa871b356574862e56f1c2149cef23f10167748232da0b7d7c549933ea866f57",
+        "rev_002_9ee5d23d.dart": "0d8e476a45ed612a799a6926de5d2d6d01b6ca222af5aa9c03ad291c9b21a281",
+        "rev_002_d8cd4b4c.dart": "0d8e476a45ed612a799a6926de5d2d6d01b6ca222af5aa9c03ad291c9b21a281",
+        "rev_003_21879d19.dart": "222675fb3797ae25314e488b6c0f03e697d119a63f18e3d60255929a63440bea",
+        "rev_003_d8cd4b4c.dart": "6e93a0b10363824180ce221d7ff78e002a9fe6ebf09f6d395d754050a28cfc3b",
+        "rev_004_21879d19.dart": "cb47f3ded1825ade5af6f6560b3246154175428b93d178d51e81f36de7e6fe72",
+        "rev_004_b1262523.dart": "cb47f3ded1825ade5af6f6560b3246154175428b93d178d51e81f36de7e6fe72",
+        "rev_005_8cb2e174.dart": "cb9f6cc05e1e0b42217243feafc93dd30727be340a51e1c53a958a1bed05d802",
+        "rev_005_b1262523.dart": "cb9f6cc05e1e0b42217243feafc93dd30727be340a51e1c53a958a1bed05d802",
+        "rev_006_8cb2e174.dart": "2ddedcd28af9da50f9e306590747ea60a7bb43fe6f4f136fcabde080345583a9",
+        "rev_006_ee1942f0.dart": "2ddedcd28af9da50f9e306590747ea60a7bb43fe6f4f136fcabde080345583a9"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 5 role(s): error box on screen; R22 on 3 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0508": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "30a06ab14b785cd513c32453155b9e07373b8f90e05a55263178a72db7c3888a",
+        "rev_001_14993d48.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_002_85b46635.dart": "8478fbe0323eb82fdf64f60b08a8b520b9d41cae824405da58ea7978b009eb8d",
+        "rev_003_079b3d54.dart": "8478fbe0323eb82fdf64f60b08a8b520b9d41cae824405da58ea7978b009eb8d",
+        "rev_004_be876c14.dart": "8478fbe0323eb82fdf64f60b08a8b520b9d41cae824405da58ea7978b009eb8d",
+        "rev_005_45cc0dcc.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_006_072b03e4.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_006_27b9cfde.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_006_8c311d0c.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_007_59642fcc.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_007_9ef2c7e2.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_007_b76e2e97.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_008_26246e67.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_008_b3fb464d.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_008_b8b96f64.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_009_072b03e4.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_009_22f08845.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_009_ebbdd28c.dart": "a313904966ec09daf9dcb6f6ce8b2f57646f5c485a87f6b45987189115416f92",
+        "rev_010_2f573776.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_010_973c0b9b.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_010_c22e936c.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_011_5c837516.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_011_e0bbc50c.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_012_e0bbc50c.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_012_f9cc2398.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_013_b79ac0a1.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_013_f9cc2398.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_014_84de200d.dart": "d655cf0149b6fca5ad6d5aab197941e4e431a402a471d56140c8a24f6ce490b1",
+        "rev_014_b79ac0a1.dart": "6af068aeb335632f8e660f475553cd940d4b3585006037a85d229051efd2ec8c",
+        "rev_015_84de200d.dart": "d655cf0149b6fca5ad6d5aab197941e4e431a402a471d56140c8a24f6ce490b1",
+        "rev_015_9ed8fc40.dart": "4575d03964c4c471b2ade99482d79558389bde500c4b484aae777a42eec323a3",
+        "rev_016_9ed8fc40.dart": "4575d03964c4c471b2ade99482d79558389bde500c4b484aae777a42eec323a3"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 7 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0516": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "115cc98130836b84e1b8ac112e816e41cf61a923aef15c1a316e4d0ebbed1705",
+        "rev_001_14993d48.dart": "a7200b3bc51b756391695d5f25ce1d6f5eb8e34e933ad95a65ca8ccdee087d37",
+        "rev_002_45cc0dcc.dart": "a7200b3bc51b756391695d5f25ce1d6f5eb8e34e933ad95a65ca8ccdee087d37",
+        "rev_003_072b03e4.dart": "b81a179cbdee5ea3e9258f16a640825a41c3a66ca377bb5ec6cff5916e0b6213",
+        "rev_003_6bb5566a.dart": "b81a179cbdee5ea3e9258f16a640825a41c3a66ca377bb5ec6cff5916e0b6213",
+        "rev_003_b3fb464d.dart": "b81a179cbdee5ea3e9258f16a640825a41c3a66ca377bb5ec6cff5916e0b6213",
+        "rev_004_22f08845.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_004_5516a4d7.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_004_e0bbc50c.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_005_22f08845.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_005_e0bbc50c.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_006_22f08845.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_006_b79ac0a1.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039",
+        "rev_007_b79ac0a1.dart": "b528314e8bf7c3b66ad98ce44133f1d012933fa178fb600a870be3f5624d0039"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 5 role(s): a _Stub reached a statically typed slot and build threw -- fixture repaired in dependencies.dart, re-measure owed"
+      }
+    },
+    "0529": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "81e0f606fa1a376b0306aecfd028f2a01ef29ceadb34db0a1a0fe800ba309a95",
+        "rev_001_14993d48.dart": "989e9ddbe8db376d5f75d46f6d0bea43661b33d428abffbf829ec3372d221ee1",
+        "rev_002_85b46635.dart": "550321e8bb0631701972d5263d02b5ed2ba6187b06dd27783f1249ca2306d288",
+        "rev_003_079b3d54.dart": "550321e8bb0631701972d5263d02b5ed2ba6187b06dd27783f1249ca2306d288",
+        "rev_004_be876c14.dart": "550321e8bb0631701972d5263d02b5ed2ba6187b06dd27783f1249ca2306d288",
+        "rev_005_45cc0dcc.dart": "989e9ddbe8db376d5f75d46f6d0bea43661b33d428abffbf829ec3372d221ee1",
+        "rev_006_072b03e4.dart": "629bfaa9aba67d20e63776f6cd7011fb0084c9fff054fb2c7879cad7bb9ef5e0",
+        "rev_006_ac191eff.dart": "79eb93ce85dce16e8c2945b79acc2d92494888c29416130791545c20b8faff87",
+        "rev_006_b76e2e97.dart": "79eb93ce85dce16e8c2945b79acc2d92494888c29416130791545c20b8faff87",
+        "rev_007_02c163b0.dart": "629bfaa9aba67d20e63776f6cd7011fb0084c9fff054fb2c7879cad7bb9ef5e0",
+        "rev_007_62acb7f6.dart": "629bfaa9aba67d20e63776f6cd7011fb0084c9fff054fb2c7879cad7bb9ef5e0",
+        "rev_007_ac191eff.dart": "629bfaa9aba67d20e63776f6cd7011fb0084c9fff054fb2c7879cad7bb9ef5e0",
+        "rev_008_5c837516.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_008_e0bbc50c.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_009_b79ac0a1.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_009_e0bbc50c.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_010_70b4bb05.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_010_9ed8fc40.dart": "74dd195c92dbef48f20367e34d8c29231c11a00749155ca1ac76f250899aad24",
+        "rev_010_b79ac0a1.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_011_22f08845.dart": "2da8cda9353d452bae9fee991b0053023be33d4ca0c44597bbf172f3383a8041",
+        "rev_011_9ed8fc40.dart": "74dd195c92dbef48f20367e34d8c29231c11a00749155ca1ac76f250899aad24"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "0531": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "d36aee1c790c404ae7cbc34fa899ab2492d4bdc80fc137afc88eb84a8c4c4e21",
+        "rev_001_14993d48.dart": "22089677aca753172bcae9a206eb45593798837601df95787ec3d82827150e2c",
+        "rev_002_85b46635.dart": "0f3c4b46e8f6503c330f13d0b2516fa9461e39742997154f971e2221bf6d9824",
+        "rev_003_079b3d54.dart": "0f3c4b46e8f6503c330f13d0b2516fa9461e39742997154f971e2221bf6d9824",
+        "rev_004_be876c14.dart": "0f3c4b46e8f6503c330f13d0b2516fa9461e39742997154f971e2221bf6d9824",
+        "rev_005_45cc0dcc.dart": "22089677aca753172bcae9a206eb45593798837601df95787ec3d82827150e2c",
+        "rev_006_59642fcc.dart": "cb30495e4b0c4238d1e47d415ee89dad2567afbe2a5312994afabba68a5654b6",
+        "rev_006_973c0b9b.dart": "cb30495e4b0c4238d1e47d415ee89dad2567afbe2a5312994afabba68a5654b6",
+        "rev_006_b375385e.dart": "cb30495e4b0c4238d1e47d415ee89dad2567afbe2a5312994afabba68a5654b6",
+        "rev_007_02c163b0.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_007_5c837516.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_007_e0bbc50c.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_008_b79ac0a1.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_008_b8b96f64.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_008_e0bbc50c.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_009_22f08845.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_009_9ed8fc40.dart": "4ff0b3fa3adda9c1a15db150f72740731bf190ca0771a1700ad2636524deea12",
+        "rev_009_b79ac0a1.dart": "9a68728411d9b374c047479edf399475655b8779bec1972870043d80d6aaf009",
+        "rev_010_9ed8fc40.dart": "4ff0b3fa3adda9c1a15db150f72740731bf190ca0771a1700ad2636524deea12"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 6 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0591": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "ae92956c3817a9fe57280c8005ae6d4d6587f19824b440dfbd45b485cfd81a4d",
+        "fixture_provenance.json": "19942466683543fca921a5a198759b0685275c9348355f3f38ca3170b8695826",
+        "rev_001_bba383fd.dart": "cf7a0271d9cf411564d80aaf424e711b81c86c03d645a6f905f8a6b8cd6a3408",
+        "rev_002_25118007.dart": "d9750e87645b917dd565bc27f607cb5b811cd93b1fc4d087e0645f66cc7f90f9",
+        "rev_003_f03cf447.dart": "9148ff3c1e2f69d38d3aac5f05e3f672c00ca57df3f6edca4f0a9a78c8ec4b36",
+        "rev_004_acc0fdf3.dart": "10b715100a303721c4804777ede379dde527b3e9da4f80c16ecf3d2b22995bd5",
+        "rev_005_880d0464.dart": "309f7553a1d5a9afa3511b3aacea6439511178db55896d762a2c08dc5530bb9a",
+        "rev_006_24973dfe.dart": "7d361011ac7cbea9ec11c32f6536ca296333d71a984cbb64428769db496bc361",
+        "rev_007_5228a7d7.dart": "cc8e286e2171b8106b1651ee3abeba1494b1e8cd837f932381e798a1387d0039"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): type '_Stub' is not a subtype of type 'ThemeMode' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0609": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "bf5091734f0dd7dde3dd4ad9171140b7b6f4d9e5b1b6809e3f7fda7e28a3d082",
+        "fixture_provenance.json": "930057c553307ccd8af518eb0ae642149892fa967ef62fc0ab4725a1e5158e25",
+        "rev_001_8424e8c8.dart": "9525de34adf3163fdd7a6e64cf42a5878e9dc735ce7dec554598a55c68db7369",
+        "rev_002_d06c3ad7.dart": "484c2b4bc0a4ad70b8913672d9c5e09d4f75657ffa74bb24ec2bc0d0677f04b8",
+        "rev_003_4155b8ba.dart": "a461ff9c0fa4f7a4d9f098fe1bbf5bc2a0590ad09cd60aa0184667ead28a0eb8",
+        "rev_004_83a32fe8.dart": "ada89465a6c3bc6b46942485af811e492a70f4f86aa556619b96c440de297b03",
+        "rev_006_3df8edf6.dart": "56cb56e9ea92b995fa469fbb5f76bb08a37149c9eaebd0b896dd369f35b8096d",
+        "rev_007_39cfa6cf.dart": "37e06b9e383efd64f1927a54164e66bd10f0079a66e2a7859398581ff500fa4d",
+        "rev_008_25a208ad.dart": "37e06b9e383efd64f1927a54164e66bd10f0079a66e2a7859398581ff500fa4d",
+        "rev_009_be7c3ad2.dart": "ded4363dd6260e52a37851fedf0419de381f2efe06f7693c1896a3a6569e8d5e",
+        "rev_010_2e69dd87.dart": "ded4363dd6260e52a37851fedf0419de381f2efe06f7693c1896a3a6569e8d5e"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "0610": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "d3303e02f3864ac8a7830086e239941f6269bcde78c8af6fa87adb8de87d77ba",
+        "rev_001_8424e8c8.dart": "ce224626596589e5cf9eec04f58e273fd7a33ebf15ad7a110890520230da280f",
+        "rev_002_39cfa6cf.dart": "7b6351df95e1e2a7e673e8446b74d93afc5bd56d57b1b7985c25edcaab4ee9a3",
+        "rev_003_25a208ad.dart": "7b6351df95e1e2a7e673e8446b74d93afc5bd56d57b1b7985c25edcaab4ee9a3",
+        "rev_004_be7c3ad2.dart": "7b6351df95e1e2a7e673e8446b74d93afc5bd56d57b1b7985c25edcaab4ee9a3",
+        "rev_005_2e69dd87.dart": "7b6351df95e1e2a7e673e8446b74d93afc5bd56d57b1b7985c25edcaab4ee9a3"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): Null check operator used on a null value -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0630": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "c7e6f50955d78948931f0ed1b212ddcc343cbed70ab1ab6e33cc739bb269487d",
+        "rev_001_a8ce423c.dart": "c454c26e69723729395054cf14e2624b5118baef92a5c3103c10a9a87515ec8f",
+        "rev_002_459c92cc.dart": "0933299d26bfafc25a0df9abbf87b576b3e4de998892d2105f7f9d948f682e93",
+        "rev_003_39cfa6cf.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_004_25a208ad.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_005_be7c3ad2.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_006_2e69dd87.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_007_46c1245e.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_008_a114eeea.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_009_3331b30b.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_010_53fd8d67.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_011_73624204.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_012_9ce97293.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_013_62f7d97f.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_014_9016c75d.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_015_d912c4c5.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_016_1977e409.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_017_ef044d72.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a",
+        "rev_018_6aef2feb.dart": "ed4f6652cdf737ae305db7dfd880c969b1c0223ea11db4a2b5d03fd63f84759a"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 3 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0632": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "73c6ed03edc29f7f90e3998d85715493bfaf3545ce077c42b5dbe2c42510eb7d",
+        "rev_001_a8ce423c.dart": "6c9989c2c557080381f889eec954d5e224bc887eabf43786ef3cba415bc3e81f",
+        "rev_002_39cfa6cf.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_003_25a208ad.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_004_be7c3ad2.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_005_2e69dd87.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_006_46c1245e.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_007_a114eeea.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_008_3331b30b.dart": "2a19291e09c4993ddc00720279490eef7fc24c53db774c8ac181370f3ebe03fd",
+        "rev_009_bca4e2e7.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_010_53fd8d67.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_011_73624204.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_012_9ce97293.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_013_62f7d97f.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_014_9016c75d.dart": "af245e8017fd95f9378fac37947becf55b311614d7ff353f444aa8b533e0bbc4",
+        "rev_015_d912c4c5.dart": "af245e8017fd95f9378fac37947becf55b311614d7ff353f444aa8b533e0bbc4",
+        "rev_016_7f181e7f.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_017_1977e409.dart": "d5533d37f8860ecbf7abd9c327516e3354f7fa6c3fdcfea1f95aafbbd0878123",
+        "rev_018_035c01dd.dart": "0ec33c6d0b81cea69723af02bb02808beb7551ad6500056ebf16b949bfac1b4e",
+        "rev_019_ef044d72.dart": "31774acb425cbc645e21288af197cc75db2386b050754162d7b73ec436672c53",
+        "rev_020_6aef2feb.dart": "31774acb425cbc645e21288af197cc75db2386b050754162d7b73ec436672c53"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 3 role(s): type '_Stub' is not a subtype of type 'bool' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0650": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "3b5b4a265040b0db1b83c0f2ff2a99b29726a60e7a4bff596a2b732da9d74d37",
+        "fixture_provenance.json": "093e553ea2918fa8cff8e9d729cda7b4296523d197d76c71547214a4acf9769d",
+        "rev_001_5fc03278.dart": "63a598c57d40b8d5033ce4de317dea2d1e52659245c05216477fdfe86f22cc45",
+        "rev_002_86fdaf92.dart": "3ef0c30422ee71c6824740a448dae1c5e304692b3f31c68d352e2271df57f5f7",
+        "rev_003_ece66b0a.dart": "2e1aac72de9701e9300e1cbdcfddebc43eb3e6712064295eec1561a3b96558e7",
+        "rev_004_83a32fe8.dart": "2e1aac72de9701e9300e1cbdcfddebc43eb3e6712064295eec1561a3b96558e7"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): type '_Stub' is not a subtype of type 'SyntaxThemeName' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0653": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "e9ddc0f14d7d7ce0f277f83e10edeee25679a9cd99d544b12a89d519ab6e60c9",
+        "rev_001_75729f42.dart": "384ac68a70972fe07930472c3f62ad8c9535a87f9691a5f20bd02ff8978c27c7",
+        "rev_002_83a32fe8.dart": "384ac68a70972fe07930472c3f62ad8c9535a87f9691a5f20bd02ff8978c27c7",
+        "rev_003_dd3b3254.dart": "17400be025291dfc89afaed5a512047418de8ccd61662cfc4bba41e491383994",
+        "rev_004_39cfa6cf.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_005_25a208ad.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_006_be7c3ad2.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_007_2e69dd87.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_008_46c1245e.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_009_a114eeea.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_010_3331b30b.dart": "babbbde374d8d45278dd9a9fe4562dc529b5da64d2a49c94c3877e524621bb3f",
+        "rev_011_bca4e2e7.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_012_53fd8d67.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_013_d0b74186.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_014_73624204.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_015_9ce97293.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_016_62f7d97f.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_017_9016c75d.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_018_d912c4c5.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_019_1977e409.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_020_ef044d72.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3",
+        "rev_021_6aef2feb.dart": "98c451f9da00bbec07055ca3ee40ae8c04ef4c7460c870667f0352ebd147edc3"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 4 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0753": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "509d97ed67cfc80d3dfed4e132763503935846d094305f320195829aa9733e4a",
+        "rev_001_62f7d97f.dart": "befbc61a5886e4f3cd995d1d5e52304a9fb23cb68c9c4d681dd457fa749c954b",
+        "rev_002_9016c75d.dart": "9b67b33e2deac4d14e30e426c4f537c9392bd17fadfe2e23b869c2c147d950f6",
+        "rev_003_d912c4c5.dart": "9b67b33e2deac4d14e30e426c4f537c9392bd17fadfe2e23b869c2c147d950f6",
+        "rev_004_1977e409.dart": "9b67b33e2deac4d14e30e426c4f537c9392bd17fadfe2e23b869c2c147d950f6",
+        "rev_005_ef044d72.dart": "9b67b33e2deac4d14e30e426c4f537c9392bd17fadfe2e23b869c2c147d950f6",
+        "rev_006_6aef2feb.dart": "9b67b33e2deac4d14e30e426c4f537c9392bd17fadfe2e23b869c2c147d950f6"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 2 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0837": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "573c8c7e813e30a38f432103c7305fd58f4b6cfc1bf08ac40fac73a84c492edf",
+        "fixture_provenance.json": "3323f1f0c707f7380a6e2e0d9b3a57d929097a919593677ab5da0994cf836683",
+        "rev_001_b1973107.dart": "ac8051bc83fb12017ecfaf4ad5df53d49308ae000946054267eaf2b834e2d1ab",
+        "rev_002_7b810338.dart": "9b08df9059d13af15aa5b062837b4ac3e2f4b7b3168cbe3da31ad9040980b342"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 2 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "0856": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "b1f786cbaa97175057d27757eac410673f507cbfaeb7a618cfbfdc7ef509cee3",
+        "rev_001_a8208431.dart": "3411e9ebb2dad94252daa23162d612f59ca3b45221f2cec9b0bffbb115ec4638",
+        "rev_002_5939b95b.dart": "0de091f6073a965f427569748420ac17f9b18076529e2e13e907b4a0a38f2cab"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "0994": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "687cb3708331a672a47c1e82bcefeaa7610d4317d0ab51700d9c1db149fc36da",
+        "rev_001_517fa8c6.dart": "fbc1540588d824b2953d52ca11ca2424e7e1ef8cf35e5edef58ad8aa6bbb25e3",
+        "rev_002_e136e9ab.dart": "6a2cb271df4fd1e68d4177f2733d0d4ae8a908c2bb1ff5642e9cb69c1637e86e"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 2 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "1232": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "15812dd8ea40d3d9836ed4e0239b02f6103744754e4937c30397eac1fa6d120c",
+        "fixture_provenance.json": "202fc449107826b672c1327a436acafdc1e9070e924632ff126cd8dd01de44e4",
+        "rev_001_093ba8cd.dart": "3400af8a4e738a622dc9a3ac42caebe3c76adca73b98a1f534556fc84877b8ff",
+        "rev_002_a6cfecbe.dart": "72ae2f07c7ea7c9c25481d7a91fce9f8d20c46f2c84577c013b59ef131d38cec"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): error box on screen -- fixture being repaired, re-measure owed"
+      }
+    },
+    "1468": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "a8479635ad12429779fbd816bbb25c457c31ee34951806e94797accc34290e66",
+        "fixture_provenance.json": "5686fcd3b6b2b229135bdc05e702646a4bb37e8a5497a27ae3bba3a6570b6654",
+        "rev_001_3987ebfd.dart": "d1b33a7c59ccda22f64c58000493e8ce59d939523bee2f7cc283321bc6e6cdfe",
+        "rev_002_bf09593e.dart": "23c986c4671898579243628ac4b20df2bef5fb114472dbab0aba2df34053fa65",
+        "rev_003_ebc1b1ef.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_004_577728ef.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_005_a19da07a.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_006_4ac4f1f8.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_007_00599d7b.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_008_565ddb09.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_009_7102d193.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_010_7c762ce2.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_011_37a3d575.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098",
+        "rev_012_23558b0a.dart": "7f0d7dc0cc4c0844b8998cfb0e211d5f4df3b68bd4282902f58e01f888252098"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 3 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "1746": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "d5271fc135a883d7de9a89e9b453a3f74a5758f863345127fa27a8a3d2827ba9",
+        "rev_001_4b266f02.dart": "a64d1f787c6e2333860f974fb0f071926c541030a6db6668971dd25070540693",
+        "rev_002_25fe59ad.dart": "5147b4c9ff0c9d967c27fe0d9c145522c41376edd4efa0e5dd2b1f1429c07bc7",
+        "rev_003_edf7e14c.dart": "5147b4c9ff0c9d967c27fe0d9c145522c41376edd4efa0e5dd2b1f1429c07bc7",
+        "rev_004_3edaf7e4.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_005_e25d0e4a.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_006_4bacfd67.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_007_a91168b8.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_008_49468227.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_009_c181795b.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_010_83a35e60.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_011_8fba24d1.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_012_f2417a46.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_013_16aea585.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_014_5e2a5ed9.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_015_cc0214e9.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_016_7ea3b10c.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_017_31b3a2df.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_018_3edc4ba2.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_019_09c8e850.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_020_bdc15831.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_021_286bc4ce.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_022_db517744.dart": "47693a4d8e43a1c849a2a04e3ca8e05868565901b3acd1756a84ca2ea6724e70",
+        "rev_023_13310e2d.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_024_981e95e3.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_025_4be8face.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_026_c882821e.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_027_8f23cfab.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_028_30a415f6.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_029_2c872db6.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_030_5ed8d758.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_031_f6fa1627.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_032_43e1ccd6.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_033_7ddeae1e.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_034_68a3460d.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_035_ec2bbf7f.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_036_f66042f6.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_037_9996dd97.dart": "b9e8d253e67aa2eeb4de8d4f2808830d1e0c737ced8a8ad694589cc26439a1bd",
+        "rev_038_bf1b9368.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_039_884121eb.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_040_f1f7006a.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_041_704dc119.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_042_e0bac40e.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_043_f726679b.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_044_846a0920.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_045_035760ff.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_046_d77c5890.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_047_828be365.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_048_afacca5b.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_049_24e70512.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_050_3f2e3e11.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_051_c4a8d4c5.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_052_c297163d.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_053_f54e3459.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_054_00791ca2.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_055_bbeb10bc.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_056_c77d8278.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_057_1420a994.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_058_cad98d72.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_059_5279db53.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848",
+        "rev_060_67ecd4a4.dart": "afbe31d878362f6536ef152c555bde4a3aa562b47611d5a5974f987ce24aa848"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 5 role(s): a _Stub reached a statically typed slot and build threw -- fixture repaired in dependencies.dart, re-measure owed"
+      }
+    },
+    "1927": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "60818b119647abbb522dd260658205d559110fc46dae1dbb27db6ba75961e0db",
+        "rev_001_cc4c8bf4.dart": "35040cd210ca24362d0d0c01a52bbc4e9a59b24493f196d648d6752bfb9a3943",
+        "rev_002_a0304d99.dart": "f8587db99b514df73b8d6bbaf04ade4813182c0cd8a6daaf1b295615980d0f61",
+        "rev_003_9e516567.dart": "f8587db99b514df73b8d6bbaf04ade4813182c0cd8a6daaf1b295615980d0f61",
+        "rev_004_84d9d336.dart": "eacd0a0b9b5bfe26accd95fb0de16ed2e1afe5fc8d68ebe3ef4d12080da83ad9"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): type '(dynamic) => dynamic' is not a subtype of type '(String) => bool' of 'test' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2052": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "71bbf9e046f2c090989841df2b5231b0e3a3dd13004b32123795f37dfa03108f",
+        "rev_001_20915456.dart": "2dfbd729656f15713854bc1148d8716238959e0129c4df07446c63f4def540ef",
+        "rev_002_d14beacb.dart": "2dfbd729656f15713854bc1148d8716238959e0129c4df07446c63f4def540ef",
+        "rev_003_30bccb54.dart": "2dfbd729656f15713854bc1148d8716238959e0129c4df07446c63f4def540ef",
+        "rev_004_cd0f23df.dart": "2dfbd729656f15713854bc1148d8716238959e0129c4df07446c63f4def540ef",
+        "rev_005_facfde4c.dart": "3328ee9cb9d18fbd197e4ec0fbfb2a0dd03abd8bde395ad3406ebe4dca1f9566",
+        "rev_006_0cae75e6.dart": "3328ee9cb9d18fbd197e4ec0fbfb2a0dd03abd8bde395ad3406ebe4dca1f9566",
+        "rev_007_b1b6a799.dart": "3328ee9cb9d18fbd197e4ec0fbfb2a0dd03abd8bde395ad3406ebe4dca1f9566",
+        "rev_008_7b5d8537.dart": "3328ee9cb9d18fbd197e4ec0fbfb2a0dd03abd8bde395ad3406ebe4dca1f9566",
+        "rev_009_c15b7e20.dart": "3328ee9cb9d18fbd197e4ec0fbfb2a0dd03abd8bde395ad3406ebe4dca1f9566",
+        "rev_010_c540458a.dart": "3328ee9cb9d18fbd197e4ec0fbfb2a0dd03abd8bde395ad3406ebe4dca1f9566"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 2 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2352": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "bf4a2e69cd6e215b831424365f57822585d0ee9245509c0bfdac8a0c3ed23fbe",
+        "rev_001_47400063.dart": "3792a8aa7ac8967689edde7432576cf85e3660fdb90395bf0ef8627a829f9e67",
+        "rev_002_825698fa.dart": "3fe56f41e019a6ed9e70967cc7f74f4d5cd38552841e4a157ff7567c877e6c13",
+        "rev_003_ce76b192.dart": "1115dfd7a4fcd8e3c1703095f75200ac2145e2fba38398d8ec32743316319bfe",
+        "rev_004_886b9b59.dart": "5f068f85c41b450cefe1a4bb9c05805ee79232b26a9e516ce98986ca5f44f372",
+        "rev_005_ad140f38.dart": "d5cce9190981c0b96eeab0c30073abcba5d093f1fcb46611af61fe3996a07473",
+        "rev_006_411d2fe6.dart": "663a5730aa0fa8b99b8615ce09cf4089c212cfa3f59027c93dc955c9b5f37f9c",
+        "rev_007_fa7d824f.dart": "c280c5e266f8ae5f19650fc5020835fbc06a434d13e620b89876bc9b74a16120",
+        "rev_008_0d57677a.dart": "6937bfddde651cc2c0c76881d8800acc59e678f4ce7d1c44484c96d5e7b5d417",
+        "rev_009_7d47afbf.dart": "a41793b3c1de240b23c47c3dba908811fca53995ccc3f4b2da34bb1cdb55736f",
+        "rev_010_e2b0e0cd.dart": "a41793b3c1de240b23c47c3dba908811fca53995ccc3f4b2da34bb1cdb55736f",
+        "rev_011_464290cc.dart": "e59983c955f8df6f5bfd1a26177fbe774b3553cac033e45855fb44a0778b00be",
+        "rev_012_c4286e6c.dart": "a41793b3c1de240b23c47c3dba908811fca53995ccc3f4b2da34bb1cdb55736f",
+        "rev_013_e03b4b63.dart": "e59983c955f8df6f5bfd1a26177fbe774b3553cac033e45855fb44a0778b00be"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2379": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "a40dbc5dedb5c54181008831352f589c089212d0e50e92904fb6de9499129ab7",
+        "rev_001_9b865dd2.dart": "91fd1c8529599fc7145e6ea1415efa190c917429458ad8af532f5aa620ae93bb",
+        "rev_002_ce76b192.dart": "770a00c5a3c8fb3a448f395f954efccba97f4ee2c9f3b9a430947360fef3af9a",
+        "rev_003_886b9b59.dart": "a737973b1f3af3998fa5ecea7465bd8f7d784a803a6fb1f8cc93b3ac2229a2a7"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 3 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2380": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "7bc98bf2a82b122a2b113dc2f48206c913bfbd0054026c530c53e1a48d3eb863",
+        "rev_001_886b9b59.dart": "a2d07a7373c8385b78a70f9d774e1cbbf093b1b623750273e7616fb1579da3f2",
+        "rev_002_d6971e32.dart": "e3b758d6016a42530a936ca1e138589db7159b2e83e6b55621a344c0acdb4810",
+        "rev_003_ad140f38.dart": "4f1b7254aa298c9e171faf363a8ca7fb9a3bf65908d6a0dbc44aa06d22ca852e",
+        "rev_004_411d2fe6.dart": "76944ff3bc243546f1a3b42d15d9f6f00620c8362cd0c7e7b2fd6383636f3177",
+        "rev_005_0d57677a.dart": "b5e77059329a34ae3b29c0e8e252d8a81b3bfc452ad0c4544928743dda25c3a1",
+        "rev_006_464290cc.dart": "92caed571c4a9c34df3404310c28dbe6fcdf9b5b7374365e794b86abe55a06ee",
+        "rev_007_2652487c.dart": "966f996dfd445b31700a9944cf1761b560b2300b0372fc973effd8639d92a73c",
+        "rev_008_c4286e6c.dart": "b5e77059329a34ae3b29c0e8e252d8a81b3bfc452ad0c4544928743dda25c3a1",
+        "rev_009_e03b4b63.dart": "966f996dfd445b31700a9944cf1761b560b2300b0372fc973effd8639d92a73c"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 7 role(s): a _Stub reached a statically typed slot and build threw -- fixture repaired in dependencies.dart, re-measure owed"
+      }
+    },
+    "2382": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "cea4b282b5a555f5610688cc6ed1ade90c70f3590bbea4c2075b622438ab4608",
+        "rev_001_ad140f38.dart": "86ee27d8b8b9ad540189446de6808666041da6d1193003f453deea09806478d5",
+        "rev_002_411d2fe6.dart": "be79b05b1b87fe05ec6f3619a994945f9b4b2d483baa1bc3168dfacb84d9b138",
+        "rev_003_fa7d824f.dart": "2df58416a0d2e5e6eb015dfac1110ea50a151c36a273471fc53374537877d37e",
+        "rev_004_0d57677a.dart": "1ef1ff4edba05974d4cc21e145563aa96c094ed4e3118a4db92ab1cb617aa907",
+        "rev_005_fbdae7ec.dart": "31c517b2d3b520eba58ca0b2dec93aeedc008478c58769266ccd018ec1a3c171",
+        "rev_006_464290cc.dart": "a0d6a6c179c64deece0f2c7b1933127a07eb6ef7866a23d2795bfe45eefe1d08",
+        "rev_007_e3ba49d2.dart": "83d4e5fc56843df81cfc59fcfb17475c61537b5b89db619c714aa4c0bdbb6186",
+        "rev_008_3d913995.dart": "11f12a3b1293399328c1bd0219bf0119eb6242df1ee909ee29872bade772b06a",
+        "rev_009_a9a3f4b7.dart": "739f1d1e2ba8affa68f44414ae2cf056797d18cf37b3a862177f4b9f375252cb",
+        "rev_010_c4286e6c.dart": "31c517b2d3b520eba58ca0b2dec93aeedc008478c58769266ccd018ec1a3c171",
+        "rev_011_e03b4b63.dart": "739f1d1e2ba8affa68f44414ae2cf056797d18cf37b3a862177f4b9f375252cb",
+        "rev_012_dbe89511.dart": "35697f9d4ce259294a6c34ff5db3280f4fd8376857a5eb62d12f98f41c20806b",
+        "rev_013_52709f96.dart": "739f1d1e2ba8affa68f44414ae2cf056797d18cf37b3a862177f4b9f375252cb",
+        "rev_014_5cd7795a.dart": "35697f9d4ce259294a6c34ff5db3280f4fd8376857a5eb62d12f98f41c20806b",
+        "rev_015_054b5fbc.dart": "98b84b09a0c84acb76f1b663c4b95b29031e9be11f935fa073d8f040eb9e4e18",
+        "rev_016_42cdec2b.dart": "aae11c988b313cd957bceb891fbf122c608980ff71e736e89dfcbfeda7268080",
+        "rev_017_d2469c54.dart": "35697f9d4ce259294a6c34ff5db3280f4fd8376857a5eb62d12f98f41c20806b",
+        "rev_018_4a1867d2.dart": "aae11c988b313cd957bceb891fbf122c608980ff71e736e89dfcbfeda7268080",
+        "rev_019_24445e6f.dart": "74336e50f02c7f86947647ec44f99d36f235bcace805aaa01ba517f6ddf3cbf3",
+        "rev_020_a1a08e5c.dart": "9c5cb1bcaa31e9cbc2356242392cfd4a250d82a348d886a39eae635c50a08d76",
+        "rev_021_578889b0.dart": "aae11c988b313cd957bceb891fbf122c608980ff71e736e89dfcbfeda7268080",
+        "rev_022_d163ee8c.dart": "9c5cb1bcaa31e9cbc2356242392cfd4a250d82a348d886a39eae635c50a08d76"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R22 on 2 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2408": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "241fdb850782efda62b8c5db663ba5d05627d7eabd26aca248de57ae360817b0",
+        "rev_001_99f52b21.dart": "ee8d90f83fbe3ffa46045783c7124907b7160f2619bed29d63c4996978b0bb7d",
+        "rev_002_1df4bccf.dart": "ee8d90f83fbe3ffa46045783c7124907b7160f2619bed29d63c4996978b0bb7d",
+        "rev_003_0098c42b.dart": "e03229f1fb0776d5e8fb3d5d6b9f31a25795aa57b65d91b9649a19ae1aad9d5d",
+        "rev_004_a672c29a.dart": "e03229f1fb0776d5e8fb3d5d6b9f31a25795aa57b65d91b9649a19ae1aad9d5d",
+        "rev_005_3edb0473.dart": "86e76612cb5365f812124c696bb1ed967a69c19e94457646e848b2492f38b9c0",
+        "rev_006_8494e314.dart": "5f0540f968864f2ece24b14ab6c196e631f2231e53da3f857275cda653969369",
+        "rev_007_bca7d9a2.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_008_68f96a68.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_009_9b55eaa2.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_010_f8458a9e.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_011_5cf3bf1e.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_012_63f37746.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_013_b768662a.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_014_d8a73e10.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_015_616dbed7.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_016_562803f5.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_017_772ce9e3.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_018_9643df6a.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_019_672ed006.dart": "baebde9f731f7a158b9ba65422565d2e2398ebdd80d9eae7e44f69e05fc618e2",
+        "rev_020_d458d665.dart": "cb4ee77d3fa847e15695caf8a84c64e44c68266be4f0a27948a37865d1fd3ddb",
+        "rev_021_841333e2.dart": "e3f247cb9f2be295a3c34f5a2ba1061f99bf4fef01dbc62b3c00e39787aa9318",
+        "rev_022_c65eac36.dart": "baebde9f731f7a158b9ba65422565d2e2398ebdd80d9eae7e44f69e05fc618e2",
+        "rev_023_75374ea0.dart": "ba343792ff53b74d2049773dbb004808a77b17f92b8d9219cefbfc9dc2a550c5",
+        "rev_024_efd328d3.dart": "ba343792ff53b74d2049773dbb004808a77b17f92b8d9219cefbfc9dc2a550c5",
+        "rev_025_90ded36f.dart": "41b43bc6dfe71ccdb60b6e1e444defcccc1bd33470d0795df019bb910fc5cfcc",
+        "rev_026_b2b3b9db.dart": "d88818aba4f797dd417fd27a4b9923626870f8b997f13993c7a6e5e32180d511",
+        "rev_027_fffc6ae5.dart": "d88818aba4f797dd417fd27a4b9923626870f8b997f13993c7a6e5e32180d511"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): type '_Stub' is not a subtype of type 'FlutterClawConfig' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2430": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "785549da694bfec9e1ac0d2a5a4130b8dd2fff8be52b6bc68e8299b086ab8927",
+        "rev_001_52709f96.dart": "e59983c955f8df6f5bfd1a26177fbe774b3553cac033e45855fb44a0778b00be",
+        "rev_002_6d2c9fd0.dart": "e039cc5385fb74d134897a4bed8f30f607aaf3b1d83f42bfd8fff532f53c5a20",
+        "rev_003_ce6df3c7.dart": "cbb359df370f1db1ac0f7ab09cc5729f409b21e4c26fdc76b9f2ce33a5414d08",
+        "rev_004_de4c350c.dart": "88a27ad57358135802dc59ed2e4fda9d660976054b6ddee533f869d14e3b1519",
+        "rev_005_f635f7a5.dart": "cbb359df370f1db1ac0f7ab09cc5729f409b21e4c26fdc76b9f2ce33a5414d08",
+        "rev_006_f1e3a910.dart": "88a27ad57358135802dc59ed2e4fda9d660976054b6ddee533f869d14e3b1519"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2446": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "8417e27dc1c1f17f8b8232aa7651c0179c74e904ec5535e6fbeeb2d13f3b2c90",
+        "rev_001_c7520466.dart": "cf6363ef516acc379ec39e49278c72bf5aa0228f53f3e883cd1a7cbfc3ba9cb4",
+        "rev_002_704cf1b0.dart": "d61286fffaefa4922fe14024772766763a0c21482e1d214406f900cb4f7f75e1",
+        "rev_003_de4c350c.dart": "c2315fcbd297848da7bad5a7f177230b1dfd6385ec241c80447141fcdf13fbdb",
+        "rev_004_f635f7a5.dart": "d61286fffaefa4922fe14024772766763a0c21482e1d214406f900cb4f7f75e1",
+        "rev_005_f1e3a910.dart": "c2315fcbd297848da7bad5a7f177230b1dfd6385ec241c80447141fcdf13fbdb"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2449": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "74fd06553ba505a7b37af8ac0912c9f6a7e904a4a3bfc85146036d42f07bb17e",
+        "rev_001_c7520466.dart": "2c4e9e15caea7313dfba2d306ede164ef70646b09c19a9bce7f26ad121541c3b",
+        "rev_002_6d2c9fd0.dart": "9abd52e1921a5bded47b9eb405981a1a1b45162ff48be78df069a81b8e9391e8",
+        "rev_003_de4c350c.dart": "eb0e2b51fa7a9ae1ebeb623e661925c1d0238fc02d4ab1d69ae08aa24a7847be",
+        "rev_004_f635f7a5.dart": "9abd52e1921a5bded47b9eb405981a1a1b45162ff48be78df069a81b8e9391e8",
+        "rev_005_f1e3a910.dart": "eb0e2b51fa7a9ae1ebeb623e661925c1d0238fc02d4ab1d69ae08aa24a7847be"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 1 role(s): type '_Stub' is not a subtype of type 'ButtonStyle?' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2457": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "6335e5c8ebcf4c21b5c022fd7b572ef5d114a8ad488ed22dd03ec252d0a48f48",
+        "rev_008_b8eb0ab5.dart": "5d13ebb6de69321e8b3f76066625ef521f49e848b1676d54133e651960178aa0",
+        "rev_009_bdcf7003.dart": "2effc3db6677b4db0863007d5f3614d71ada0ce53f36492e4bc2e3d9376da4d4",
+        "rev_010_ce6df3c7.dart": "2effc3db6677b4db0863007d5f3614d71ada0ce53f36492e4bc2e3d9376da4d4",
+        "rev_011_704cf1b0.dart": "2effc3db6677b4db0863007d5f3614d71ada0ce53f36492e4bc2e3d9376da4d4",
+        "rev_012_1db16608.dart": "2effc3db6677b4db0863007d5f3614d71ada0ce53f36492e4bc2e3d9376da4d4",
+        "rev_013_de4c350c.dart": "2effc3db6677b4db0863007d5f3614d71ada0ce53f36492e4bc2e3d9376da4d4",
+        "rev_014_f1e3a910.dart": "2effc3db6677b4db0863007d5f3614d71ada0ce53f36492e4bc2e3d9376da4d4",
+        "rev_015_30d8f56a.dart": "7c0979aa1cf07fb52609540d10e17521b4113f7483041a691c99424c81f9b41a",
+        "rev_016_c006a3aa.dart": "20b82e338aa43d6db6855699ba80febc0e7ad96a3e36f0827223c1ef75ae52a2"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 4 role(s): a _Stub reached a statically typed slot and build threw -- fixture repaired in dependencies.dart, re-measure owed"
+      }
+    },
+    "2841": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "c108d8fc3f0e098dedd784f8e385b1a7915d513f4d98863760e08893d5722f2b",
+        "rev_001_deb3f0c8.dart": "cfa884d01855468750c7d00353777fcba47ea398a5bbe6d88be5ef778663c180",
+        "rev_002_67ad4430.dart": "ef29d37db35d2524a3bac34899a682c3d69b7e562f017a62930249520f24e5a3",
+        "rev_003_cd6800c4.dart": "b3c69ed9cf8ed6554d3b73cd9978f4e6b0dcfb935ee64edb5c2ce114e4237c9d",
+        "rev_004_e89651c3.dart": "4748a614e22a4b27987e8f941f3f4f1b28da058c7cd60bb5b768a0db51db015a",
+        "rev_005_855558ff.dart": "001228903ad05d1c2554b65e3d530402af8d3778b7fc7c36c70f2ca4a0888ac7",
+        "rev_006_b92f8ee7.dart": "cfa884d01855468750c7d00353777fcba47ea398a5bbe6d88be5ef778663c180",
+        "rev_007_9900ec79.dart": "67c4b9db57a1f959ea28e42724442e4658b598551af55d1b6c88e6da16bb802c",
+        "rev_008_db94f6e0.dart": "b27eeb4369605fec2138b09792ec1734a19d3ed74f10d609c8c773cc41b6620f"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2844": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "d9bd31a4c0c2cdee387c07b26a20ae72c9ebc720184aedc8d9a16f6551cc2ecb",
+        "rev_001_9990358a.dart": "8b8f040b11fb31da732f199a43ed3204725035a61c8c2b1b012b4663d7775323",
+        "rev_002_2d4b389f.dart": "9daf212e0a6de14a64477b9310b5efcfa093b02dfc2c94d1d9d71699ee2e1cff"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2860": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "6f47ec0c3120f2e6e345fd8026aa06ba2a5f4649445cffc85961400c23fcbfcf",
+        "rev_001_335e6fc9.dart": "29bb4c27eb568c21171038645121987735d2b278129da1b883ce13f60039cb2d",
+        "rev_002_213f9e67.dart": "52e88376c493f17d92d3531a6d8919f258906b7d0262530bd36d4565f69a7c47"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2861": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "947c6b1fc0c6b64c00522f148fd4e0d1d9e20dec4ff47020b49d480854ec6216",
+        "rev_001_335e6fc9.dart": "85ce88d2ab15326e53bcd70533cd055b4dda4db551a254e22ce81b59c2f8953e",
+        "rev_002_213f9e67.dart": "8cecf91e91d6f5f755186e7be24646b085a4ff51505d6bbae1218f51ea1b383d"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2866": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "6afef47509f19ab8cb2cfa31cf674f7d994806e47818af6334810b80d31ddd97",
+        "rev_001_845b3e07.dart": "de5538c76e14aad26aca89542456b0be98eb848d111f2c52782fc9629c653676",
+        "rev_002_6bbb8e8d.dart": "eefe30368e9d089a3cce285094e8d85b6c324e2620f2a4da334a4b065e3e8f44",
+        "rev_003_bf589932.dart": "639414b2706232c62a61c0ca712f07ce85ea32bd83879d9115b3f44ec1d92d63",
+        "rev_005_a9d855a6.dart": "639414b2706232c62a61c0ca712f07ce85ea32bd83879d9115b3f44ec1d92d63"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2871": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "b8bda78e6c2f5aee30d0767f5f73232793e3c67b01bea30e206845c0c74fb3bd",
+        "rev_001_7075e3f7.dart": "29432f67b7a6c03abad3f5320f166adb31c3af3c926cb5993f668d6f296bf617",
+        "rev_002_4acaae61.dart": "d7610bc01e86ba21a53809eab1149799a2d2f360b6674c1a877f8ef0a4f55704",
+        "rev_003_a7eb684f.dart": "4721f5b175cfb0bc8d64c3aa185db2f92fe52bd432838f9822c3b5d49e066b0a"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2872": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "0075d8f650adefa39ed9e7a0d521e2d0960e4efe61ec3eb67189b0666a899172",
+        "rev_001_7075e3f7.dart": "4a32769c687bba2d988eec08e0d5f2345832613cad731dd1468d4a971e009eee",
+        "rev_002_4acaae61.dart": "3aa193c4f266777e6fddc849498349c82a5e8d2c9a98c6f43be54c7cad9b7cf1"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2907": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "feae6a0daa3fbd2dc65d2683617002519316b7e47806e56cbb98d9a61a5dcfbf",
+        "rev_001_7da23c85.dart": "2b567b609b79bfe635890cba6e95f99c1b99e32ff9e6a3d0d19e6e2120edc176",
+        "rev_002_f4caa300.dart": "d9781ba84d15a00613d07f5956a5325f9db29a24f9d9a4de4deb91b424fa59d1",
+        "rev_003_33ba011a.dart": "3b531bc6c21f9575b1a0d3134392de69aad15aac1d9ca6839a903d7f08238291"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): error box on screen -- fixture being repaired, re-measure owed"
+      }
+    },
+    "2941": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "4ce466233e7330d2b5f506757de674a55055a95a6542e26d558b5ffa8a289ad7",
+        "rev_001_d47256a6.dart": "2465c7b3092cd3f6faa5efa71162238be38ee0f55756a72803e8404026139ed0",
+        "rev_002_7a74a622.dart": "6d71c62e6edb7f0f6ab9ce20168042c04d44ea31586393859920f9d257213ab5",
+        "rev_003_49282111.dart": "ab38d097b0dbf884a08dd3554eb0ba2261f7b88806953a6ee0a4e96e51d27fd4"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2944": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "591e53352003cad0e40bfaac9c36ca49e67b93cab86fef9ca331ca1460506297",
+        "rev_001_6a642d34.dart": "5cfb4f77f3cd78b7021854e2dd504f4f3aed16a97ccd8c720510a598e9102183",
+        "rev_002_19ac2c28.dart": "9def5df44bd192115dfd0d716c0a5f39e28f1c61d30a2d71fe50d62437338d52"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2953": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "cc327495169859094af22ffebbcbe8caf501a7d80cdd449a448522ac85ad2dbd",
+        "rev_001_a46d1727.dart": "897e6abcabf81d435c236e991aca3dfaa9ad2c907d9211387d4f877ae4087326",
+        "rev_002_1b77e180.dart": "0ddde56be26052e3e011dcd198c26920d20a0eb0650032252162a366287c1ae0",
+        "rev_003_4720427e.dart": "28619ada93f5ebfcff258ae2d28432ebdea268aba043db8e7d63b4f2a514634d",
+        "rev_004_098d150a.dart": "1f5f69fc79c5848bd822a26250453ddec16f1768fc563acf038193c1ba198c3e"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2962": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "4f1c17f63e6d6eb7aa977a37dbb75f574056582f759d552a603a8d7faef7fd2c",
+        "rev_001_fefa1533.dart": "de27e301e2b5ea9e9f5e033cc86c86321c4d7bb9044abf81292ea0ce00c37c46",
+        "rev_002_6a56bffb.dart": "fdc0d4fdcc043b71f4015e1d4ae8dd4f8b1b30a73e15edd8edf0e23c0922aa53"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "2987": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "da77e363831eea08e0af6736d104372e65b7c153ed78f54301f95687d2b263d4",
+        "rev_001_a2ef3b0d.dart": "0f14d6710ab0b8cef6bfc78d15cb1504d3840b6fdb7fa6e09f36245ca0640255",
+        "rev_002_43588307.dart": "f4eff5010e83cf20b2e9593c08a26fe6c3aeaef1291b1f581274265df7d67cef"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "3029": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "d3040f1b0583ba2db66df6c30d0be701e30cef4f018e8502ae76f7a79429b524",
+        "rev_009_b23a1e72.dart": "061a72295c29e73e7d3338420a57dd79ad7860a1c3f561ac6d1fff94fea4ab1e",
+        "rev_012_515000c6.dart": "061a72295c29e73e7d3338420a57dd79ad7860a1c3f561ac6d1fff94fea4ab1e",
+        "rev_013_023d5a97.dart": "a92d11b6ce73323f22a86e3522a25843440fc970255e5af8ec4114e0119e5a84",
+        "rev_014_4a12c5a1.dart": "061a72295c29e73e7d3338420a57dd79ad7860a1c3f561ac6d1fff94fea4ab1e",
+        "rev_015_1faaa941.dart": "a92d11b6ce73323f22a86e3522a25843440fc970255e5af8ec4114e0119e5a84",
+        "rev_016_c8f5d8e3.dart": "694431aeabb0838b301bb646e1d8c02df97c5ea1d190b8907013b3fa0b5bb677"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 1 role(s): type 'Null' is not a subtype of type 'double' -- fixture being repaired, re-measure owed"
+      }
+    },
+    "3046": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "138fa6b6e7a199ad4cd2f8116d1657e2428db34986546708748790728e77df8d",
+        "rev_001_68168bde.dart": "6882e7a00126484a4991127267deed76bd3cdf68baf440664d0175158631fad2",
+        "rev_002_b7791d18.dart": "0fdf463508b1537cfa54d908f63ca24384ecc46410d46a4bf12d88b4fc280731",
+        "rev_003_20d4a04e.dart": "6786b5033255beeb0ff595c842f82e6bd91d9d070de7664461eb92a637d49774",
+        "rev_004_a5ca376e.dart": "27cb779afddf747a7e501da1c874910a49ba5b58bdf7953859b8e29f654ff615",
+        "rev_005_6465e168.dart": "c1e4f340c5c872ed58f385e19bff9bfecfefe5dbe276c1b1523a37d8254813cf",
+        "rev_006_de772d07.dart": "c2e8c230dff6740780de51ebcb12241fde6bb4acbd86611c9c33d6dab6f1ddbd",
+        "rev_007_cf79d832.dart": "016bb3295c01a3acb046373605b27cacfb2282169303a7878e0888f8e24cb076",
+        "rev_009_fc1e02d9.dart": "016bb3295c01a3acb046373605b27cacfb2282169303a7878e0888f8e24cb076",
+        "rev_010_b2bbcf97.dart": "04937a2820fd6f06c5e3db3245f717c60fa8dc80e03ba39887497e40fd9130db",
+        "rev_011_cb746667.dart": "0b9a2b8ceb997c66cd1291298d4b0874cfc123094e6637b7ba93311261f52ad9",
+        "rev_012_4dbf79c7.dart": "6ebb073197d31d115553329fe9c1a8764836329f761f1435a9b740d6a18febd2",
+        "rev_013_7b196048.dart": "9b207a155359982e67529136f8fa45099daa80c3dd269911482d8f33b8a44545"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    },
+    "3083": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "2b8cfc5154562c6ebcd6ebb792d692cfcc496abe9a705a4fbe9f31648e71faa7",
+        "rev_001_2d9d8648.dart": "e88aff44e1ce1ede28815da00dce112ce8f28d910a0670af1d526ab4bc4d630b",
+        "rev_002_c499b6ec.dart": "e88aff44e1ce1ede28815da00dce112ce8f28d910a0670af1d526ab4bc4d630b",
+        "rev_003_6e485ed7.dart": "e88aff44e1ce1ede28815da00dce112ce8f28d910a0670af1d526ab4bc4d630b",
+        "rev_004_cb42f92d.dart": "748e45d312250e6d41b261a15f60066d895a947ac56ed0af489e61d780b1265d",
+        "rev_005_5061b81a.dart": "748e45d312250e6d41b261a15f60066d895a947ac56ed0af489e61d780b1265d",
+        "rev_006_a448ce60.dart": "df40a3aeb46a8e83766e8487659f85392852dfcb037483b87698f1cc61069f53"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): Null check operator used on a null value -- fixture being repaired, re-measure owed"
+      }
+    },
+    "3101": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "2aff8fdd17f01a16f8d38fedc30ca806ead808fdb8861974854fde8b15f4dbec",
+        "rev_001_74f12375.dart": "0af268f85da8d98b6094ee68ea203a70a63acefd29d7c5e40e7c90182e88c9ba",
+        "rev_002_a448ce60.dart": "b81337b1f9250f2a0a6f15f1c6714a83ffb28456be4b9d343b17fc8703d89ed5"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 1 role(s): Null check operator used on a null value; R22 on 1 role(s): painted one flat colour -- fixture being repaired, re-measure owed"
+      }
+    },
+    "3105": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "0a0590414d4801c34f563fcbc6f2498c91bb57fe2cf8cd620dbcfacd31b5a4ab",
+        "rev_001_a448ce60.dart": "201f8b2a11b6882280ccdc0ddbefab962cc8f893b9765dfad3c918dd9d5bc6e9",
+        "rev_002_0b64fdf1.dart": "4b14a2bc9b4561189ef65f6cc8b081b0925d11ed605fb4086fdbb005ef0b2a85",
+        "rev_003_9993b31d.dart": "89063a2e771678c8a955274ef34a321a589ec90b120f97e5fe58c13082d10072",
+        "rev_004_6dcd4d4f.dart": "4b14a2bc9b4561189ef65f6cc8b081b0925d11ed605fb4086fdbb005ef0b2a85",
+        "rev_005_89c5856c.dart": "89063a2e771678c8a955274ef34a321a589ec90b120f97e5fe58c13082d10072",
+        "rev_006_4878c4ef.dart": "4b14a2bc9b4561189ef65f6cc8b081b0925d11ed605fb4086fdbb005ef0b2a85"
+      },
+      "frozen": "2026-09-15",
+      "released": {
+        "at": "2026-09-15",
+        "reason": "R21 on 2 role(s): Null check operator used on a null value -- fixture being repaired, re-measure owed"
+      }
+    },
+    "3158": {
+      "devices": [
+        "redmi9t"
+      ],
+      "exclusions_sha256": "e5b19a71d053a22c03213d44a0115a07559ed82185745dcd32f5e1e07a3f475d",
+      "files": {
+        "dependencies.dart": "58ecb7b96cb92bfd637b3b34a3b95c76700c7b24a18cdcccafd9e06a88f71171",
+        "rev_001_741d00b3.dart": "79aacf99209f3289b253d17c7094925e21514c69ed9f9d9a5cf0146c58f784b1",
+        "rev_002_8197355c.dart": "1b16daedab728d7b65c82d68e1fe3225c76fe49626c29e0aa561601b54951e9b",
+        "rev_003_b51b0081.dart": "79aacf99209f3289b253d17c7094925e21514c69ed9f9d9a5cf0146c58f784b1",
+        "rev_004_df8b4268.dart": "1b16daedab728d7b65c82d68e1fe3225c76fe49626c29e0aa561601b54951e9b",
+        "rev_005_9e177c6b.dart": "1b16daedab728d7b65c82d68e1fe3225c76fe49626c29e0aa561601b54951e9b",
+        "rev_006_a953ebbc.dart": "1b16daedab728d7b65c82d68e1fe3225c76fe49626c29e0aa561601b54951e9b",
+        "rev_007_fe0d5a10.dart": "79aacf99209f3289b253d17c7094925e21514c69ed9f9d9a5cf0146c58f784b1",
+        "rev_008_56437975.dart": "1b16daedab728d7b65c82d68e1fe3225c76fe49626c29e0aa561601b54951e9b"
+      },
+      "frozen": "2026-09-15",
+      "released": null
+    }
+  },
+  "version": 1
+}

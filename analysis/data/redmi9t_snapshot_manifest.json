@@ -1,0 +1,129 @@
+{
+  "device": "redmi9t",
+  "stage": "01_ingest_and_label",
+  "snapshot": {
+    "groups": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "n_groups": 43,
+    "n_roles": 375,
+    "n_executions": 5625,
+    "n_contrasts": 1454,
+    "contrasts_by_stratum": {
+      "mut_mut": 1122,
+      "base_mut": 332
+    },
+    "slower_by_stratum": {
+      "base_mut": 139,
+      "mut_mut": 555
+    }
+  },
+  "run_grid": {
+    "nominal_roles": 387,
+    "generated_roles": 377,
+    "analysed_roles": 375,
+    "never_generated": {
+      "08": [
+        "mutation_6"
+      ],
+      "11": [
+        "mutation_4"
+      ],
+      "15": [
+        "mutation_5"
+      ],
+      "16": [
+        "mutation_6"
+      ],
+      "27": [
+        "mutation_2"
+      ],
+      "33": [
+        "mutation_6"
+      ],
+      "39": [
+        "mutation_2"
+      ],
+      "41": [
+        "mutation_2",
+        "mutation_6"
+      ],
+      "44": [
+        "mutation_2"
+      ]
+    },
+    "generated_but_all_executions_failed": {
+      "08": [
+        "mutation_1"
+      ],
+      "26": [
+        "mutation_5"
+      ]
+    }
+  },
+  "reconciliation": {
+    "source_of_truth": "dataset/*/redmi9t/raw/",
+    "input_read": "dataset/*/redmi9t/performance.jsonl",
+    "executions_checked": 5655,
+    "mismatches": 0
+  },
+  "outside_snapshot": {
+    "aggregated_but_excluded": [
+      "46"
+    ],
+    "captured_but_not_aggregated": [],
+    "note": "Collected after the snapshot was pinned, or still being collected. Re-running this notebook without changing SNAPSHOT_GROUPS reproduces the corpus above rather than re-collecting a larger one."
+  },
+  "exports": {
+    "redmi9t_medians_ds.csv": {
+      "size_bytes": 63600,
+      "sha256": "0679df644fe64c34ae0c3e6cbd65faf28fef6f7c583cb2dc819e2e8934bdb123"
+    },
+    "redmi9t_pairs_labelled.csv": {
+      "size_bytes": 386577,
+      "sha256": "26433ca03bcc349e497d0bb060f9b927a9b4c950a31d7282253b5d1003e31f5d"
+    }
+  }
+}

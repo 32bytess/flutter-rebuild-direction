@@ -1,0 +1,962 @@
+{
+  "device": "redmi9t",
+  "stage": "06_confound_restricted",
+  "status": "a restriction of the evaluation set, reported as a bound",
+  "justification": {
+    "exogenous_to_score": true,
+    "why": "The alias feature moves in 2 of 582 adjacent real pairs in the v2 history stratum (0.34%) and is present in 1.65% of revisions. In this corpus it fires on 42 of 43 mutation_8 contrasts and nowhere else, and mutation_8 is 93.0% Slower. A design leaning on it cannot be tested against real developer history.",
+    "alias_feature": "d_usesLayoutDependentBuilder",
+    "dropped_directive": "mutation_8"
+  },
+  "restriction_funnel": [
+    {
+      "step": "base_mut (full, 12 features)",
+      "n": 332,
+      "groups": 43,
+      "prevalence": 0.4186746987951807,
+      "majority_baseline": 0.5813253012048193,
+      "attainable_ceiling": 0.9487951807228916
+    },
+    {
+      "step": "minus mutation_8 (11 features)",
+      "n": 289,
+      "groups": 43,
+      "prevalence": 0.34256055363321797,
+      "majority_baseline": 0.6574394463667821,
+      "attainable_ceiling": 0.9515570934256056
+    },
+    {
+      "step": "minus all-zero-delta rows  <- RESTRICTED",
+      "n": 269,
+      "groups": 43,
+      "prevalence": 0.3643122676579926,
+      "majority_baseline": 0.6356877323420074,
+      "attainable_ceiling": 0.9516728624535316
+    }
+  ],
+  "protocol": {
+    "feature_columns": [
+      "d_treeNonConstWidgetCount",
+      "d_treeMaxWidgetNestingDepth",
+      "d_treeListRenderingStrategy",
+      "d_rootBuildReturnsConstWidget",
+      "d_treeConstWidgetCount",
+      "d_helperReferenceCount",
+      "d_treeCyclomaticComplexity",
+      "d_treeIterationCount",
+      "d_iterationWidgetCount",
+      "d_valueObjectAllocCount",
+      "d_helperWidgetCount"
+    ],
+    "n_features": 11,
+    "surviving_directives": [
+      "mutation_1",
+      "mutation_2",
+      "mutation_3",
+      "mutation_4",
+      "mutation_5",
+      "mutation_6",
+      "mutation_7"
+    ],
+    "outer_splits": 5,
+    "inner_splits": 3,
+    "seed": 20260803,
+    "tuning_score": "average_precision",
+    "decision_threshold": 0.5,
+    "bootstrap": {
+      "draws": 2000,
+      "unit": "whole seed groups, with replacement"
+    },
+    "learner": null,
+    "reference_learner": "logreg_balanced"
+  },
+  "range_across_learners": {
+    "auc_low": 0.6965031626685761,
+    "auc_high": 0.7287564148466404,
+    "auc_low_model": "rbf_svm",
+    "auc_high_model": "random_forest",
+    "mcc_low": 0.22752308229342047,
+    "mcc_high": 0.3447650862273569,
+    "ci_union_low": 0.6359477367912372,
+    "ci_union_high": 0.7930004695398108
+  },
+  "model_comparison": {
+    "logreg_balanced": {
+      "role": "reference",
+      "roc_auc": 0.7070056092612484,
+      "average_precision": 0.56869649435609,
+      "mcc": 0.3305149627855281,
+      "balanced_accuracy": 0.6715001790189761,
+      "accuracy": 0.6654275092936803,
+      "f1": 0.6017699115044248,
+      "precision": 0.53125,
+      "sensitivity": 0.6938775510204082,
+      "specificity": 0.6491228070175439,
+      "brier": 0.22262089906255825,
+      "log_loss": 0.7463181474767223,
+      "tn": 111,
+      "fp": 60,
+      "fn": 30,
+      "tp": 68
+    },
+    "random_forest": {
+      "role": "learner",
+      "roc_auc": 0.7287564148466404,
+      "average_precision": 0.5816475876730399,
+      "mcc": 0.262447297579885,
+      "balanced_accuracy": 0.6336675020885547,
+      "accuracy": 0.6505576208178439,
+      "f1": 0.5436893203883495,
+      "precision": 0.5185185185185185,
+      "sensitivity": 0.5714285714285714,
+      "specificity": 0.695906432748538,
+      "brier": 0.2023162137871521,
+      "log_loss": 0.5844252017472497,
+      "tn": 119,
+      "fp": 52,
+      "fn": 42,
+      "tp": 56
+    },
+    "rbf_svm": {
+      "role": "learner",
+      "roc_auc": 0.6965031626685761,
+      "average_precision": 0.5461203522479507,
+      "mcc": 0.22752308229342047,
+      "balanced_accuracy": 0.603234276166607,
+      "accuracy": 0.6617100371747212,
+      "f1": 0.4550898203592814,
+      "precision": 0.5507246376811594,
+      "sensitivity": 0.3877551020408163,
+      "specificity": 0.8187134502923976,
+      "brier": 0.20838407599004988,
+      "log_loss": 0.6033935969947457,
+      "tn": 140,
+      "fp": 31,
+      "fn": 60,
+      "tp": 38
+    },
+    "lightgbm": {
+      "role": "learner",
+      "roc_auc": 0.7263098221744838,
+      "average_precision": 0.5751043716522755,
+      "mcc": 0.3447650862273569,
+      "balanced_accuracy": 0.6731113498030792,
+      "accuracy": 0.6951672862453532,
+      "f1": 0.5858585858585859,
+      "precision": 0.58,
+      "sensitivity": 0.5918367346938775,
+      "specificity": 0.7543859649122807,
+      "brier": 0.2142343071538012,
+      "log_loss": 0.6404119897148133,
+      "tn": 129,
+      "fp": 42,
+      "fn": 40,
+      "tp": 58
+    },
+    "prevalence": {
+      "role": "baseline",
+      "roc_auc": 0.48490273302303377,
+      "average_precision": 0.35657455621143375,
+      "mcc": 0.0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.6356877323420075,
+      "f1": 0.0,
+      "precision": 0.0,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "brier": 0.23169717209159485,
+      "log_loss": 0.6560934658446327,
+      "tn": 171,
+      "fp": 0,
+      "fn": 98,
+      "tp": 0
+    },
+    "single_feature_count": {
+      "role": "baseline",
+      "roc_auc": 0.59562596968612,
+      "average_precision": 0.4327550204377951,
+      "mcc": 0.19328824916224285,
+      "balanced_accuracy": 0.593656760949994,
+      "accuracy": 0.6356877323420075,
+      "f1": 0.4673913043478261,
+      "precision": 0.5,
+      "sensitivity": 0.4387755102040816,
+      "specificity": 0.7485380116959064,
+      "brier": 0.2570990062864592,
+      "log_loss": 0.7183475441128306,
+      "tn": 128,
+      "fp": 43,
+      "fn": 55,
+      "tp": 43
+    },
+    "directive_oracle": {
+      "role": "baseline",
+      "roc_auc": 0.7891454827545052,
+      "average_precision": 0.6896814859699032,
+      "mcc": 0.4544498029278986,
+      "balanced_accuracy": 0.7335899271989498,
+      "accuracy": 0.7360594795539034,
+      "f1": 0.6666666666666666,
+      "precision": 0.6173913043478261,
+      "sensitivity": 0.7244897959183674,
+      "specificity": 0.7426900584795322,
+      "brier": 0.178130496463138,
+      "log_loss": 0.537355636912999,
+      "tn": 127,
+      "fp": 44,
+      "fn": 27,
+      "tp": 71
+    }
+  },
+  "intervals": {
+    "logreg_balanced": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.7070056092612484,
+        "ci_low": 0.6416940186338052,
+        "ci_high": 0.7743182607770845,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.56869649435609,
+        "ci_low": 0.47372021323160285,
+        "ci_high": 0.6903226257340961,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.3305149627855281,
+        "ci_low": 0.22471630562225395,
+        "ci_high": 0.44176227429030324,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.6715001790189761,
+        "ci_low": 0.6165794185419078,
+        "ci_high": 0.7300420662161231,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    },
+    "random_forest": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.7287564148466404,
+        "ci_low": 0.6686294196970534,
+        "ci_high": 0.789401569408046,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.5816475876730399,
+        "ci_low": 0.4950987257629998,
+        "ci_high": 0.6901168249920664,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.262447297579885,
+        "ci_low": 0.1496154695512827,
+        "ci_high": 0.38077668898185374,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.6336675020885547,
+        "ci_low": 0.5752021550640865,
+        "ci_high": 0.6977157864419112,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    },
+    "rbf_svm": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.6965031626685761,
+        "ci_low": 0.6359477367912372,
+        "ci_high": 0.7632254205206456,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.5461203522479507,
+        "ci_low": 0.4485309113719693,
+        "ci_high": 0.6734020186126656,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.22752308229342047,
+        "ci_low": 0.13055087754613995,
+        "ci_high": 0.32906372975095155,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.603234276166607,
+        "ci_low": 0.5592365484929332,
+        "ci_high": 0.6498649976873265,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    },
+    "lightgbm": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.7263098221744838,
+        "ci_low": 0.6642505931612496,
+        "ci_high": 0.7930004695398108,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.5751043716522755,
+        "ci_low": 0.4852658257340404,
+        "ci_high": 0.690687948667826,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.3447650862273569,
+        "ci_low": 0.2280222519576187,
+        "ci_high": 0.4682798387827085,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.6731113498030792,
+        "ci_low": 0.613598632503912,
+        "ci_high": 0.7387424711494057,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    },
+    "prevalence": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.48490273302303377,
+        "ci_low": 0.40724883561379094,
+        "ci_high": 0.564331114540303,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.35657455621143375,
+        "ci_low": 0.29117269037858434,
+        "ci_high": 0.4349666553516542,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.5,
+        "ci_low": 0.5,
+        "ci_high": 0.5,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    },
+    "single_feature_count": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.59562596968612,
+        "ci_low": 0.5234322370480122,
+        "ci_high": 0.6719615123254997,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.4327550204377951,
+        "ci_low": 0.3539039651769931,
+        "ci_high": 0.5520818451129642,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.19328824916224285,
+        "ci_low": 0.07767680664991149,
+        "ci_high": 0.31529323984892965,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.593656760949994,
+        "ci_low": 0.5375386518243661,
+        "ci_high": 0.6551131322094054,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    },
+    "directive_oracle": {
+      "roc_auc": {
+        "metric": "roc_auc",
+        "point": 0.7891454827545052,
+        "ci_low": 0.7437419976571865,
+        "ci_high": 0.8404728776603368,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "average_precision": {
+        "metric": "average_precision",
+        "point": 0.6896814859699032,
+        "ci_low": 0.6036740696684623,
+        "ci_high": 0.7860101372017653,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "mcc": {
+        "metric": "mcc",
+        "point": 0.4544498029278986,
+        "ci_low": 0.3716223337480035,
+        "ci_high": 0.5325590729285342,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      },
+      "balanced_accuracy": {
+        "metric": "balanced_accuracy",
+        "point": 0.7335899271989498,
+        "ci_low": 0.6912718454696002,
+        "ci_high": 0.7743197904883904,
+        "draws_used": 2000,
+        "draws_discarded": 0
+      }
+    }
+  },
+  "per_fold": {
+    "logreg_balanced": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.6553819444444444,
+        "mcc": 0.28940386242798366
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.7166666666666667,
+        "mcc": 0.27755546659548436
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.7185483870967742,
+        "mcc": 0.4019711998662833
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.6728571428571429,
+        "mcc": 0.3177444546511213
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.7797297297297298,
+        "mcc": 0.41538295287962596
+      }
+    ],
+    "random_forest": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.6059027777777777,
+        "mcc": 0.22017621148199482
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.8125,
+        "mcc": 0.41042985172804536
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.675,
+        "mcc": 0.04587886056568244
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.7185714285714285,
+        "mcc": 0.24056261216234406
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.8297297297297297,
+        "mcc": 0.3987542024918534
+      }
+    ],
+    "rbf_svm": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.6145833333333334,
+        "mcc": 0.11075950290453697
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.6993055555555555,
+        "mcc": 0.03152519949406393
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.6959677419354839,
+        "mcc": 0.3595785337777657
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.7542857142857143,
+        "mcc": 0.20219232752582067
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.7581081081081081,
+        "mcc": 0.4344941088732916
+      }
+    ],
+    "lightgbm": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.6710069444444444,
+        "mcc": 0.2712615242958167
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.8361111111111111,
+        "mcc": 0.42339019740572553
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.682258064516129,
+        "mcc": 0.19878664198647267
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.6785714285714286,
+        "mcc": 0.26168185064383537
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.8067567567567568,
+        "mcc": 0.5497773888176716
+      }
+    ],
+    "prevalence": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.5,
+        "mcc": 0.0
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.5,
+        "mcc": 0.0
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.5,
+        "mcc": 0.0
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.5,
+        "mcc": 0.0
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.5,
+        "mcc": 0.0
+      }
+    ],
+    "single_feature_count": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.546875,
+        "mcc": 0.03714520784668411
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.6215277777777778,
+        "mcc": 0.23736727038305724
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.6040322580645161,
+        "mcc": 0.3158583092791214
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.7000000000000001,
+        "mcc": 0.31228707916633613
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.6587837837837838,
+        "mcc": 0.08317287147910364
+      }
+    ],
+    "directive_oracle": [
+      {
+        "fold": 0,
+        "n_test": 50,
+        "roc_auc": 0.7161458333333334,
+        "mcc": 0.28022426915890253
+      },
+      {
+        "fold": 1,
+        "n_test": 56,
+        "roc_auc": 0.7902777777777777,
+        "mcc": 0.5301247570756493
+      },
+      {
+        "fold": 2,
+        "n_test": 51,
+        "roc_auc": 0.8080645161290323,
+        "mcc": 0.4356566811800441
+      },
+      {
+        "fold": 3,
+        "n_test": 55,
+        "roc_auc": 0.8571428571428571,
+        "mcc": 0.571233151503201
+      },
+      {
+        "fold": 4,
+        "n_test": 57,
+        "roc_auc": 0.8472972972972973,
+        "mcc": 0.4495319811526229
+      }
+    ]
+  },
+  "chosen_hyperparameters": {
+    "logreg_balanced": [
+      {
+        "model__C": 30.0
+      },
+      {
+        "model__C": 3.0
+      },
+      {
+        "model__C": 0.3
+      },
+      {
+        "model__C": 0.03
+      },
+      {
+        "model__C": 3.0
+      }
+    ],
+    "random_forest": [
+      {
+        "model__max_depth": 8,
+        "model__min_samples_leaf": 8
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      {
+        "model__max_depth": 8,
+        "model__min_samples_leaf": 2
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      }
+    ],
+    "rbf_svm": [
+      {
+        "model__C": 3.0,
+        "model__gamma": 0.03
+      },
+      {
+        "model__C": 10.0,
+        "model__gamma": 0.03
+      },
+      {
+        "model__C": 10.0,
+        "model__gamma": 0.03
+      },
+      {
+        "model__C": 10.0,
+        "model__gamma": "scale"
+      },
+      {
+        "model__C": 10.0,
+        "model__gamma": 0.03
+      }
+    ],
+    "lightgbm": [
+      {
+        "model__learning_rate": 0.03,
+        "model__min_child_samples": 10,
+        "model__num_leaves": 3
+      },
+      {
+        "model__learning_rate": 0.03,
+        "model__min_child_samples": 10,
+        "model__num_leaves": 15
+      },
+      {
+        "model__learning_rate": 0.1,
+        "model__min_child_samples": 10,
+        "model__num_leaves": 3
+      },
+      {
+        "model__learning_rate": 0.03,
+        "model__min_child_samples": 10,
+        "model__num_leaves": 7
+      },
+      {
+        "model__learning_rate": 0.03,
+        "model__min_child_samples": 10,
+        "model__num_leaves": 3
+      }
+    ],
+    "prevalence": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "single_feature_count": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "directive_oracle": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "permutation_test": {
+    "metric": "roc_auc",
+    "observed": 0.7070056092612484,
+    "n_perm": 200,
+    "null_mean": 0.4920675199904523,
+    "null_std": 0.04837521108015478,
+    "null_p95": 0.5624970163503997,
+    "p_value": 0.004975124378109453
+  },
+  "oracle_gap": {
+    "full_set_reference": {
+      "oracle_auc": 0.8428635330077907,
+      "logreg_balanced_auc": 0.7771275207813024,
+      "gap": -0.06573601222648828,
+      "majority_baseline": 0.5813253012048193
+    },
+    "restricted_oracle_auc": 0.7891454827545052,
+    "restricted_oracle_ci": {
+      "metric": "roc_auc",
+      "point": 0.7891454827545052,
+      "ci_low": 0.7437419976571865,
+      "ci_high": 0.8404728776603368,
+      "draws_used": 2000,
+      "draws_discarded": 0
+    },
+    "gap_logreg_balanced": -0.0821398734932568,
+    "gap_best_learner": -0.0603890679078648,
+    "best_learner": "random_forest",
+    "narrowed_by": -0.016403861266768516,
+    "best_learner_ci_overlaps_oracle": true
+  },
+  "leave_one_directive_out": {
+    "pooled": {
+      "roc_auc": 0.5880474997016351,
+      "average_precision": 0.47332181925222805,
+      "mcc": 0.2248531860430798,
+      "balanced_accuracy": 0.6146914906313402,
+      "accuracy": 0.6319702602230484,
+      "f1": 0.5217391304347826,
+      "precision": 0.4954128440366973,
+      "sensitivity": 0.5510204081632653,
+      "specificity": 0.6783625730994152,
+      "brier": 0.2543249401600918,
+      "log_loss": 0.7918629342352292,
+      "tn": 116,
+      "fp": 55,
+      "fn": 44,
+      "tp": 54
+    },
+    "per_directive": [
+      {
+        "directive": "mutation_1",
+        "n_test": 42,
+        "prevalence": 0.5476190476190477,
+        "roc_auc": 0.5652173913043478,
+        "mcc": 0.021393127492027906,
+        "mean_predicted": 0.6716376652442849
+      },
+      {
+        "directive": "mutation_2",
+        "n_test": 31,
+        "prevalence": 0.06451612903225806,
+        "roc_auc": 0.7586206896551724,
+        "mcc": 0.29060425003857965,
+        "mean_predicted": 0.3639390624740742
+      },
+      {
+        "directive": "mutation_3",
+        "n_test": 35,
+        "prevalence": 0.4,
+        "roc_auc": 0.7295918367346939,
+        "mcc": 0.3202563076101743,
+        "mean_predicted": 0.34467541817788533
+      },
+      {
+        "directive": "mutation_4",
+        "n_test": 40,
+        "prevalence": 0.3,
+        "roc_auc": 0.5133928571428572,
+        "mcc": 0.1336306209562122,
+        "mean_predicted": 0.4379423749658871
+      },
+      {
+        "directive": "mutation_5",
+        "n_test": 41,
+        "prevalence": 0.12195121951219512,
+        "roc_auc": 0.48888888888888893,
+        "mcc": 0.06641435771628686,
+        "mean_predicted": 0.39443917979763116
+      },
+      {
+        "directive": "mutation_6",
+        "n_test": 37,
+        "prevalence": 0.13513513513513514,
+        "roc_auc": 0.30625,
+        "mcc": -0.06254627916220945,
+        "mean_predicted": 0.42738427576563653
+      },
+      {
+        "directive": "mutation_7",
+        "n_test": 43,
+        "prevalence": 0.8604651162790697,
+        "roc_auc": 0.704954954954955,
+        "mcc": 0.1883494644792982,
+        "mean_predicted": 0.38336249055382227
+      }
+    ],
+    "caveat": "Directive-disjoint splits cannot also be group-disjoint on this corpus, because every seed group contributes all surviving directives. These scores measure directive transfer under optimistic group conditions and are upper bounds."
+  },
+  "per_directive_group_disjoint": [
+    {
+      "directive": "mutation_1",
+      "n": 42,
+      "prevalence": 0.5476190476190477,
+      "roc_auc": 0.5091533180778032,
+      "mcc": 0.10696563746013953
+    },
+    {
+      "directive": "mutation_2",
+      "n": 31,
+      "prevalence": 0.06451612903225806,
+      "roc_auc": 0.6551724137931034,
+      "mcc": 0.29060425003857965
+    },
+    {
+      "directive": "mutation_3",
+      "n": 35,
+      "prevalence": 0.4,
+      "roc_auc": 0.6751700680272108,
+      "mcc": 0.14002800840280097
+    },
+    {
+      "directive": "mutation_4",
+      "n": 40,
+      "prevalence": 0.3,
+      "roc_auc": 0.5773809523809523,
+      "mcc": 0.10482848367219182
+    },
+    {
+      "directive": "mutation_5",
+      "n": 41,
+      "prevalence": 0.12195121951219512,
+      "roc_auc": 0.6055555555555555,
+      "mcc": 0.13546680213353654
+    },
+    {
+      "directive": "mutation_6",
+      "n": 37,
+      "prevalence": 0.13513513513513514,
+      "roc_auc": 0.625,
+      "mcc": 0.25505639266809255
+    },
+    {
+      "directive": "mutation_7",
+      "n": 43,
+      "prevalence": 0.8604651162790697,
+      "roc_auc": 0.5945945945945946,
+      "mcc": 0.14989012085230063
+    }
+  ],
+  "majority_baseline": 0.6356877323420074,
+  "attainable_ceiling": 0.9516728624535316,
+  "comparison_rules": [
+    "AUC is comparable to the full-set AUC; ranking metrics survive the prevalence shift.",
+    "MCC and accuracy are NOT comparable: the majority baseline moves 0.581 -> 0.636.",
+    "Nothing here is measured on real code. This bounds and characterises; it does not validate, confirm or generalise."
+  ],
+  "inputs": {
+    "pairs": {
+      "path": "redmi9t_pairs_labelled.csv",
+      "size_bytes": 386577,
+      "mtime": 1787645632.3478959
+    }
+  }
+}

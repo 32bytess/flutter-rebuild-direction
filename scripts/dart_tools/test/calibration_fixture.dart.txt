@@ -1,0 +1,55 @@
+import 'package:flutter/material.dart';
+import 'package:some_pkg/src/thing.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+// A commented-out MaterialApp must not fire R5.
+// return MaterialApp(home: Scaffold());
+/* AnimationController controller; */
+
+class GeneratedWidget extends StatefulWidget {
+  const GeneratedWidget({super.key});
+  @override
+  State<GeneratedWidget> createState() => _GeneratedWidgetState();
+}
+
+class _GeneratedWidgetState extends State<GeneratedWidget> {
+  void onTap(BuildContext context) {
+    showMenu<int>(context: context, position: RelativeRect.fill, items: const [])
+        .then((index) => setState(() {}));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(children: [
+      const Text('please await the result, it is async'),
+      const Text('see https://example.com/a//b for details'),
+      Icon(FontAwesomeIcons.user),
+      const Icon(CupertinoIcons.book),
+      const Text('x', style: TextStyle(fontFamily: 'PingFang', fontSize: 12)),
+      const Text('y', style: TextStyle(fontFamily: 'monospace')),
+      CircleAvatar(
+        backgroundColor: Colors.red,
+        backgroundImage: Image.asset('assets/placeholder.png'),
+      ),
+      CircleAvatar(
+        backgroundImage: Image.asset('assets/placeholder.png'),
+      ),
+      Image.asset('assets/placeholder.png'),
+      // spm 0.7.0 keeps the named arguments; the box takes the image's own size.
+      Image.asset('assets/placeholder.png', width: 48, height: 48),
+      Image.asset('assets/placeholder.png', width: 50.0, height: 50.0),
+      // Extra arguments do not change the match, and the foreign icon font inside the
+      // surviving builder must NOT collect an edit of its own -- the whole node goes.
+      Image.asset(
+        'assets/placeholder.png',
+        width: 64,
+        height: 64,
+        color: Colors.blue,
+        errorBuilder: (c, e, s) => Icon(FontAwesomeIcons.image),
+      ),
+      // One axis only, and a dimension that is not a literal: both fall back.
+      Image.asset('assets/placeholder.png', width: 24),
+      Image.asset('assets/placeholder.png', width: side, height: 24),
+    ]);
+  }
+}

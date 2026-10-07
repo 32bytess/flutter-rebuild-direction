@@ -1,0 +1,334 @@
+{
+  "status": "post-hoc, descriptive, 2026-10-07: views of the frozen out-of-fold scores; nothing selected or tuned",
+  "stratum": "base_mut",
+  "n": 332,
+  "slower": 139,
+  "threshold": 0.5,
+  "agreement_by_delta_bin": {
+    "clearly faster": {
+      "range": "below −0.147",
+      "n": 68,
+      "slower": 0,
+      "random_forest": {
+        "agree": 58,
+        "share": 0.8529,
+        "ci95": [
+          0.7461,
+          0.9272
+        ]
+      },
+      "lightgbm": {
+        "agree": 57,
+        "share": 0.8382,
+        "ci95": [
+          0.729,
+          0.9164
+        ]
+      },
+      "rbf_svm": {
+        "agree": 60,
+        "share": 0.8824,
+        "ci95": [
+          0.7813,
+          0.9478
+        ]
+      },
+      "logreg_balanced": {
+        "agree": 58,
+        "share": 0.8529,
+        "ci95": [
+          0.7461,
+          0.9272
+        ]
+      },
+      "directive_oracle": {
+        "agree": 64,
+        "share": 0.9412,
+        "ci95": [
+          0.8562,
+          0.9837
+        ]
+      }
+    },
+    "no clear change": {
+      "range": "−0.147 to 0.147",
+      "n": 77,
+      "slower": 0,
+      "random_forest": {
+        "agree": 63,
+        "share": 0.8182,
+        "ci95": [
+          0.7138,
+          0.8969
+        ]
+      },
+      "lightgbm": {
+        "agree": 59,
+        "share": 0.7662,
+        "ci95": [
+          0.6559,
+          0.8552
+        ]
+      },
+      "rbf_svm": {
+        "agree": 59,
+        "share": 0.7662,
+        "ci95": [
+          0.6559,
+          0.8552
+        ]
+      },
+      "logreg_balanced": {
+        "agree": 64,
+        "share": 0.8312,
+        "ci95": [
+          0.7286,
+          0.9069
+        ]
+      },
+      "directive_oracle": {
+        "agree": 63,
+        "share": 0.8182,
+        "ci95": [
+          0.7138,
+          0.8969
+        ]
+      }
+    },
+    "slightly slower": {
+      "range": "0.147 to 0.33",
+      "n": 48,
+      "slower": 0,
+      "random_forest": {
+        "agree": 35,
+        "share": 0.7292,
+        "ci95": [
+          0.5815,
+          0.8472
+        ]
+      },
+      "lightgbm": {
+        "agree": 33,
+        "share": 0.6875,
+        "ci95": [
+          0.5375,
+          0.8134
+        ]
+      },
+      "rbf_svm": {
+        "agree": 33,
+        "share": 0.6875,
+        "ci95": [
+          0.5375,
+          0.8134
+        ]
+      },
+      "logreg_balanced": {
+        "agree": 32,
+        "share": 0.6667,
+        "ci95": [
+          0.5159,
+          0.796
+        ]
+      },
+      "directive_oracle": {
+        "agree": 38,
+        "share": 0.7917,
+        "ci95": [
+          0.6501,
+          0.8953
+        ]
+      }
+    },
+    "slower": {
+      "range": "0.33 to 0.474",
+      "n": 20,
+      "slower": 20,
+      "random_forest": {
+        "agree": 7,
+        "share": 0.35,
+        "ci95": [
+          0.1539,
+          0.5922
+        ]
+      },
+      "lightgbm": {
+        "agree": 9,
+        "share": 0.45,
+        "ci95": [
+          0.2306,
+          0.6847
+        ]
+      },
+      "rbf_svm": {
+        "agree": 9,
+        "share": 0.45,
+        "ci95": [
+          0.2306,
+          0.6847
+        ]
+      },
+      "logreg_balanced": {
+        "agree": 11,
+        "share": 0.55,
+        "ci95": [
+          0.3153,
+          0.7694
+        ]
+      },
+      "directive_oracle": {
+        "agree": 9,
+        "share": 0.45,
+        "ci95": [
+          0.2306,
+          0.6847
+        ]
+      }
+    },
+    "clearly slower": {
+      "range": "0.474 and above",
+      "n": 119,
+      "slower": 119,
+      "random_forest": {
+        "agree": 87,
+        "share": 0.7311,
+        "ci95": [
+          0.6421,
+          0.8082
+        ]
+      },
+      "lightgbm": {
+        "agree": 90,
+        "share": 0.7563,
+        "ci95": [
+          0.6691,
+          0.8303
+        ]
+      },
+      "rbf_svm": {
+        "agree": 80,
+        "share": 0.6723,
+        "ci95": [
+          0.5802,
+          0.7555
+        ]
+      },
+      "logreg_balanced": {
+        "agree": 81,
+        "share": 0.6807,
+        "ci95": [
+          0.589,
+          0.7631
+        ]
+      },
+      "directive_oracle": {
+        "agree": 91,
+        "share": 0.7647,
+        "ci95": [
+          0.6782,
+          0.8376
+        ]
+      }
+    }
+  },
+  "agreement_near_vs_far_from_cut": {
+    "random_forest": {
+      "near_0.147_to_0.474": 0.6176,
+      "elsewhere": 0.7879,
+      "n_near": 68,
+      "n_elsewhere": 264
+    },
+    "lightgbm": {
+      "near_0.147_to_0.474": 0.6176,
+      "elsewhere": 0.7803,
+      "n_near": 68,
+      "n_elsewhere": 264
+    },
+    "rbf_svm": {
+      "near_0.147_to_0.474": 0.6176,
+      "elsewhere": 0.7538,
+      "n_near": 68,
+      "n_elsewhere": 264
+    },
+    "logreg_balanced": {
+      "near_0.147_to_0.474": 0.6324,
+      "elsewhere": 0.7689,
+      "n_near": 68,
+      "n_elsewhere": 264
+    },
+    "directive_oracle": {
+      "near_0.147_to_0.474": 0.6912,
+      "elsewhere": 0.8258,
+      "n_near": 68,
+      "n_elsewhere": 264
+    }
+  },
+  "recall_when_reviewing_top_share": {
+    "20%": {
+      "random_forest": 0.4058,
+      "lightgbm": 0.3986,
+      "rbf_svm": 0.3781,
+      "logreg_balanced": 0.3813,
+      "directive_oracle": 0.4216,
+      "random": 0.2
+    },
+    "30%": {
+      "random_forest": 0.554,
+      "lightgbm": 0.5367,
+      "rbf_svm": 0.5511,
+      "logreg_balanced": 0.5295,
+      "directive_oracle": 0.6029,
+      "random": 0.3
+    },
+    "40%": {
+      "random_forest": 0.682,
+      "lightgbm": 0.6835,
+      "rbf_svm": 0.646,
+      "logreg_balanced": 0.6748,
+      "directive_oracle": 0.7271,
+      "random": 0.4
+    },
+    "50%": {
+      "random_forest": 0.777,
+      "lightgbm": 0.777,
+      "rbf_svm": 0.7554,
+      "logreg_balanced": 0.7482,
+      "directive_oracle": 0.7941,
+      "random": 0.5
+    }
+  },
+  "operating_point_at_0.5": {
+    "random_forest": {
+      "flagged": 131,
+      "reviewed_share": 0.3946,
+      "recall": 0.6763
+    },
+    "lightgbm": {
+      "flagged": 143,
+      "reviewed_share": 0.4307,
+      "recall": 0.7122
+    },
+    "rbf_svm": {
+      "flagged": 130,
+      "reviewed_share": 0.3916,
+      "recall": 0.6403
+    },
+    "logreg_balanced": {
+      "flagged": 131,
+      "reviewed_share": 0.3946,
+      "recall": 0.6619
+    },
+    "directive_oracle": {
+      "flagged": 128,
+      "reviewed_share": 0.3855,
+      "recall": 0.7194
+    }
+  },
+  "roc_auc": {
+    "random_forest": 0.8278,
+    "lightgbm": 0.7952,
+    "rbf_svm": 0.7951,
+    "logreg_balanced": 0.7771,
+    "directive_oracle": 0.8429
+  }
+}

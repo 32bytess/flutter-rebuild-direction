@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "flutter-rebuild-direction: Measurement Harness and Analysis for the Direction of Flutter Widget Rebuild Cost"
+abstract: >-
+  Measurement harness and analysis code. It builds the corpus, runs the on-device
+  measurements on a Redmi 9T, and holds the four notebooks that recompute every reported
+  figure. The data is in flutter-rebuild-direction-data; the extractor and profiler are the
+  spm package.
+authors:
+  - family-names: Amoura
+    given-names: Ammar Abderafik
+    affiliation: Manisa Celal Bayar University
+    orcid: "https://orcid.org/0009-0003-0544-6255"
+    alias: 32bytess
+version: 1.0.0
+date-released: 2026-10-08
+license: MIT
+repository-code: "https://github.com/32bytess/flutter-rebuild-direction"
+url: "https://github.com/32bytess/flutter-rebuild-direction"
+keywords:
+  - flutter
+  - rebuild-cost
+  - static-analysis
+  - benchmark
+  - replication-package

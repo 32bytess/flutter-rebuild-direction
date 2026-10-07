@@ -1,0 +1,671 @@
+{
+ "binding_rule": true,
+ "by_repository": {
+  "owner/alpha": {
+   "eligible_contrasts": 4,
+   "eligible_mover_scopes": 2
+  }
+ },
+ "carried_for_pairs": [],
+ "contrast_funnel": {
+  "distinct_code_roles": 21,
+  "roles_dropped_duplicate_content": 1,
+  "roles_excluded_R14_short_vector": 1,
+  "scopes_with_a_contrast": 9
+ },
+ "contrasts": "all_pairwise",
+ "contrasts_per_scope": {
+  "owner/alpha::lib/0001.dart::_GeneratedWidgetState": 3,
+  "owner/alpha::lib/0010.dart::_GeneratedWidgetState": 1
+ },
+ "generated": "scripts/screen_samples.py",
+ "groups": {
+  "0001": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "47f3acf20877beab",
+   "project": "owner/alpha",
+   "representative": "rev_001_aaaa0001.dart",
+   "resumed": false
+  },
+  "0002": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "b029f50b0e4bca4d",
+   "project": "owner/alpha",
+   "representative": "rev_001_bbbb0001.dart",
+   "resumed": false
+  },
+  "0003": {
+   "all_rules": [
+    "R8_no_pair"
+   ],
+   "base_rules": [
+    "R8_no_pair"
+   ],
+   "eligible": false,
+   "excluded_by": [
+    "R8_no_pair"
+   ],
+   "flagged_by": [],
+   "norm_hash": "708ac61e79b47d50",
+   "project": "owner/alpha",
+   "representative": "rev_001_cccc0001.dart",
+   "resumed": false
+  },
+  "0004": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "571f5eb60680b45e",
+   "project": "owner/alpha",
+   "representative": "rev_001_dddd0001.dart",
+   "resumed": false
+  },
+  "0005": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "324f0f465bf36273",
+   "project": "owner/alpha",
+   "representative": "rev_001_eeee0001.dart",
+   "resumed": false
+  },
+  "0006": {
+   "all_rules": [
+    "R9_repo_unfinished"
+   ],
+   "base_rules": [
+    "R9_repo_unfinished"
+   ],
+   "eligible": false,
+   "excluded_by": [
+    "R9_repo_unfinished"
+   ],
+   "flagged_by": [],
+   "norm_hash": "81c089165acee0ea",
+   "project": "owner/beta",
+   "representative": "rev_001_ffff0001.dart",
+   "resumed": false
+  },
+  "0007": {
+   "all_rules": [
+    "R7_duplicate"
+   ],
+   "base_rules": [
+    "R7_duplicate"
+   ],
+   "eligible": false,
+   "excluded_by": [
+    "R7_duplicate"
+   ],
+   "flagged_by": [],
+   "norm_hash": "47f3acf20877beab",
+   "project": "owner/alpha",
+   "representative": "rev_001_aaaa0001.dart",
+   "resumed": false
+  },
+  "0008": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "8422c08d1ec03135",
+   "project": "owner/alpha",
+   "representative": "rev_001_88880001.dart",
+   "resumed": false
+  },
+  "0009": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "78623a06df85236e",
+   "project": "owner/alpha",
+   "representative": "rev_001_77770001.dart",
+   "resumed": false
+  },
+  "0010": {
+   "all_rules": [],
+   "base_rules": [],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [],
+   "norm_hash": "be9a88045a532cbb",
+   "project": "owner/alpha",
+   "representative": "rev_001_aaab0001.dart",
+   "resumed": false
+  },
+  "0011": {
+   "all_rules": [
+    "R19_shim_dropped_children"
+   ],
+   "base_rules": [
+    "R19_shim_dropped_children"
+   ],
+   "eligible": true,
+   "excluded_by": [],
+   "flagged_by": [
+    "R19_shim_dropped_children"
+   ],
+   "norm_hash": "4bca5a0520d1b99d",
+   "project": "owner/alpha",
+   "representative": "rev_001_66660001.dart",
+   "resumed": false
+  }
+ },
+ "manual_reasons": {},
+ "mode": "default",
+ "package_license": {
+  "disallowed": {},
+  "files_reporting_inlining": 1,
+  "files_with_inlined_packages": 1,
+  "unattributed": {}
+ },
+ "pairs": [
+  {
+   "adjacent": true,
+   "binding_delta": {
+    "added": [],
+    "reaches_build": [],
+    "relation": "identical",
+    "removed": []
+   },
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0001",
+   "pair_id": "owner/alpha::lib/0001.dart::_GeneratedWidgetState@aaaa0001..aaaa0002",
+   "rules": [],
+   "scope_key": "owner/alpha::lib/0001.dart::_GeneratedWidgetState",
+   "shim_drop_delta": {
+    "after": [],
+    "before": [],
+    "relation": "identical"
+   },
+   "verdict": "eligible"
+  },
+  {
+   "adjacent": false,
+   "binding_delta": {
+    "added": [],
+    "reaches_build": [],
+    "relation": "identical",
+    "removed": []
+   },
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 4,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0001",
+   "pair_id": "owner/alpha::lib/0001.dart::_GeneratedWidgetState@aaaa0001..aaaa0003",
+   "rules": [],
+   "scope_key": "owner/alpha::lib/0001.dart::_GeneratedWidgetState",
+   "shim_drop_delta": {
+    "after": [],
+    "before": [],
+    "relation": "identical"
+   },
+   "verdict": "eligible"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": {
+    "added": [],
+    "reaches_build": [],
+    "relation": "identical",
+    "removed": []
+   },
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0001",
+   "pair_id": "owner/alpha::lib/0001.dart::_GeneratedWidgetState@aaaa0002..aaaa0003",
+   "rules": [],
+   "scope_key": "owner/alpha::lib/0001.dart::_GeneratedWidgetState",
+   "shim_drop_delta": {
+    "after": [],
+    "before": [],
+    "relation": "identical"
+   },
+   "verdict": "eligible"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": null,
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0002",
+   "pair_id": "owner/alpha::lib/0002.dart::_GeneratedWidgetState@bbbb0001..bbbb0002",
+   "rules": [
+    "R1_animation"
+   ],
+   "scope_key": "owner/alpha::lib/0002.dart::_GeneratedWidgetState",
+   "verdict": "excluded"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": null,
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 0,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0004",
+   "pair_id": "owner/alpha::lib/0004.dart::_GeneratedWidgetState@dddd0001..dddd0002",
+   "rules": [
+    "R15_zero_delta"
+   ],
+   "scope_key": "owner/alpha::lib/0004.dart::_GeneratedWidgetState",
+   "verdict": "excluded"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": null,
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0006",
+   "pair_id": "owner/beta::lib/0006.dart::_GeneratedWidgetState@ffff0001..ffff0002",
+   "rules": [
+    "R9_repo_unfinished"
+   ],
+   "scope_key": "owner/beta::lib/0006.dart::_GeneratedWidgetState",
+   "verdict": "excluded"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": null,
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0007",
+   "pair_id": "owner/alpha::lib/0007.dart::_GeneratedWidgetState@aaaa0001..99990002",
+   "rules": [
+    "R7_duplicate"
+   ],
+   "scope_key": "owner/alpha::lib/0007.dart::_GeneratedWidgetState",
+   "verdict": "excluded"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": {
+    "added": [
+     "fixtureLabel"
+    ],
+    "reaches_build": [],
+    "relation": "added",
+    "removed": []
+   },
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0008",
+   "pair_id": "owner/alpha::lib/0008.dart::_GeneratedWidgetState@88880001..88880002",
+   "rules": [
+    "R13_binding_set"
+   ],
+   "scope_key": "owner/alpha::lib/0008.dart::_GeneratedWidgetState",
+   "shim_drop_delta": {
+    "after": [],
+    "before": [],
+    "relation": "identical"
+   },
+   "verdict": "excluded"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": null,
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0009",
+   "pair_id": "owner/alpha::lib/0009.dart::_GeneratedWidgetState@77770001..77770002",
+   "rules": [
+    "R10_unverified"
+   ],
+   "scope_key": "owner/alpha::lib/0009.dart::_GeneratedWidgetState",
+   "verdict": "excluded"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": {
+    "added": [],
+    "reaches_build": [],
+    "relation": "identical",
+    "removed": []
+   },
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0010",
+   "pair_id": "owner/alpha::lib/0010.dart::_GeneratedWidgetState@aaab0001..aaab0002",
+   "rules": [],
+   "scope_key": "owner/alpha::lib/0010.dart::_GeneratedWidgetState",
+   "shim_drop_delta": {
+    "after": [],
+    "before": [],
+    "relation": "identical"
+   },
+   "verdict": "eligible"
+  },
+  {
+   "adjacent": true,
+   "binding_delta": null,
+   "claimants": null,
+   "delta": {
+    "helperReferenceCount": 0,
+    "helperWidgetCount": 0,
+    "iterationWidgetCount": 0,
+    "rootBuildReturnsConstWidget": 0,
+    "treeConstWidgetCount": 0,
+    "treeCyclomaticComplexity": 0,
+    "treeIterationCount": 0,
+    "treeListRenderingStrategy": 0,
+    "treeMaxWidgetNestingDepth": 0,
+    "treeNonConstWidgetCount": 2,
+    "usesLayoutDependentBuilder": 0,
+    "valueObjectAllocCount": 0
+   },
+   "group": "0011",
+   "pair_id": "owner/alpha::lib/0011.dart::_GeneratedWidgetState@66660001..66660002",
+   "rules": [
+    "R20_shim_child_form"
+   ],
+   "scope_key": "owner/alpha::lib/0011.dart::_GeneratedWidgetState",
+   "shim_drop_delta": {
+    "after": [],
+    "before": [
+     "MiniGrid.builder"
+    ],
+    "relation": "differs"
+   },
+   "verdict": "excluded"
+  }
+ ],
+ "render": {},
+ "repo_license": {},
+ "rules": [
+  {
+   "id": "R1_animation",
+   "reason": "animation-driven rebuild (stage 1b; round-1 settle hang)",
+   "soft": false
+  },
+  {
+   "id": "R2_async",
+   "reason": "async/await- or Future/Stream-driven rebuild (stage 1b)",
+   "soft": false
+  },
+  {
+   "id": "R3_io_network",
+   "reason": "I/O- or network-driven rebuild (stage 1b)",
+   "soft": false
+  },
+  {
+   "id": "R4_keepalive",
+   "reason": "scrolling / keep-alive lifecycle mixin (stage 1b)",
+   "soft": false
+  },
+  {
+   "id": "R5_nested_app",
+   "reason": "nested application root (round 2; units 09 and 31)",
+   "soft": false
+  },
+  {
+   "id": "R6_nondeterminism",
+   "reason": "non-deterministic input, unrepairable here (stage 4)",
+   "soft": true
+  },
+  {
+   "id": "R10_unverified",
+   "reason": "`spm isolate` could not analyse the transplant without an error, so `spm analyze` skips it and it yields no metrics (spm 0.5.2+)",
+   "soft": false
+  },
+  {
+   "id": "R11_source_unresolved",
+   "reason": "the source project's own dependencies never resolved, so the transplant is shallower than the code it claims to be (spm 0.5.2+; what fires is a floor, see this module's docstring)",
+   "soft": true
+  },
+  {
+   "id": "R12_inline_reverted",
+   "reason": "carrying the third-party source analysed WORSE than standing it in, so spm kept the stood-in version: the file describes a smaller tree than the code it came from builds (spm 0.6.0+; `thirdPartyInlineTruncated` says the same thing about a scope that hit the inline budget)",
+   "soft": true
+  },
+  {
+   "id": "R19_shim_dropped_children",
+   "reason": "a shim `spm isolate` generated renders none of the subtree the transplanted code handed it -- its `build` passes through one parameter, and the constructor the call site used does not declare that one -- so the file describes a smaller tree than the code it came from builds",
+   "soft": true
+  },
+  {
+   "id": "R7_duplicate",
+   "reason": "duplicate / near-duplicate transplant (stage 1c)",
+   "soft": false
+  },
+  {
+   "id": "R8_no_pair",
+   "kind": "yield, not measurability",
+   "reason": "fewer than 2 transplanted states, so no delta is derivable",
+   "soft": false
+  },
+  {
+   "id": "R9_repo_unfinished",
+   "kind": "held, not excluded",
+   "reason": "the repository's mine has not checkpointed yet, so its groups are still being written",
+   "soft": false
+  },
+  {
+   "id": "R13_binding_set",
+   "kind": "comparability, not measurability",
+   "reason": "the two endpoints mount from different sets of fixture bindings, so the contrast is not a change against identical initial state",
+   "sections": [
+    "lifted",
+    "seed"
+   ],
+   "soft": false
+  },
+  {
+   "id": "R20_shim_child_form",
+   "kind": "comparability, not measurability",
+   "reason": "the endpoints reach shim constructors that differ in whether they render the subtree they were handed, so the delta is the shim's constructor coverage and not the edit",
+   "soft": false
+  },
+  {
+   "id": "R14_short_vector",
+   "kind": "role-level, not pair-level",
+   "reason": "`spm analyze` reported closureResolved == 0, so the walker never descended and the feature vector describes less than the tree",
+   "soft": false
+  },
+  {
+   "id": "R15_zero_delta",
+   "kind": "yield, not measurability",
+   "reason": "the two endpoints' feature vectors are identical, so the contrast carries nothing for the model to learn from",
+   "soft": false
+  },
+  {
+   "id": "R16_unfillable_fixture",
+   "kind": "authoring worklist, not exclusion (soft since 2026-09-08)",
+   "reason": "a binding in this group's fixture cannot be resolved by the GENERATED fill, so `dependencies.dart` keeps its `// TODO: value` until the fixture is authored by hand; the group is held at the fixture gate, not excluded from the corpus",
+   "soft": true
+  },
+  {
+   "id": "R17_package_license",
+   "kind": "redistribution, not measurability",
+   "reason": "the transplant carries source from a hosted package whose licence the policy does not allow, or carries package source this run cannot attribute to any package",
+   "soft": false
+  },
+  {
+   "id": "R18_repo_license",
+   "kind": "redistribution, not measurability",
+   "reason": "the repository this scope was mined from is not under a licence the policy allows, or none was ever recorded for it",
+   "soft": false
+  },
+  {
+   "id": "R21_renders_error",
+   "kind": "role-level, and the evidence is the DEVICE not the source",
+   "reason": "the device drew Flutter's error box for this role: its `build` threw, so the buildSpan measured is the error box and not the tree the feature vector describes",
+   "soft": false
+  },
+  {
+   "id": "R22_renders_nothing",
+   "kind": "role-level, and the evidence is the DEVICE not the source",
+   "reason": "the role mounted and painted one flat colour over the whole body: it rendered nothing, so its buildSpan describes an empty tree",
+   "soft": true
+  }
+ ],
+ "shim_form": {
+  "enforced": true,
+  "pairs_compared": 6,
+  "pairs_disagreeing": 1,
+  "pairs_dropping_at_both": 0
+ },
+ "shim_form_rule": true,
+ "totals": {
+  "awaiting_fixture_bindings": 0,
+  "awaiting_fixture_groups": 0,
+  "contrasts_screened": 11,
+  "eligible": 8,
+  "eligible_adjacent_pairs": 3,
+  "eligible_mover_scopes": 2,
+  "eligible_pairs": 4,
+  "eligible_repositories": 1,
+  "excluded": 3,
+  "finished_repos": 1,
+  "groups": 11,
+  "held_unfinished": 1,
+  "largest_repository_share": 1.0,
+  "measurable_mover_scopes": 2,
+  "measurable_pairs": 4,
+  "nonzero_pairs": 11
+ },
+ "unfillable": {}
+}

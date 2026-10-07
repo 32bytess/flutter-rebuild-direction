@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "_comment": "Committed policy table. The screen resolves against this; it never infers. Edit here, never in a rule -- the license_version() digest over this file invalidates every affected screening checkpoint.",
+
+  "allowed_spdx": ["MIT", "Apache-2.0", "BSD-3-Clause"],
+  "_allowed_provenance": "Identical to scripts/collector/config.py ALLOWED_LICENSES, the gate every repository in both arms already passed at acquisition. One standard applied twice: once to the host repository, and once to the package code `spm isolate` carries into a transplant. A wider list would be a second standard, and would need its own justification.",
+
+  "spdx_markers": {
+    "MIT": {
+      "match": "all",
+      "phrases": ["MIT License", "Permission is hereby granted, free of charge"]
+    },
+    "Apache-2.0": {
+      "match": "all",
+      "phrases": ["Apache License", "Version 2.0, January 2004"]
+    },
+    "BSD-3-Clause": {
+      "match": "all",
+      "phrases": ["Redistributions in binary form", "Neither the name of"]
+    }
+  },
+  "_markers_provenance": "Every marker must appear in a LICENSE for it to be recognised as that id -- an AND, not an OR, because the three permissive texts quote each other in places and a single phrase is not enough to separate them. A LICENSE matching no id, or more than one, is UNRECOGNISED and therefore NOT allowed: the failure this table could otherwise introduce is waving through a licence nobody read. `match` was made explicit on 2026-09-05: the conjunction used to be a bare list whose operator lived only in the loader, so the file did not say what it meant. `all` is the only value implemented, and an unrecognised one raises rather than defaulting -- a silent default here is exactly the waving-through this table exists to prevent. The phrases are raw substrings, never regexes, so `.` and `(` in them are literal.",
+
+  "repo_spdx_aliases": {
+    "mit": "MIT",
+    "apache-2.0": "Apache-2.0",
+    "bsd-3-clause": "BSD-3-Clause"
+  },
+  "_aliases_provenance": "`data/candidates.jsonl` stores GitHub's `license.spdx_id` LOWERCASED (scripts/collector/api.py). R18 compares against `allowed_spdx`, which is canonical SPDX, so the two vocabularies are reconciled here rather than by lowercasing the policy -- the policy is what a human reads."
+}

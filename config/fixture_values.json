@@ -1,0 +1,528 @@
+{
+  "0352": {
+    "anchor": "f2c4f84f",
+    "bindings": {
+      "fixtureTabController": {
+        "decl": "late TabController fixtureTabController;",
+        "expr": null,
+        "note": "requires a TickerProvider vsync; cannot be constructed at top level",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "ticker_provider"
+      }
+    },
+    "repo": "jangviktor-web/nihaixia-app"
+  },
+  "0358": {
+    "anchor": "f2c4f84f",
+    "bindings": {
+      "fixtureHerb": {
+        "decl": "late Herb fixtureHerb;",
+        "expr": null,
+        "note": "`Herb` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "jangviktor-web/nihaixia-app"
+  },
+  "0436": {
+    "anchor": "a227e88a",
+    "bindings": {
+      "fixtureProfiles": {
+        "decl": "List<Profile> fixtureProfiles = [];",
+        "expr": null,
+        "note": "`Profile` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "KyleKun/one_second_diary"
+  },
+  "0451": {
+    "anchor": "49a902c0",
+    "bindings": {
+      "fixtureFltCompleted": {
+        "decl": "bool? fixtureFltCompleted = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureFltDate": {
+        "decl": "DateTime? fixtureFltDate = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureFltReminder": {
+        "decl": "bool? fixtureFltReminder = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureFltRepeat": {
+        "decl": "String? fixtureFltRepeat = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureFltTime": {
+        "decl": "TimeOfDay? fixtureFltTime = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureTasks": {
+        "decl": "List<Task> fixtureTasks = [];",
+        "expr": null,
+        "note": "`Task` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "theakhinabraham/doable-todo-list-app"
+  },
+  "0452": {
+    "anchor": "3f451479",
+    "bindings": {
+      "fixtureRepeatRule": {
+        "decl": "String? fixtureRepeatRule = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureRepeatWeekdays": {
+        "decl": "Set<int> fixtureRepeatWeekdays = {};",
+        "expr": "<int>{0, 0, 0}",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureSelectedDate": {
+        "decl": "DateTime? fixtureSelectedDate = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureSelectedTime": {
+        "decl": "TimeOfDay? fixtureSelectedTime = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "theakhinabraham/doable-todo-list-app"
+  },
+  "0463": {
+    "anchor": "23caef43",
+    "bindings": {
+      "fixtureController": {
+        "decl": "late TextEditingController fixtureController;",
+        "expr": null,
+        "note": "a controller owning mutable text state and a listener list",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "object_type_out_of_scope"
+      }
+    },
+    "repo": "mllrr96/Neumorphic-Calculator"
+  },
+  "0527": {
+    "anchor": "14993d48",
+    "bindings": {
+      "fixtureFocusNode": {
+        "decl": "late FocusNode fixtureFocusNode;",
+        "expr": null,
+        "note": "a node that registers with the focus manager",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "object_type_out_of_scope"
+      },
+      "fixtureSearchController": {
+        "decl": "late TextEditingController fixtureSearchController;",
+        "expr": null,
+        "note": "a controller owning mutable text state and a listener list",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "object_type_out_of_scope"
+      }
+    },
+    "repo": "sunyongsheng/Allpass"
+  },
+  "0591": {
+    "anchor": "bba383fd",
+    "bindings": {
+      "fixtureRootFolderPath": {
+        "decl": "String? fixtureRootFolderPath = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureSelected": {
+        "decl": "List<String> fixtureSelected = [];",
+        "expr": "List<String>.generate(3, (_) => '')",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "sagarchaulagai/aradia"
+  },
+  "0609": {
+    "anchor": "8424e8c8",
+    "bindings": {
+      "fixtureSelectedType": {
+        "decl": "ServerType? fixtureSelectedType = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "abdulmominsakib/localmind"
+  },
+  "0629": {
+    "anchor": "a8ce423c",
+    "bindings": {
+      "fixtureActiveConversation": {
+        "decl": "Conversation? fixtureActiveConversation = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureGroupedConversations": {
+        "decl": "Map<String, List<Conversation>> fixtureGroupedConversations = {};",
+        "expr": null,
+        "note": "`Conversation` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "abdulmominsakib/localmind"
+  },
+  "0650": {
+    "anchor": "5fc03278",
+    "bindings": {
+      "fixtureLanguage": {
+        "decl": "String? fixtureLanguage = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "abdulmominsakib/localmind"
+  },
+  "0660": {
+    "anchor": "cd9d5dc1",
+    "bindings": {
+      "fixtureErrorMessage": {
+        "decl": "String? fixtureErrorMessage = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureOnStartNewChat": {
+        "decl": "late VoidCallback fixtureOnStartNewChat;",
+        "expr": null,
+        "note": "a closure; what it does is the application's, not the fixture's",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "object_type_out_of_scope"
+      }
+    },
+    "repo": "abdulmominsakib/localmind"
+  },
+  "0690": {
+    "anchor": "2378cf35",
+    "bindings": {
+      "fixtureEngine": {
+        "decl": "late EngineId fixtureEngine;",
+        "expr": "EngineId.system",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixturePlayingVoice": {
+        "decl": "Voice? fixturePlayingVoice = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureVoices": {
+        "decl": "late List<Voice> fixtureVoices;",
+        "expr": null,
+        "note": "`Voice` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "abdulmominsakib/localmind"
+  },
+  "0837": {
+    "anchor": "b1973107",
+    "bindings": {
+      "fixtureIsDark": {
+        "decl": "late bool fixtureIsDark;",
+        "expr": "false",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureResponse": {
+        "decl": "late String fixtureResponse;",
+        "expr": "''",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureTrackedResponse": {
+        "decl": "String? fixtureTrackedResponse = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "abdulmominsakib/localmind"
+  },
+  "0853": {
+    "anchor": "36f9332f",
+    "bindings": {
+      "t": {
+        "decl": "late Translations t;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      },
+      "tValue": {
+        "decl": "late Translations tValue;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "JGeek00/linkdy"
+  },
+  "0854": {
+    "anchor": "36f9332f",
+    "bindings": {
+      "t": {
+        "decl": "late Translations t;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      },
+      "tValue": {
+        "decl": "late Translations tValue;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "JGeek00/linkdy"
+  },
+  "0862": {
+    "anchor": "be7a2bcf",
+    "bindings": {
+      "t": {
+        "decl": "late Translations t;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      },
+      "tValue": {
+        "decl": "late Translations tValue;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "JGeek00/linkdy"
+  },
+  "0869": {
+    "anchor": "b6d80d74",
+    "bindings": {
+      "t": {
+        "decl": "late Translations t;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      },
+      "tValue": {
+        "decl": "late Translations tValue;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "JGeek00/linkdy"
+  },
+  "0980": {
+    "anchor": "c76eedf6",
+    "bindings": {
+      "t": {
+        "decl": "late Translations t;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      },
+      "tValue": {
+        "decl": "late Translations tValue;",
+        "expr": null,
+        "note": "`Translations` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "JGeek00/linkdy"
+  },
+  "1232": {
+    "anchor": "093ba8cd",
+    "bindings": {
+      "fixtureSelectedStatus": {
+        "decl": "CoreFilterStatus? fixtureSelectedStatus = null;",
+        "expr": "null",
+        "note": "nullable kept null: flipping it changes which branch build takes",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "ashtanko/flutter_bloc_app_template"
+  },
+  "1385": {
+    "anchor": "c3200d3f",
+    "bindings": {
+      "fixtureUrlController": {
+        "decl": "late TextEditingController fixtureUrlController;",
+        "expr": null,
+        "note": "a controller owning mutable text state and a listener list",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "object_type_out_of_scope"
+      }
+    },
+    "repo": "AmanSikarwar/freedium_mobile"
+  },
+  "1414": {
+    "anchor": "c2b16d6a",
+    "bindings": {
+      "fixtureInitialFontSize": {
+        "decl": "late double fixtureInitialFontSize;",
+        "expr": "0.0",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureOnFontSizeChanged": {
+        "decl": "late  Function(double) fixtureOnFontSizeChanged;",
+        "expr": null,
+        "note": "a closure; what it does is the application's, not the fixture's",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "object_type_out_of_scope"
+      }
+    },
+    "repo": "AmanSikarwar/freedium_mobile"
+  },
+  "1417": {
+    "anchor": "6f32e1ff",
+    "bindings": {
+      "fixtureProject": {
+        "decl": "late Project fixtureProject;",
+        "expr": null,
+        "note": "`Project` is a class declared in the transplant; constructing one has cost, which is what this study measures",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "class_standin_authored"
+      }
+    },
+    "repo": "go-vikunja/app"
+  },
+  "1468": {
+    "anchor": "3987ebfd",
+    "bindings": {
+      "fixtureLogs": {
+        "decl": "List<String> fixtureLogs = [];",
+        "expr": "List<String>.generate(3, (_) => '')",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "traccar/traccar-client"
+  },
+  "2039": {
+    "anchor": "6473d9a5",
+    "bindings": {
+      "fixtureExpanded": {
+        "decl": "late bool fixtureExpanded;",
+        "expr": "false",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureSelectable": {
+        "decl": "late bool fixtureSelectable;",
+        "expr": "false",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureWithLinesCount": {
+        "decl": "late bool fixtureWithLinesCount;",
+        "expr": "false",
+        "origin": "default",
+        "rule": "protocol_constant"
+      },
+      "fixtureWithZoom": {
+        "decl": "late bool fixtureWithZoom;",
+        "expr": "false",
+        "origin": "default",
+        "rule": "protocol_constant"
+      }
+    },
+    "repo": "baderouaich/flutter_syntax_view"
+  },
+  "2386": {
+    "anchor": "411d2fe6",
+    "bindings": {
+      "fixtureTabController": {
+        "decl": "late TabController fixtureTabController;",
+        "expr": null,
+        "note": "requires a TickerProvider vsync; cannot be constructed at top level",
+        "origin": "none",
+        "rule": "unrecoverable",
+        "rule_id": "ticker_provider"
+      }
+    },
+    "repo": "GeorgeYT9769/cardabase-app"
+  }
+}

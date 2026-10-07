@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# The v2 corpus mine's working tree: 2.7 GB of clones, worktrees, checkpoints and
+# transplanted samples. Relocated here from benchmark_container on 2026-08-28 so that
+# `PROBE_DIR = PROJECT_ROOT / "probe_v2"` (scripts/mining/config.py) keeps resolving.
+# It must never enter the history this repo split exists to keep small.
+# /probe_v2/
+.env
+probe_v2/history_pairs.jsonl
+probe_v2/history_features.jsonl
+
+# Scratch measurement root for the pre-campaign validation pass. It holds one execution per
+# role plus its screenshot and `[SPM:err]` log -- a census, not measurements, and its
+# buildSpans carry UI-thread printing from `--dump-errors`. `render_gate --apply` merges the
+# census into config/render_exclusions.json, which IS committed; this tree is then disposable.
+# /dataset-validate/
+
+# Retired measurements. `device_runner discard` MOVES a released group's device dir here
+# rather than deleting it, with a `discarded.json` stamp beside it, because the device
+# session cost hours and cannot be re-derived. Recovery is `mv`. The tree is not tracked:
+# its bytes were tracked until the commit that retired them, so `git checkout <parent> --
+# dataset-new_samples/<gid>` recovers them too, and a second 87 MB copy in the history is
+# exactly what the repo split exists to avoid.
+/dataset-new_samples/_attic/
+
+# Local caches and environments
+.pytest_cache/
+__pycache__/
+.venv/
+.ipynb_checkpoints/

@@ -1,0 +1,44 @@
+# Python environment for the tooling under `scripts/`.
+#
+# This file DECLARES the environment; it does not make the tree installable, and there is no
+# `[project]` or `[build-system]` table on purpose. Nothing imports `scripts` as an installed
+# distribution -- every documented invocation is `python3 -m scripts.<name>` run from this
+# directory -- and adding those tables would invite a `pip install .` that puts a second,
+# stale copy of the pipeline on `sys.path` next to the live one. `[dependency-groups]` (PEP
+# 735) is the form that records dependencies for a project that is deliberately not a package.
+#
+#     python3 -m pip install --group dev      # pytest, to run scripts/tests
+#     python3 -m pip install --group mine     # + what the collector needs to reach GitHub
+#
+# PYTHON FLOOR: 3.10. Eight modules -- `collector/api.py`, `collector/db.py`,
+# `collector/discovery.py`, `collector/repo.py`, `device_runner/{runner,config,parse}.py` and
+# `device_runner/__main__.py` -- annotate with PEP 604 unions (`str | None`) and do NOT carry
+# `from __future__ import annotations`, so those annotations are evaluated at import time and
+# 3.9 cannot load them. Everything here was last run under CPython 3.14.7.
+#
+# The versions are exact rather than floors because this is a research artifact: the row that
+# matters is what the corpus was actually built under, not the newest thing that resolves. If
+# a future run needs a newer pin, move it here and say so -- the pin is a record, not a guard.
+
+[dependency-groups]
+# Running the pipeline itself needs nothing outside the standard library. `mining`,
+# `screen`, the fixture modules and `device_runner` -- the whole arm-2 path -- import only
+# stdlib plus each other, and that is worth keeping true.
+dev = [
+    "pytest==9.0.2",
+]
+mine = [
+    "requests==2.33.1",     # scripts/collector/api.py -- the GitHub REST calls
+    "python-dotenv==1.2.1", # scripts/collector/config.py -- reads GITHUB_TOKEN from .env
+]
+
+[tool.pytest.ini_options]
+# `scripts/` is a namespace package and the suite imports `scripts.<name>`, so the container
+# root has to be importable. `scripts/tests/conftest.py` also puts it on `sys.path` and both
+# are wanted: this line covers a bare `pytest`, the conftest covers `pytest path/to/test.py`
+# run from somewhere else.
+pythonpath = ["."]
+testpaths = ["scripts/tests"]
+# The `slow` and `dart` markers are registered in `scripts/tests/conftest.py:pytest_configure`,
+# next to the `pytest_collection_modifyitems` hook that makes `slow` opt-in. Declaring them
+# here as well would be a second place to keep true.

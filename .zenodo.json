@@ -1,0 +1,34 @@
+{
+  "title": "flutter-rebuild-direction: Measurement Harness and Analysis for the Direction of Flutter Widget Rebuild Cost",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "<p>Measurement harness and analysis code. It builds the corpus, runs the on-device measurements on a Redmi 9T, and holds four notebooks that recompute every reported figure. The data is in <code>flutter-rebuild-direction-data</code>; the extractor and profiler are the <code>spm</code> package.</p>",
+  "creators": [
+    {
+      "name": "Amoura, Ammar Abderafik",
+      "affiliation": "Manisa Celal Bayar University",
+      "orcid": "0009-0003-0544-6255"
+    }
+  ],
+  "keywords": [
+    "flutter",
+    "rebuild-cost",
+    "static-analysis",
+    "benchmark",
+    "replication-package"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/32bytess/flutter-rebuild-direction",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23171328",
+      "relation": "requires",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Developed and maintained on GitHub as 32bytess (https://github.com/32bytess)."
+}

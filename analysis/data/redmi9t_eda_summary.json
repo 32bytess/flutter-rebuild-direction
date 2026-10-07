@@ -1,0 +1,1027 @@
+{
+  "device": "redmi9t",
+  "stage": "02_eda_and_preprocessing",
+  "inputs": {
+    "pairs": {
+      "path": "redmi9t_pairs_labelled.csv",
+      "size_bytes": 386577,
+      "mtime": 1787645632.3478959
+    },
+    "roles": {
+      "path": "redmi9t_medians_ds.csv",
+      "size_bytes": 63600,
+      "mtime": 1787645566.1134372
+    }
+  },
+  "constants": {
+    "primary_threshold": 0.33,
+    "alpha": 0.05,
+    "negligible_threshold": 0.147,
+    "large_threshold": 0.474,
+    "ambiguity_width": 0.1,
+    "seed": 20260803,
+    "expected_executions": 15,
+    "correlation_cutoff": 0.8
+  },
+  "corpus": {
+    "contrasts": 1454,
+    "groups": 43,
+    "roles": 375,
+    "by_stratum": {
+      "base_mut": {
+        "contrasts": 332,
+        "groups": 43,
+        "contrasts_per_group_min": 6,
+        "contrasts_per_group_median": 8.0,
+        "contrasts_per_group_max": 8
+      },
+      "mut_mut": {
+        "contrasts": 1122,
+        "groups": 43,
+        "contrasts_per_group_min": 15,
+        "contrasts_per_group_median": 28.0,
+        "contrasts_per_group_max": 28
+      },
+      "pooled": {
+        "contrasts": 1454,
+        "groups": 43,
+        "contrasts_per_group_min": 21,
+        "contrasts_per_group_median": 36.0,
+        "contrasts_per_group_max": 36
+      }
+    },
+    "roles_per_group": {
+      "min": 7,
+      "median": 9.0,
+      "max": 9
+    },
+    "executions_per_role": {
+      "min": 15,
+      "max": 15,
+      "off_expected": []
+    }
+  },
+  "target": {
+    "by_stratum": {
+      "base_mut": {
+        "n": 332,
+        "slower": 139,
+        "prevalence": 0.4186746987951807,
+        "ambiguous_rate": 0.12650602409638553,
+        "corroborated_rate": 0.3855421686746988,
+        "median_abs_delta": 0.4066666666666666
+      },
+      "mut_mut": {
+        "n": 1122,
+        "slower": 555,
+        "prevalence": 0.4946524064171123,
+        "ambiguous_rate": 0.07308377896613191,
+        "corroborated_rate": 0.46078431372549017,
+        "median_abs_delta": 0.7422222222222222
+      },
+      "pooled": {
+        "n": 1454,
+        "slower": 694,
+        "prevalence": 0.47730398899587345,
+        "ambiguous_rate": 0.08528198074277854,
+        "corroborated_rate": 0.4436038514442916,
+        "median_abs_delta": 0.6355555555555555
+      }
+    },
+    "single_class_groups": {
+      "base_mut": {
+        "all_faster": 0,
+        "all_slower": 0,
+        "groups": 43
+      },
+      "mut_mut": {
+        "all_faster": 0,
+        "all_slower": 0,
+        "groups": 43
+      }
+    }
+  },
+  "effect_size": {
+    "magnitude_bands": {
+      "negligible": {
+        "base_mut": 77,
+        "mut_mut": 154,
+        "pooled": 231
+      },
+      "small": {
+        "base_mut": 77,
+        "mut_mut": 160,
+        "pooled": 237
+      },
+      "medium": {
+        "base_mut": 30,
+        "mut_mut": 108,
+        "pooled": 138
+      },
+      "large": {
+        "base_mut": 148,
+        "mut_mut": 700,
+        "pooled": 848
+      }
+    },
+    "ci": {
+      "base_mut": {
+        "ci_width_median": 0.7688888888888888,
+        "ci_width_p90": 0.8622222222222221,
+        "ci_excludes_zero": 0.49096385542168675,
+        "ci_clears_cutoff": 0.25
+      },
+      "mut_mut": {
+        "ci_width_median": 0.5466666666666666,
+        "ci_width_p90": 0.8533333333333333,
+        "ci_excludes_zero": 0.6577540106951871,
+        "ci_clears_cutoff": 0.3939393939393939
+      },
+      "pooled": {
+        "ci_width_median": 0.6489444444444443,
+        "ci_width_p90": 0.8534444444444443,
+        "ci_excludes_zero": 0.6196698762035764,
+        "ci_clears_cutoff": 0.3610729023383769
+      }
+    }
+  },
+  "timing": {
+    "role_median_us": {
+      "min": 299.0,
+      "median": 1362.0,
+      "max": 9095.5
+    },
+    "median_iqr_ratio": 0.022874406560207165,
+    "median_range_ratio": 0.09399043460178831,
+    "right_skewed_share": 0.4746666666666667,
+    "shapiro_reject_share": 0.48533333333333334,
+    "max_execution_over_role_median": 1.6361763494025545
+  },
+  "features": {
+    "static_features": [
+      "treeNonConstWidgetCount",
+      "treeMaxWidgetNestingDepth",
+      "treeListRenderingStrategy",
+      "rootBuildReturnsConstWidget",
+      "treeConstWidgetCount",
+      "helperReferenceCount",
+      "usesLayoutDependentBuilder",
+      "treeCyclomaticComplexity",
+      "treeIterationCount",
+      "treeMaxIterationNestingDepth",
+      "iterationWidgetCount",
+      "valueObjectAllocCount",
+      "helperWidgetCount",
+      "helperMaxWidgetNestingDepth"
+    ],
+    "model_features": [
+      "treeNonConstWidgetCount",
+      "treeMaxWidgetNestingDepth",
+      "treeListRenderingStrategy",
+      "rootBuildReturnsConstWidget",
+      "treeConstWidgetCount",
+      "helperReferenceCount",
+      "usesLayoutDependentBuilder",
+      "treeCyclomaticComplexity",
+      "treeIterationCount",
+      "iterationWidgetCount",
+      "valueObjectAllocCount",
+      "helperWidgetCount"
+    ],
+    "descriptives": {
+      "treeNonConstWidgetCount": {
+        "in_model": true,
+        "zero_share": 0.1451169188445667,
+        "distinct": 77,
+        "mean": 0.9222833562585969,
+        "std": 12.055110261913011,
+        "min": -71.0,
+        "p05": -11.0,
+        "p95": 14.0,
+        "max": 71.0
+      },
+      "treeMaxWidgetNestingDepth": {
+        "in_model": true,
+        "zero_share": 0.2737276478679505,
+        "distinct": 33,
+        "mean": -0.04676753782668501,
+        "std": 3.3793042250909693,
+        "min": -19.0,
+        "p05": -6.0,
+        "p95": 5.0,
+        "max": 19.0
+      },
+      "treeCyclomaticComplexity": {
+        "in_model": true,
+        "zero_share": 0.5440165061898212,
+        "distinct": 30,
+        "mean": 0.3177441540577717,
+        "std": 2.8280867149344604,
+        "min": -18.0,
+        "p05": -3.0,
+        "p95": 4.0,
+        "max": 20.0
+      },
+      "valueObjectAllocCount": {
+        "in_model": true,
+        "zero_share": 0.6581843191196699,
+        "distinct": 41,
+        "mean": 0.09147180192572214,
+        "std": 6.257539664271171,
+        "min": -68.0,
+        "p05": -4.0,
+        "p95": 5.0,
+        "max": 76.0
+      },
+      "helperReferenceCount": {
+        "in_model": true,
+        "zero_share": 0.6588720770288858,
+        "distinct": 20,
+        "mean": 0.3115543328748281,
+        "std": 2.3630945869736077,
+        "min": -12.0,
+        "p05": -2.0,
+        "p95": 5.0,
+        "max": 12.0
+      },
+      "helperWidgetCount": {
+        "in_model": true,
+        "zero_share": 0.6801925722145805,
+        "distinct": 54,
+        "mean": -0.9546079779917469,
+        "std": 12.317798159491328,
+        "min": -81.0,
+        "p05": -7.0,
+        "p95": 5.0,
+        "max": 93.0
+      },
+      "treeConstWidgetCount": {
+        "in_model": true,
+        "zero_share": 0.686382393397524,
+        "distinct": 15,
+        "mean": 0.07290233837689133,
+        "std": 1.3591909743306971,
+        "min": -7.0,
+        "p05": -2.0,
+        "p95": 2.0,
+        "max": 11.0
+      },
+      "helperMaxWidgetNestingDepth": {
+        "in_model": false,
+        "zero_share": 0.7372764786795049,
+        "distinct": 26,
+        "mean": -0.2909215955983494,
+        "std": 2.864446147328342,
+        "min": -16.0,
+        "p05": -4.0,
+        "p95": 3.0,
+        "max": 16.0
+      },
+      "usesLayoutDependentBuilder": {
+        "in_model": true,
+        "zero_share": 0.7771664374140302,
+        "distinct": 2,
+        "mean": 0.22283356258596973,
+        "std": 0.4162907073296825,
+        "min": 0.0,
+        "p05": 0.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "iterationWidgetCount": {
+        "in_model": true,
+        "zero_share": 0.781292984869326,
+        "distinct": 36,
+        "mean": 0.027510316368638238,
+        "std": 5.440973986943594,
+        "min": -62.0,
+        "p05": -3.0,
+        "p95": 2.0,
+        "max": 62.0
+      },
+      "treeIterationCount": {
+        "in_model": true,
+        "zero_share": 0.8067400275103164,
+        "distinct": 8,
+        "mean": 0.009628610729023384,
+        "std": 0.5588955283383062,
+        "min": -4.0,
+        "p05": -1.0,
+        "p95": 1.0,
+        "max": 3.0
+      },
+      "treeMaxIterationNestingDepth": {
+        "in_model": false,
+        "zero_share": 0.8349381017881705,
+        "distinct": 3,
+        "mean": 0.0068775790921595595,
+        "std": 0.40635965021073794,
+        "min": -1.0,
+        "p05": -1.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "treeListRenderingStrategy": {
+        "in_model": true,
+        "zero_share": 0.8576341127922971,
+        "distinct": 5,
+        "mean": 0.02544704264099037,
+        "std": 0.7223015421834051,
+        "min": -2.0,
+        "p05": -2.0,
+        "p95": 2.0,
+        "max": 2.0
+      },
+      "rootBuildReturnsConstWidget": {
+        "in_model": true,
+        "zero_share": 0.9834938101788171,
+        "distinct": 3,
+        "mean": -0.008253094910591471,
+        "std": 0.12825517316377963,
+        "min": -1.0,
+        "p05": 0.0,
+        "p95": 0.0,
+        "max": 1.0
+      }
+    },
+    "zero_variance": [],
+    "one_sided_in_mut_mut": [
+      "usesLayoutDependentBuilder"
+    ],
+    "one_sided_in_base_mut": [
+      "usesLayoutDependentBuilder",
+      "rootBuildReturnsConstWidget"
+    ],
+    "directive_concentration": {
+      "rootBuildReturnsConstWidget": {
+        "moved_in": 3,
+        "top_mutation": "mutation_2",
+        "top_share": 1.0,
+        "distinct_mutations": 1
+      },
+      "usesLayoutDependentBuilder": {
+        "moved_in": 42,
+        "top_mutation": "mutation_8",
+        "top_share": 1.0,
+        "distinct_mutations": 1
+      },
+      "treeIterationCount": {
+        "moved_in": 38,
+        "top_mutation": "mutation_4",
+        "top_share": 0.7894736842105263,
+        "distinct_mutations": 6
+      },
+      "treeMaxIterationNestingDepth": {
+        "moved_in": 33,
+        "top_mutation": "mutation_4",
+        "top_share": 0.7878787878787878,
+        "distinct_mutations": 6
+      },
+      "treeListRenderingStrategy": {
+        "moved_in": 28,
+        "top_mutation": "mutation_4",
+        "top_share": 0.7142857142857143,
+        "distinct_mutations": 5
+      },
+      "treeCyclomaticComplexity": {
+        "moved_in": 98,
+        "top_mutation": "mutation_5",
+        "top_share": 0.40816326530612246,
+        "distinct_mutations": 7
+      },
+      "valueObjectAllocCount": {
+        "moved_in": 70,
+        "top_mutation": "mutation_3",
+        "top_share": 0.4,
+        "distinct_mutations": 6
+      },
+      "treeConstWidgetCount": {
+        "moved_in": 64,
+        "top_mutation": "mutation_2",
+        "top_share": 0.3125,
+        "distinct_mutations": 7
+      },
+      "helperMaxWidgetNestingDepth": {
+        "moved_in": 58,
+        "top_mutation": "mutation_6",
+        "top_share": 0.3103448275862069,
+        "distinct_mutations": 6
+      },
+      "helperReferenceCount": {
+        "moved_in": 75,
+        "top_mutation": "mutation_6",
+        "top_share": 0.26666666666666666,
+        "distinct_mutations": 8
+      },
+      "iterationWidgetCount": {
+        "moved_in": 47,
+        "top_mutation": "mutation_4",
+        "top_share": 0.2553191489361702,
+        "distinct_mutations": 7
+      },
+      "helperWidgetCount": {
+        "moved_in": 74,
+        "top_mutation": "mutation_6",
+        "top_share": 0.24324324324324326,
+        "distinct_mutations": 7
+      },
+      "treeMaxWidgetNestingDepth": {
+        "moved_in": 196,
+        "top_mutation": "mutation_8",
+        "top_share": 0.21428571428571427,
+        "distinct_mutations": 8
+      },
+      "treeNonConstWidgetCount": {
+        "moved_in": 247,
+        "top_mutation": "mutation_8",
+        "top_share": 0.17408906882591094,
+        "distinct_mutations": 8
+      }
+    },
+    "single_directive_features": [
+      "rootBuildReturnsConstWidget",
+      "usesLayoutDependentBuilder"
+    ],
+    "redundant_pairs": [
+      {
+        "feature_a": "helperWidgetCount",
+        "feature_b": "helperMaxWidgetNestingDepth",
+        "rho": 0.9115719279911025
+      },
+      {
+        "feature_a": "treeIterationCount",
+        "feature_b": "treeMaxIterationNestingDepth",
+        "rho": 0.8957830988748167
+      }
+    ],
+    "max_rho_among_model_features": 0.7038403655749064,
+    "vif": {
+      "treeNonConstWidgetCount": 9.374330612869107,
+      "helperWidgetCount": 6.771444951728739,
+      "treeMaxWidgetNestingDepth": 2.7667859128945085,
+      "valueObjectAllocCount": 2.6582987200285,
+      "treeCyclomaticComplexity": 1.5880790877817905,
+      "treeIterationCount": 1.4898306900309897,
+      "treeListRenderingStrategy": 1.4717929648485097,
+      "iterationWidgetCount": 1.3657828416653854,
+      "rootBuildReturnsConstWidget": 1.2440334595062998,
+      "helperReferenceCount": 1.1136194985219119,
+      "treeConstWidgetCount": 1.1059873392698014,
+      "usesLayoutDependentBuilder": 1.0902367966907898
+    }
+  },
+  "directive_confound": {
+    "slower_rate_by_directive": {
+      "mutation_1": {
+        "contrasts": 42,
+        "slower": 23,
+        "slower_rate": 0.5476190476190477,
+        "groups": 42
+      },
+      "mutation_2": {
+        "contrasts": 39,
+        "slower": 2,
+        "slower_rate": 0.05128205128205128,
+        "groups": 39
+      },
+      "mutation_3": {
+        "contrasts": 43,
+        "slower": 15,
+        "slower_rate": 0.3488372093023256,
+        "groups": 43
+      },
+      "mutation_4": {
+        "contrasts": 42,
+        "slower": 12,
+        "slower_rate": 0.2857142857142857,
+        "groups": 42
+      },
+      "mutation_5": {
+        "contrasts": 41,
+        "slower": 5,
+        "slower_rate": 0.12195121951219512,
+        "groups": 41
+      },
+      "mutation_6": {
+        "contrasts": 39,
+        "slower": 5,
+        "slower_rate": 0.1282051282051282,
+        "groups": 39
+      },
+      "mutation_7": {
+        "contrasts": 43,
+        "slower": 37,
+        "slower_rate": 0.8604651162790697,
+        "groups": 43
+      },
+      "mutation_8": {
+        "contrasts": 43,
+        "slower": 40,
+        "slower_rate": 0.9302325581395349,
+        "groups": 43
+      }
+    },
+    "directive_label_nmi": 0.1693987111942083,
+    "orientation_asymmetry": {
+      "usesLayoutDependentBuilder": {
+        "moved_in": 42,
+        "min": 0.0,
+        "max": 1.0,
+        "one_signed": true,
+        "directives": "mutation_8",
+        "slower_rate_when_moved": 0.9285714285714286
+      },
+      "treeMaxWidgetNestingDepth": {
+        "moved_in": 196,
+        "min": -6.0,
+        "max": 19.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7, mutation_8",
+        "slower_rate_when_moved": 0.47959183673469385
+      },
+      "treeNonConstWidgetCount": {
+        "moved_in": 247,
+        "min": -17.0,
+        "max": 71.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7, mutation_8",
+        "slower_rate_when_moved": 0.4777327935222672
+      },
+      "treeMaxIterationNestingDepth": {
+        "moved_in": 33,
+        "min": -1.0,
+        "max": 1.0,
+        "one_signed": false,
+        "directives": "mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.45454545454545453
+      },
+      "treeIterationCount": {
+        "moved_in": 38,
+        "min": -1.0,
+        "max": 3.0,
+        "one_signed": false,
+        "directives": "mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.42105263157894735
+      },
+      "helperReferenceCount": {
+        "moved_in": 75,
+        "min": -5.0,
+        "max": 12.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7, mutation_8",
+        "slower_rate_when_moved": 0.4
+      },
+      "treeListRenderingStrategy": {
+        "moved_in": 28,
+        "min": -2.0,
+        "max": 2.0,
+        "one_signed": false,
+        "directives": "mutation_2, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.39285714285714285
+      },
+      "iterationWidgetCount": {
+        "moved_in": 47,
+        "min": -25.0,
+        "max": 62.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.3829787234042553
+      },
+      "valueObjectAllocCount": {
+        "moved_in": 70,
+        "min": -52.0,
+        "max": 24.0,
+        "one_signed": false,
+        "directives": "mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.35714285714285715
+      },
+      "helperWidgetCount": {
+        "moved_in": 74,
+        "min": -69.0,
+        "max": 29.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.32432432432432434
+      },
+      "treeConstWidgetCount": {
+        "moved_in": 64,
+        "min": -7.0,
+        "max": 6.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.3125
+      },
+      "helperMaxWidgetNestingDepth": {
+        "moved_in": 58,
+        "min": -16.0,
+        "max": 7.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.27586206896551724
+      },
+      "treeCyclomaticComplexity": {
+        "moved_in": 98,
+        "min": -11.0,
+        "max": 18.0,
+        "one_signed": false,
+        "directives": "mutation_1, mutation_2, mutation_3, mutation_4, mutation_5, mutation_6, mutation_7",
+        "slower_rate_when_moved": 0.25510204081632654
+      },
+      "rootBuildReturnsConstWidget": {
+        "moved_in": 3,
+        "min": 0.0,
+        "max": 1.0,
+        "one_signed": true,
+        "directives": "mutation_2",
+        "slower_rate_when_moved": 0.0
+      }
+    },
+    "note": "Directive identity is a strong predictor of the label on this corpus. Stage 03 must therefore report a directive-identity baseline and a leave-one-directive-out evaluation; a model that does not beat the first, or collapses under the second, has learned the generator's schedule rather than a structure-cost relationship."
+  },
+  "feature_resolution": {
+    "attainable_ceiling": {
+      "base_mut": {
+        "rows": 332,
+        "distinct_feature_vectors": 225,
+        "rows_sharing_a_vector": 107,
+        "vectors_with_conflicting_labels": 13,
+        "rows_in_conflicted_vectors": 94,
+        "majority_baseline_accuracy": 0.5813253012048193,
+        "attainable_accuracy_ceiling": 0.9487951807228916
+      },
+      "mut_mut": {
+        "rows": 1122,
+        "distinct_feature_vectors": 1020,
+        "rows_sharing_a_vector": 102,
+        "vectors_with_conflicting_labels": 14,
+        "rows_in_conflicted_vectors": 54,
+        "majority_baseline_accuracy": 0.5053475935828877,
+        "attainable_accuracy_ceiling": 0.9875222816399287
+      },
+      "pooled": {
+        "rows": 1454,
+        "distinct_feature_vectors": 1176,
+        "rows_sharing_a_vector": 278,
+        "vectors_with_conflicting_labels": 32,
+        "rows_in_conflicted_vectors": 168,
+        "majority_baseline_accuracy": 0.5226960110041265,
+        "attainable_accuracy_ceiling": 0.9731774415405777
+      }
+    },
+    "structurally_invisible_edits": {
+      "base_mut_rows": 20,
+      "share_of_base_mut": 0.060240963855421686,
+      "slower_rate": 0.05,
+      "corpus_prevalence": 0.4186746987951807,
+      "directives": [
+        "mutation_2",
+        "mutation_3",
+        "mutation_4",
+        "mutation_6"
+      ]
+    }
+  },
+  "univariate_screen": {
+    "base_mut": {
+      "usesLayoutDependentBuilder": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.632515749058784,
+        "p": 8.364103012053586e-13,
+        "q_bh": 1.0036923614464303e-11,
+        "separation": 0.13251574905878405
+      },
+      "treeNonConstWidgetCount": {
+        "median_slower": 1.0,
+        "median_stable": 0.0,
+        "auc": 0.6258806426361502,
+        "p": 7.276037339229445e-05,
+        "q_bh": 0.0002910414935691778,
+        "separation": 0.12588064263615018
+      },
+      "helperWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5934506280985574,
+        "p": 6.666600863782462e-05,
+        "q_bh": 0.0002910414935691778,
+        "separation": 0.09345062809855742
+      },
+      "treeConstWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.4252805009878108,
+        "p": 0.0007368657076146109,
+        "q_bh": 0.0022105971228438327,
+        "separation": 0.07471949901218922
+      },
+      "treeMaxWidgetNestingDepth": {
+        "median_slower": 1.0,
+        "median_stable": 0.0,
+        "auc": 0.5626048384090655,
+        "p": 0.041517399193944794,
+        "q_bh": 0.08303479838788959,
+        "separation": 0.0626048384090655
+      },
+      "valueObjectAllocCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5563238528348305,
+        "p": 0.014081461078931632,
+        "q_bh": 0.03379550658943592,
+        "separation": 0.056323852834830546
+      },
+      "treeCyclomaticComplexity": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.45320013419316363,
+        "p": 0.07091973320564576,
+        "q_bh": 0.09455964427419435,
+        "separation": 0.04679986580683637
+      },
+      "helperReferenceCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5437246058075819,
+        "p": 0.06341621012348934,
+        "q_bh": 0.09455964427419435,
+        "separation": 0.04372460580758186
+      },
+      "iterationWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5361016885973087,
+        "p": 0.0641637800314999,
+        "q_bh": 0.09455964427419435,
+        "separation": 0.03610168859730867
+      },
+      "treeListRenderingStrategy": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5160472658142916,
+        "p": 0.30083836280002185,
+        "q_bh": 0.3281873048727511,
+        "separation": 0.01604726581429161
+      },
+      "treeIterationCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5159540761173445,
+        "p": 0.3695590250157378,
+        "q_bh": 0.36955902501573784,
+        "separation": 0.01595407611734445
+      },
+      "rootBuildReturnsConstWidget": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.49222797927461137,
+        "p": 0.14133689820643183,
+        "q_bh": 0.1696042778477182,
+        "separation": 0.007772020725388629
+      }
+    },
+    "mut_mut": {
+      "usesLayoutDependentBuilder": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.6595690929024263,
+        "p": 7.477597636524389e-35,
+        "q_bh": 8.973117163829266e-34,
+        "separation": 0.15956909290242627
+      },
+      "helperWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.6372976150753928,
+        "p": 7.879765053889681e-21,
+        "q_bh": 4.7278590323338085e-20,
+        "separation": 0.13729761507539284
+      },
+      "treeNonConstWidgetCount": {
+        "median_slower": 1.0,
+        "median_stable": -1.0,
+        "auc": 0.6143572143572144,
+        "p": 2.9675674410522175e-11,
+        "q_bh": 7.122161858525322e-11,
+        "separation": 0.11435721435721435
+      },
+      "treeConstWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.38597963042407485,
+        "p": 7.425632110768627e-15,
+        "q_bh": 2.970252844307451e-14,
+        "separation": 0.11402036957592515
+      },
+      "helperReferenceCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.6129383351605574,
+        "p": 4.8896459173100044e-14,
+        "q_bh": 1.4668937751930013e-13,
+        "separation": 0.1129383351605574
+      },
+      "valueObjectAllocCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5809063031285253,
+        "p": 7.657826584648674e-08,
+        "q_bh": 1.5315653169297348e-07,
+        "separation": 0.08090630312852531
+      },
+      "treeCyclomaticComplexity": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.43455677900122347,
+        "p": 4.98982203370072e-05,
+        "q_bh": 7.48473305055108e-05,
+        "separation": 0.06544322099877653
+      },
+      "treeMaxWidgetNestingDepth": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5579945024389469,
+        "p": 0.0006585104910629499,
+        "q_bh": 0.0008780139880839332,
+        "separation": 0.05799450243894688
+      },
+      "iterationWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5351986907542463,
+        "p": 0.006543434508477661,
+        "q_bh": 0.007852121410173194,
+        "separation": 0.03519869075424631
+      },
+      "rootBuildReturnsConstWidget": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.4812240812240812,
+        "p": 3.5194720661688662e-06,
+        "q_bh": 6.033380684860914e-06,
+        "separation": 0.018775918775918776
+      },
+      "treeIterationCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.4852519185852519,
+        "p": 0.23459670995727677,
+        "q_bh": 0.2559236835897565,
+        "separation": 0.014748081414748093
+      },
+      "treeListRenderingStrategy": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.49562419562419563,
+        "p": 0.6904234336715358,
+        "q_bh": 0.6904234336715357,
+        "separation": 0.004375804375804371
+      }
+    },
+    "pooled": {
+      "usesLayoutDependentBuilder": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.6562414682238739,
+        "p": 2.299248788045764e-46,
+        "q_bh": 2.759098545654917e-45,
+        "separation": 0.15624146822387386
+      },
+      "helperWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.6279159714849082,
+        "p": 2.151967392892029e-24,
+        "q_bh": 1.2911804357352174e-23,
+        "separation": 0.1279159714849082
+      },
+      "treeConstWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.39342768845745485,
+        "p": 1.204495493799195e-17,
+        "q_bh": 4.81798197519678e-17,
+        "separation": 0.10657231154254515
+      },
+      "treeNonConstWidgetCount": {
+        "median_slower": 1.0,
+        "median_stable": 0.0,
+        "auc": 0.6061542545123616,
+        "p": 2.1025327664071443e-12,
+        "q_bh": 5.046078639377146e-12,
+        "separation": 0.1061542545123616
+      },
+      "helperReferenceCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5981941073866222,
+        "p": 1.7563670393230553e-14,
+        "q_bh": 5.269101117969166e-14,
+        "separation": 0.09819410738662215
+      },
+      "valueObjectAllocCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5743193538601548,
+        "p": 6.680303180743366e-09,
+        "q_bh": 1.3360606361486732e-08,
+        "separation": 0.07431935386015476
+      },
+      "treeCyclomaticComplexity": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.43584957530714397,
+        "p": 3.757817231553478e-06,
+        "q_bh": 5.6367258473302175e-06,
+        "separation": 0.06415042469285603
+      },
+      "treeMaxWidgetNestingDepth": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.54896386318823,
+        "p": 0.001016551863806329,
+        "q_bh": 0.0013554024850751054,
+        "separation": 0.048963863188229984
+      },
+      "iterationWidgetCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.5337242150765964,
+        "p": 0.0020983032850250736,
+        "q_bh": 0.0025179639420300883,
+        "separation": 0.0337242150765964
+      },
+      "rootBuildReturnsConstWidget": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.48318671318064615,
+        "p": 5.04754942231641e-07,
+        "q_bh": 8.652941866828131e-07,
+        "separation": 0.016813286819353845
+      },
+      "treeIterationCount": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.48900254057333536,
+        "p": 0.2920476676331111,
+        "q_bh": 0.31859745559975755,
+        "separation": 0.010997459426664635
+      },
+      "treeListRenderingStrategy": {
+        "median_slower": 0.0,
+        "median_stable": 0.0,
+        "auc": 0.4984377369937813,
+        "p": 0.8653249955631653,
+        "q_bh": 0.8653249955631653,
+        "separation": 0.0015622630062187004
+      }
+    }
+  },
+  "preprocessing": {
+    "model_features": [
+      "treeNonConstWidgetCount",
+      "treeMaxWidgetNestingDepth",
+      "treeListRenderingStrategy",
+      "rootBuildReturnsConstWidget",
+      "treeConstWidgetCount",
+      "helperReferenceCount",
+      "usesLayoutDependentBuilder",
+      "treeCyclomaticComplexity",
+      "treeIterationCount",
+      "iterationWidgetCount",
+      "valueObjectAllocCount",
+      "helperWidgetCount"
+    ],
+    "excluded_features": [
+      "treeMaxIterationNestingDepth",
+      "helperMaxWidgetNestingDepth"
+    ],
+    "feature_columns": [
+      "d_treeNonConstWidgetCount",
+      "d_treeMaxWidgetNestingDepth",
+      "d_treeListRenderingStrategy",
+      "d_rootBuildReturnsConstWidget",
+      "d_treeConstWidgetCount",
+      "d_helperReferenceCount",
+      "d_usesLayoutDependentBuilder",
+      "d_treeCyclomaticComplexity",
+      "d_treeIterationCount",
+      "d_iterationWidgetCount",
+      "d_valueObjectAllocCount",
+      "d_helperWidgetCount"
+    ],
+    "target": "label",
+    "strata": [
+      "base_mut",
+      "mut_mut"
+    ],
+    "validation_unit": "group",
+    "imputation": "none - rows with missing values are excluded upstream, never filled",
+    "scaling": "none applied in stage 02; fit inside stage 03 folds if a learner requires it",
+    "ambiguous_rows": {
+      "policy": "flagged and kept; sensitivity-analysis exclusion set only",
+      "count": 124
+    },
+    "rows_dropped_in_stage_02": 0
+  }
+}

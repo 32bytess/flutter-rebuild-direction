@@ -1,0 +1,19 @@
+name: dart_tools
+description: >-
+  Parse-only Dart source analysis and rewriting for the Python tooling under `scripts/`.
+  Deliberately separate from benchmark_container's pubspec, for the same reason
+  `history_probe/scope_ast` is: analysing corpus source must never perturb the
+  measurement project's dependency resolution.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  analyzer: ">=13.0.0 <15.0.0"
+  args: ^2.7.0
+  crypto: ^3.0.0
+
+dev_dependencies:
+  test: ^1.31.2

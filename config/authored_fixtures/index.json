@@ -1,0 +1,1306 @@
+{
+  "_comment": "Groups whose dependencies.dart is authored (drafted with a language model and reviewed; see config/README.md) and must never be regenerated. Written by scripts/authored_fixtures.py; the Dart itself lives beside this file. Adding a group here removes it from the set the corpus derives from the mine.",
+  "_groups_provenance": "Each entry is stamped when a tool first saw the fixture disagree with new_samples/.fixture_index.json, or by --adopt. `sha256` is over the stored text.",
+  "groups": {
+    "0082": {
+      "adopted": "2026-09-09",
+      "reason": "digest left the index",
+      "roles": [],
+      "sha256": "f1ef056af494a9257c38bde9ee0323eac27af872d1ef63cf85a4e2e512e4bf67"
+    },
+    "0254": {
+      "adopted": "2026-09-09",
+      "reason": "digest left the index",
+      "roles": [],
+      "sha256": "362e8e76e5c1f04ca7a3224e79af78ce43cc63e056eff32131052b1c05cec7bb"
+    },
+    "0314": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_002_df5ca135.dart",
+        "rev_003_883908ec.dart",
+        "rev_004_52c491c2.dart",
+        "rev_005_dc1aad41.dart"
+      ],
+      "sha256": "ef63b6a771b5662ca805135860b7e26cf671588f20db969f76431fa7ac6e2a46"
+    },
+    "0331": {
+      "adopted": "2026-09-09",
+      "reason": "digest left the index",
+      "roles": [],
+      "sha256": "69825a4f9662dbf2d9df747ef95aa907ec19a60e36f9e23cbc08755fb5a92042"
+    },
+    "0334": {
+      "adopted": "2026-09-09",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_002_de871847.dart",
+        "rev_003_c8c6f4e7.dart",
+        "rev_004_2e6a34d3.dart",
+        "rev_005_54e60730.dart",
+        "rev_006_7781acc1.dart",
+        "rev_007_e854d9d7.dart"
+      ],
+      "sha256": "5df7ed44ba47ffb46e9cec274278c10685ea8580f6957277401917f2d73de0bc"
+    },
+    "0344": {
+      "adopted": "2026-09-09",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_ff230faf.dart",
+        "rev_002_76cef4b8.dart",
+        "rev_003_759046c6.dart",
+        "rev_004_ac39b5d2.dart",
+        "rev_005_18c0a1e4.dart",
+        "rev_006_972e1f89.dart"
+      ],
+      "sha256": "8846fc859e2ef7f7beb87153993e9bd51c04ffc63810e7830aee10c1570c8d9f"
+    },
+    "0348": {
+      "adopted": "2026-09-09",
+      "reason": "digest left the index",
+      "roles": [],
+      "sha256": "1313d127305cb9ad006dbef9107e5dc860329be28f9f6712ff9d5ae47175fed1"
+    },
+    "0349": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_ac39b5d2.dart",
+        "rev_002_ae402f3c.dart",
+        "rev_003_2b387dd1.dart",
+        "rev_004_ebecf1c9.dart",
+        "rev_005_972e1f89.dart",
+        "rev_006_bbaf5720.dart",
+        "rev_007_e1b4cfdb.dart",
+        "rev_008_362bb349.dart"
+      ],
+      "sha256": "3dab89a60f97c13ac0c3b694c4f18d7725bc948c61171a92a605bbd339ac5fdf"
+    },
+    "0352": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_f2c4f84f.dart",
+        "rev_002_7abfca15.dart"
+      ],
+      "sha256": "4517f707f05300c424c21209b2922f5dfdba233e53e65e6ee9108dfb2855a7e9"
+    },
+    "0358": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_f2c4f84f.dart",
+        "rev_002_7abfca15.dart",
+        "rev_003_f7c129c1.dart"
+      ],
+      "sha256": "1a8b05d1c276fa44b4eb0fd122746b9ca2b51119f995658233cb827877424856"
+    },
+    "0436": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_a227e88a.dart",
+        "rev_002_55fb8ac0.dart",
+        "rev_003_d3cbdcbd.dart",
+        "rev_003_eb8afa4c.dart",
+        "rev_004_f78abd3a.dart",
+        "rev_005_66ba6e4a.dart"
+      ],
+      "sha256": "61b2edf3ad2174790defd09b42a2a55d67803aaba8b35edba17d3fdd0af9d877"
+    },
+    "0451": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_49a902c0.dart",
+        "rev_001_869c247e.dart",
+        "rev_002_46f1fb92.dart",
+        "rev_003_58cb26b6.dart",
+        "rev_004_1cdd2926.dart",
+        "rev_004_74cf5528.dart",
+        "rev_005_1cdd2926.dart",
+        "rev_005_e175dd19.dart",
+        "rev_006_2e67182d.dart",
+        "rev_007_246cca85.dart",
+        "rev_008_dc81542d.dart",
+        "rev_009_110db3c0.dart"
+      ],
+      "sha256": "1acf7ea59d72989b7a3e9d5ec319f917cb5892dd2cae9aca5e2f5fb73d5ba711"
+    },
+    "0452": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_3f451479.dart",
+        "rev_001_869c247e.dart",
+        "rev_002_46f1fb92.dart",
+        "rev_002_ee1942f0.dart",
+        "rev_003_46f1fb92.dart",
+        "rev_003_ad5eaf6b.dart",
+        "rev_004_58cb26b6.dart",
+        "rev_004_ad5eaf6b.dart",
+        "rev_005_1cdd2926.dart",
+        "rev_005_74cf5528.dart",
+        "rev_006_1cdd2926.dart",
+        "rev_006_e175dd19.dart",
+        "rev_007_2e67182d.dart",
+        "rev_007_e175dd19.dart",
+        "rev_008_246cca85.dart",
+        "rev_008_4e96ad35.dart",
+        "rev_009_dc81542d.dart",
+        "rev_010_110db3c0.dart",
+        "rev_011_032be162.dart",
+        "rev_011_1dd8cb48.dart",
+        "rev_012_2c8ace37.dart"
+      ],
+      "sha256": "e33632d326f75e989251e480cca63179ab88ead244e0e54e9592bdecd286a14e"
+    },
+    "0455": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_48efa32a.dart",
+        "rev_001_612306c5.dart",
+        "rev_002_9ee5d23d.dart",
+        "rev_002_d8cd4b4c.dart",
+        "rev_003_21879d19.dart",
+        "rev_003_d8cd4b4c.dart",
+        "rev_004_21879d19.dart",
+        "rev_004_b1262523.dart",
+        "rev_005_8cb2e174.dart",
+        "rev_005_b1262523.dart",
+        "rev_006_8cb2e174.dart",
+        "rev_006_ee1942f0.dart"
+      ],
+      "sha256": "437393b4f12badf4c1e9763fbdd4b23056756cee63267ff6048273583f48633d"
+    },
+    "0463": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_002_23caef43.dart",
+        "rev_003_4dcb0b8f.dart"
+      ],
+      "sha256": "827a93d463560a6f59f42e17532364c2c5f563c3a5e0b095202885854d07b87f"
+    },
+    "0508": {
+      "adopted": "2026-09-09",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_14993d48.dart",
+        "rev_002_85b46635.dart",
+        "rev_003_079b3d54.dart",
+        "rev_004_be876c14.dart",
+        "rev_005_45cc0dcc.dart",
+        "rev_006_072b03e4.dart",
+        "rev_006_27b9cfde.dart",
+        "rev_006_8c311d0c.dart",
+        "rev_007_59642fcc.dart",
+        "rev_007_9ef2c7e2.dart",
+        "rev_007_b76e2e97.dart",
+        "rev_008_26246e67.dart",
+        "rev_008_b3fb464d.dart",
+        "rev_008_b8b96f64.dart",
+        "rev_009_072b03e4.dart",
+        "rev_009_22f08845.dart",
+        "rev_009_ebbdd28c.dart",
+        "rev_010_2f573776.dart",
+        "rev_010_973c0b9b.dart",
+        "rev_010_c22e936c.dart",
+        "rev_011_5c837516.dart",
+        "rev_011_e0bbc50c.dart",
+        "rev_012_e0bbc50c.dart",
+        "rev_012_f9cc2398.dart",
+        "rev_013_b79ac0a1.dart",
+        "rev_013_f9cc2398.dart",
+        "rev_014_84de200d.dart",
+        "rev_014_b79ac0a1.dart",
+        "rev_015_84de200d.dart",
+        "rev_015_9ed8fc40.dart",
+        "rev_016_9ed8fc40.dart"
+      ],
+      "sha256": "dc81aacb88fac8c445a53fbd0217ee613c1325a521c367f7f46158c553a5726e"
+    },
+    "0516": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_14993d48.dart",
+        "rev_002_45cc0dcc.dart",
+        "rev_003_072b03e4.dart",
+        "rev_003_6bb5566a.dart",
+        "rev_003_b3fb464d.dart",
+        "rev_004_22f08845.dart",
+        "rev_004_5516a4d7.dart",
+        "rev_004_e0bbc50c.dart",
+        "rev_005_22f08845.dart",
+        "rev_005_e0bbc50c.dart",
+        "rev_006_22f08845.dart",
+        "rev_006_b79ac0a1.dart",
+        "rev_007_b79ac0a1.dart"
+      ],
+      "sha256": "a131f30c816fc05ee218976c6bc37136a0667991c961950336882f31887c8000"
+    },
+    "0527": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_14993d48.dart",
+        "rev_002_45cc0dcc.dart",
+        "rev_003_076a9d9f.dart",
+        "rev_004_27f17b54.dart",
+        "rev_005_072b03e4.dart",
+        "rev_005_10a22edb.dart",
+        "rev_006_59642fcc.dart",
+        "rev_006_b76e2e97.dart",
+        "rev_007_26246e67.dart",
+        "rev_007_b3fb464d.dart",
+        "rev_007_b8b96f64.dart",
+        "rev_008_2f573776.dart",
+        "rev_008_973c0b9b.dart",
+        "rev_009_5c837516.dart",
+        "rev_009_e0bbc50c.dart",
+        "rev_010_840dd3cc.dart",
+        "rev_011_9ed8fc40.dart"
+      ],
+      "sha256": "f11a6e95125f7a92ff533d51cfb1c03b23adf9791f342d807f9d494fda04d954"
+    },
+    "0529": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_14993d48.dart",
+        "rev_002_85b46635.dart",
+        "rev_003_079b3d54.dart",
+        "rev_004_be876c14.dart",
+        "rev_005_45cc0dcc.dart",
+        "rev_006_072b03e4.dart",
+        "rev_006_ac191eff.dart",
+        "rev_006_b76e2e97.dart",
+        "rev_007_02c163b0.dart",
+        "rev_007_62acb7f6.dart",
+        "rev_007_ac191eff.dart",
+        "rev_008_5c837516.dart",
+        "rev_008_e0bbc50c.dart",
+        "rev_009_b79ac0a1.dart",
+        "rev_009_e0bbc50c.dart",
+        "rev_010_70b4bb05.dart",
+        "rev_010_9ed8fc40.dart",
+        "rev_010_b79ac0a1.dart",
+        "rev_011_22f08845.dart",
+        "rev_011_9ed8fc40.dart"
+      ],
+      "sha256": "81e0f606fa1a376b0306aecfd028f2a01ef29ceadb34db0a1a0fe800ba309a95"
+    },
+    "0531": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_14993d48.dart",
+        "rev_002_85b46635.dart",
+        "rev_003_079b3d54.dart",
+        "rev_004_be876c14.dart",
+        "rev_005_45cc0dcc.dart",
+        "rev_006_59642fcc.dart",
+        "rev_006_973c0b9b.dart",
+        "rev_006_b375385e.dart",
+        "rev_007_02c163b0.dart",
+        "rev_007_5c837516.dart",
+        "rev_007_e0bbc50c.dart",
+        "rev_008_b79ac0a1.dart",
+        "rev_008_b8b96f64.dart",
+        "rev_008_e0bbc50c.dart",
+        "rev_009_22f08845.dart",
+        "rev_009_9ed8fc40.dart",
+        "rev_009_b79ac0a1.dart",
+        "rev_010_9ed8fc40.dart"
+      ],
+      "sha256": "5ef02d1ca825ee2f9d2223d2db175e71dd79ce29f7d6a30eac99098719240623"
+    },
+    "0591": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_bba383fd.dart",
+        "rev_002_25118007.dart",
+        "rev_003_f03cf447.dart",
+        "rev_004_acc0fdf3.dart",
+        "rev_005_880d0464.dart",
+        "rev_006_24973dfe.dart",
+        "rev_007_5228a7d7.dart"
+      ],
+      "sha256": "f7e3e22c40fba2b774ff3f11ea8306748766d6f1bc3ca4ad8d3a56c04be60ce9"
+    },
+    "0609": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_8424e8c8.dart",
+        "rev_002_d06c3ad7.dart",
+        "rev_003_4155b8ba.dart",
+        "rev_004_83a32fe8.dart",
+        "rev_006_3df8edf6.dart",
+        "rev_007_39cfa6cf.dart",
+        "rev_008_25a208ad.dart",
+        "rev_009_be7c3ad2.dart",
+        "rev_010_2e69dd87.dart"
+      ],
+      "sha256": "bf5091734f0dd7dde3dd4ad9171140b7b6f4d9e5b1b6809e3f7fda7e28a3d082"
+    },
+    "0610": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_8424e8c8.dart",
+        "rev_002_39cfa6cf.dart",
+        "rev_003_25a208ad.dart",
+        "rev_004_be7c3ad2.dart",
+        "rev_005_2e69dd87.dart"
+      ],
+      "sha256": "16909f760285ec4459f421dc004ea3a63ed75ce27b010f07dfcba68403a3391f"
+    },
+    "0629": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_a8ce423c.dart",
+        "rev_002_235e757f.dart",
+        "rev_003_c4a3c797.dart",
+        "rev_004_d6878cfb.dart",
+        "rev_005_dc723d28.dart",
+        "rev_006_50bd38ec.dart",
+        "rev_007_39cfa6cf.dart",
+        "rev_008_25a208ad.dart",
+        "rev_009_be7c3ad2.dart",
+        "rev_010_2e69dd87.dart",
+        "rev_011_46c1245e.dart",
+        "rev_012_a114eeea.dart",
+        "rev_013_3331b30b.dart",
+        "rev_014_bca4e2e7.dart",
+        "rev_015_53fd8d67.dart",
+        "rev_016_73624204.dart",
+        "rev_017_9ce97293.dart",
+        "rev_018_62f7d97f.dart",
+        "rev_019_9016c75d.dart",
+        "rev_020_d912c4c5.dart",
+        "rev_021_1977e409.dart",
+        "rev_022_ef044d72.dart",
+        "rev_023_80728fdb.dart",
+        "rev_024_6aef2feb.dart"
+      ],
+      "sha256": "f8703bf718c0780b9d0bf334db414e85601157f971e124e6d5088c7d744b0ff2"
+    },
+    "0630": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_a8ce423c.dart",
+        "rev_002_459c92cc.dart",
+        "rev_003_39cfa6cf.dart",
+        "rev_004_25a208ad.dart",
+        "rev_005_be7c3ad2.dart",
+        "rev_006_2e69dd87.dart",
+        "rev_007_46c1245e.dart",
+        "rev_008_a114eeea.dart",
+        "rev_009_3331b30b.dart",
+        "rev_010_53fd8d67.dart",
+        "rev_011_73624204.dart",
+        "rev_012_9ce97293.dart",
+        "rev_013_62f7d97f.dart",
+        "rev_014_9016c75d.dart",
+        "rev_015_d912c4c5.dart",
+        "rev_016_1977e409.dart",
+        "rev_017_ef044d72.dart",
+        "rev_018_6aef2feb.dart"
+      ],
+      "sha256": "26bc9f2700107c619ba899ea716270bc49c5bfd7f619f6aeb4020aeb71139a84"
+    },
+    "0632": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_a8ce423c.dart",
+        "rev_002_39cfa6cf.dart",
+        "rev_003_25a208ad.dart",
+        "rev_004_be7c3ad2.dart",
+        "rev_005_2e69dd87.dart",
+        "rev_006_46c1245e.dart",
+        "rev_007_a114eeea.dart",
+        "rev_008_3331b30b.dart",
+        "rev_009_bca4e2e7.dart",
+        "rev_010_53fd8d67.dart",
+        "rev_011_73624204.dart",
+        "rev_012_9ce97293.dart",
+        "rev_013_62f7d97f.dart",
+        "rev_014_9016c75d.dart",
+        "rev_015_d912c4c5.dart",
+        "rev_016_7f181e7f.dart",
+        "rev_017_1977e409.dart",
+        "rev_018_035c01dd.dart",
+        "rev_019_ef044d72.dart",
+        "rev_020_6aef2feb.dart"
+      ],
+      "sha256": "cd89a06f52755e6ab99aa2d262550dc48964e614b236d9d0727d7a87f98ad2fc"
+    },
+    "0650": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_5fc03278.dart",
+        "rev_002_86fdaf92.dart",
+        "rev_003_ece66b0a.dart",
+        "rev_004_83a32fe8.dart"
+      ],
+      "sha256": "8252735cc8e9dc4ef7bb7049f574ceb17b76a42774f335e063c1a03bab8ed8d3"
+    },
+    "0653": {
+      "adopted": "2026-09-11",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_75729f42.dart",
+        "rev_002_83a32fe8.dart",
+        "rev_003_dd3b3254.dart",
+        "rev_004_39cfa6cf.dart",
+        "rev_005_25a208ad.dart",
+        "rev_006_be7c3ad2.dart",
+        "rev_007_2e69dd87.dart",
+        "rev_008_46c1245e.dart",
+        "rev_009_a114eeea.dart",
+        "rev_010_3331b30b.dart",
+        "rev_011_bca4e2e7.dart",
+        "rev_012_53fd8d67.dart",
+        "rev_013_d0b74186.dart",
+        "rev_014_73624204.dart",
+        "rev_015_9ce97293.dart",
+        "rev_016_62f7d97f.dart",
+        "rev_017_9016c75d.dart",
+        "rev_018_d912c4c5.dart",
+        "rev_019_1977e409.dart",
+        "rev_020_ef044d72.dart",
+        "rev_021_6aef2feb.dart"
+      ],
+      "sha256": "a7371939b770b7080fa0302c4020321f566ea4d13a6993bc4e37cc4b55bd1cae"
+    },
+    "0660": {
+      "adopted": "2026-09-11",
+      "reason": "digest left the index",
+      "roles": [
+        "rev_001_cd9d5dc1.dart",
+        "rev_002_dc723d28.dart",
+        "rev_003_50bd38ec.dart",
+        "rev_004_39cfa6cf.dart",
+        "rev_005_25a208ad.dart",
+        "rev_006_be7c3ad2.dart",
+        "rev_007_2e69dd87.dart",
+        "rev_008_46c1245e.dart",
+        "rev_009_a114eeea.dart",
+        "rev_010_3331b30b.dart",
+        "rev_011_242474cf.dart",
+        "rev_012_53fd8d67.dart"
+      ],
+      "sha256": "1ce8a83e9bb2b80a75d782b8d12377f83b59e1a725f9c65202e2db9dab4202e3"
+    },
+    "0690": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_2378cf35.dart",
+        "rev_002_3df8edf6.dart",
+        "rev_003_39cfa6cf.dart",
+        "rev_004_25a208ad.dart",
+        "rev_005_be7c3ad2.dart",
+        "rev_006_2e69dd87.dart",
+        "rev_007_46c1245e.dart"
+      ],
+      "sha256": "ab8c8b60d5d5fb8867469cd9d910f26cdc7094441f22765d11b7212579d613db"
+    },
+    "0719": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_c9556161.dart",
+        "rev_002_a87eb48e.dart"
+      ],
+      "sha256": "e15d30b24dc8cd430c137fea9440dfe8000d5ca9bd8f72e04639405c0193f1b2"
+    },
+    "0752": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_62f7d97f.dart",
+        "rev_002_9016c75d.dart",
+        "rev_003_d912c4c5.dart",
+        "rev_004_1977e409.dart",
+        "rev_005_18e4796c.dart",
+        "rev_006_ef044d72.dart",
+        "rev_007_6aef2feb.dart"
+      ],
+      "sha256": "38b0751a7644fd70fbad32815c25b87a91720d56766ca7df4d52478bdf2c8902"
+    },
+    "0753": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_62f7d97f.dart",
+        "rev_002_9016c75d.dart",
+        "rev_003_d912c4c5.dart",
+        "rev_004_1977e409.dart",
+        "rev_005_ef044d72.dart",
+        "rev_006_6aef2feb.dart"
+      ],
+      "sha256": "6fc1e746d2572d764bb1ab39ec96bc14663d93bf47ecf71ec5933d3b5ca17694"
+    },
+    "0837": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_b1973107.dart",
+        "rev_002_7b810338.dart"
+      ],
+      "sha256": "6aaf0f8c6fe93b0c70c58e523034f56bf88ce7c627d00d5cd7073b4539de469d"
+    },
+    "0853": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_36f9332f.dart",
+        "rev_002_fb35943d.dart",
+        "rev_003_be7a2bcf.dart",
+        "rev_004_1521fd0f.dart",
+        "rev_005_8d85b80b.dart",
+        "rev_006_e2154669.dart",
+        "rev_007_b6d80d74.dart",
+        "rev_008_f1e5e3ec.dart",
+        "rev_009_bb941f19.dart",
+        "rev_010_f11b112f.dart",
+        "rev_011_5378d020.dart",
+        "rev_012_bbfcec67.dart",
+        "rev_013_fa0441a0.dart",
+        "rev_014_4bac98e5.dart",
+        "rev_015_63aca1f3.dart"
+      ],
+      "sha256": "3eb0c471bd281185ccefa976aced08b0b8be85c575d371bbb37f86da5d25e7c7"
+    },
+    "0854": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_36f9332f.dart",
+        "rev_002_fb35943d.dart",
+        "rev_003_be7a2bcf.dart",
+        "rev_004_feb1342a.dart",
+        "rev_005_1521fd0f.dart",
+        "rev_006_8d85b80b.dart",
+        "rev_007_e2154669.dart",
+        "rev_008_b6d80d74.dart",
+        "rev_009_bb941f19.dart",
+        "rev_010_f11b112f.dart",
+        "rev_011_5378d020.dart",
+        "rev_012_bbfcec67.dart",
+        "rev_013_fa0441a0.dart",
+        "rev_014_4bac98e5.dart",
+        "rev_015_c777ccbb.dart"
+      ],
+      "sha256": "4e6e8d5f9060192b8f4c7330a90534fa2f0137c3649de86374fe5414a9a32750"
+    },
+    "0862": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_be7a2bcf.dart",
+        "rev_002_1521fd0f.dart",
+        "rev_003_8d85b80b.dart",
+        "rev_004_e2154669.dart",
+        "rev_005_b6d80d74.dart",
+        "rev_006_f1e5e3ec.dart",
+        "rev_007_bb941f19.dart",
+        "rev_008_f11b112f.dart",
+        "rev_009_5378d020.dart",
+        "rev_010_bbfcec67.dart",
+        "rev_011_461470a5.dart",
+        "rev_012_035256ac.dart",
+        "rev_013_fa0441a0.dart"
+      ],
+      "sha256": "405513aa428fc2e217175027844d1496f4b09da1b2766fed7b0152bca511e864"
+    },
+    "0869": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_b6d80d74.dart",
+        "rev_002_a1135522.dart",
+        "rev_003_f11b112f.dart",
+        "rev_004_5378d020.dart",
+        "rev_005_c9617b5f.dart",
+        "rev_006_2b23fd78.dart"
+      ],
+      "sha256": "1399781dfe0df60fd04f39b5e30e642f0a279b1f3ca245e062945cccafd92ce1"
+    },
+    "0980": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_c76eedf6.dart",
+        "rev_002_d13e5214.dart",
+        "rev_003_60becf94.dart",
+        "rev_004_3f02dfc9.dart",
+        "rev_005_d624f92d.dart",
+        "rev_006_63aca1f3.dart",
+        "rev_007_93ebb1de.dart"
+      ],
+      "sha256": "75f6dae70ebcee2036003a2a5835157ebd1ea4f6f2876646b5527a3b3c523ec4"
+    },
+    "1232": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_093ba8cd.dart",
+        "rev_002_a6cfecbe.dart"
+      ],
+      "sha256": "15812dd8ea40d3d9836ed4e0239b02f6103744754e4937c30397eac1fa6d120c"
+    },
+    "1385": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_c3200d3f.dart",
+        "rev_002_58c78aed.dart",
+        "rev_003_986aaa79.dart",
+        "rev_004_b86f512b.dart",
+        "rev_005_659ae7ce.dart",
+        "rev_006_37c0a28a.dart"
+      ],
+      "sha256": "91d807161cc448cccadf66a2796bf4181be87e1b3bb71904532b16a41f5a458b"
+    },
+    "1414": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_c2b16d6a.dart",
+        "rev_002_4f5d4e90.dart",
+        "rev_003_cdbc2f11.dart",
+        "rev_004_43b5d4fb.dart"
+      ],
+      "sha256": "114794ed40d048b2100b8a38bc074d71e906d7591c4054c2d2762b8d9769c226"
+    },
+    "1417": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_6f32e1ff.dart",
+        "rev_002_1c523d92.dart",
+        "rev_003_7c7d6be9.dart"
+      ],
+      "sha256": "3bb327b486e90842278ab6246e522943e0720ee3a6c242d5cfa7c886e9e91eaa"
+    },
+    "1468": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_3987ebfd.dart",
+        "rev_002_bf09593e.dart",
+        "rev_003_ebc1b1ef.dart",
+        "rev_004_577728ef.dart",
+        "rev_005_a19da07a.dart",
+        "rev_006_4ac4f1f8.dart",
+        "rev_007_00599d7b.dart",
+        "rev_008_565ddb09.dart",
+        "rev_009_7102d193.dart",
+        "rev_010_7c762ce2.dart",
+        "rev_011_37a3d575.dart",
+        "rev_012_23558b0a.dart"
+      ],
+      "sha256": "a8479635ad12429779fbd816bbb25c457c31ee34951806e94797accc34290e66"
+    },
+    "1746": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_4b266f02.dart",
+        "rev_002_25fe59ad.dart",
+        "rev_003_edf7e14c.dart",
+        "rev_004_3edaf7e4.dart",
+        "rev_005_e25d0e4a.dart",
+        "rev_006_4bacfd67.dart",
+        "rev_007_a91168b8.dart",
+        "rev_008_49468227.dart",
+        "rev_009_c181795b.dart",
+        "rev_010_83a35e60.dart",
+        "rev_011_8fba24d1.dart",
+        "rev_012_f2417a46.dart",
+        "rev_013_16aea585.dart",
+        "rev_014_5e2a5ed9.dart",
+        "rev_015_cc0214e9.dart",
+        "rev_016_7ea3b10c.dart",
+        "rev_017_31b3a2df.dart",
+        "rev_018_3edc4ba2.dart",
+        "rev_019_09c8e850.dart",
+        "rev_020_bdc15831.dart",
+        "rev_021_286bc4ce.dart",
+        "rev_022_db517744.dart",
+        "rev_023_13310e2d.dart",
+        "rev_024_981e95e3.dart",
+        "rev_025_4be8face.dart",
+        "rev_026_c882821e.dart",
+        "rev_027_8f23cfab.dart",
+        "rev_028_30a415f6.dart",
+        "rev_029_2c872db6.dart",
+        "rev_030_5ed8d758.dart",
+        "rev_031_f6fa1627.dart",
+        "rev_032_43e1ccd6.dart",
+        "rev_033_7ddeae1e.dart",
+        "rev_034_68a3460d.dart",
+        "rev_035_ec2bbf7f.dart",
+        "rev_036_f66042f6.dart",
+        "rev_037_9996dd97.dart",
+        "rev_038_bf1b9368.dart",
+        "rev_039_884121eb.dart",
+        "rev_040_f1f7006a.dart",
+        "rev_041_704dc119.dart",
+        "rev_042_e0bac40e.dart",
+        "rev_043_f726679b.dart",
+        "rev_044_846a0920.dart",
+        "rev_045_035760ff.dart",
+        "rev_046_d77c5890.dart",
+        "rev_047_828be365.dart",
+        "rev_048_afacca5b.dart",
+        "rev_049_24e70512.dart",
+        "rev_050_3f2e3e11.dart",
+        "rev_051_c4a8d4c5.dart",
+        "rev_052_c297163d.dart",
+        "rev_053_f54e3459.dart",
+        "rev_054_00791ca2.dart",
+        "rev_055_bbeb10bc.dart",
+        "rev_056_c77d8278.dart",
+        "rev_057_1420a994.dart",
+        "rev_058_cad98d72.dart",
+        "rev_059_5279db53.dart",
+        "rev_060_67ecd4a4.dart"
+      ],
+      "sha256": "2eeaabea9c136423ab4d07f4a3d29764f22127a89958cd234162c26e7d6708bc"
+    },
+    "1927": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_cc4c8bf4.dart",
+        "rev_002_a0304d99.dart",
+        "rev_003_9e516567.dart",
+        "rev_004_84d9d336.dart"
+      ],
+      "sha256": "b53802a21f84d85e3b0f403da66534dec96373100c6b67c10f847d350d7e10c7"
+    },
+    "2039": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_6473d9a5.dart",
+        "rev_002_66007233.dart",
+        "rev_003_ac7a9c17.dart",
+        "rev_004_a0b447fb.dart",
+        "rev_005_225cd9c1.dart",
+        "rev_006_530b89eb.dart",
+        "rev_007_1acfd5a2.dart"
+      ],
+      "sha256": "0991a213cbdc45a3602b3a54ed1d862048438a74a7bf3e6b7a3abdc2eb1ce831"
+    },
+    "2052": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_20915456.dart",
+        "rev_002_d14beacb.dart",
+        "rev_003_30bccb54.dart",
+        "rev_004_cd0f23df.dart",
+        "rev_005_facfde4c.dart",
+        "rev_006_0cae75e6.dart",
+        "rev_007_b1b6a799.dart",
+        "rev_008_7b5d8537.dart",
+        "rev_009_c15b7e20.dart",
+        "rev_010_c540458a.dart"
+      ],
+      "sha256": "71bbf9e046f2c090989841df2b5231b0e3a3dd13004b32123795f37dfa03108f"
+    },
+    "2283": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_ef02929a.dart",
+        "rev_002_5e5cc0aa.dart",
+        "rev_003_2ea58bf3.dart"
+      ],
+      "sha256": "10a0f688c3aac6b39e69c86bd96e3f82a9f72ba7ca327790cdce1373b40fa77f"
+    },
+    "2352": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_47400063.dart",
+        "rev_002_825698fa.dart",
+        "rev_003_ce76b192.dart",
+        "rev_004_886b9b59.dart",
+        "rev_005_ad140f38.dart",
+        "rev_006_411d2fe6.dart",
+        "rev_007_fa7d824f.dart",
+        "rev_008_0d57677a.dart",
+        "rev_009_7d47afbf.dart",
+        "rev_010_e2b0e0cd.dart",
+        "rev_011_464290cc.dart",
+        "rev_012_c4286e6c.dart",
+        "rev_013_e03b4b63.dart"
+      ],
+      "sha256": "bf4a2e69cd6e215b831424365f57822585d0ee9245509c0bfdac8a0c3ed23fbe"
+    },
+    "2379": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_9b865dd2.dart",
+        "rev_002_ce76b192.dart",
+        "rev_003_886b9b59.dart"
+      ],
+      "sha256": "a40dbc5dedb5c54181008831352f589c089212d0e50e92904fb6de9499129ab7"
+    },
+    "2380": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_886b9b59.dart",
+        "rev_002_d6971e32.dart",
+        "rev_003_ad140f38.dart",
+        "rev_004_411d2fe6.dart",
+        "rev_005_0d57677a.dart",
+        "rev_006_464290cc.dart",
+        "rev_007_2652487c.dart",
+        "rev_008_c4286e6c.dart",
+        "rev_009_e03b4b63.dart"
+      ],
+      "sha256": "63b39be83c389e5aba9e5da25761e2ec4d86bc29d192151b676a1678898c8ade"
+    },
+    "2382": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_ad140f38.dart",
+        "rev_002_411d2fe6.dart",
+        "rev_003_fa7d824f.dart",
+        "rev_004_0d57677a.dart",
+        "rev_005_fbdae7ec.dart",
+        "rev_006_464290cc.dart",
+        "rev_007_e3ba49d2.dart",
+        "rev_008_3d913995.dart",
+        "rev_009_a9a3f4b7.dart",
+        "rev_010_c4286e6c.dart",
+        "rev_011_e03b4b63.dart",
+        "rev_012_dbe89511.dart",
+        "rev_013_52709f96.dart",
+        "rev_014_5cd7795a.dart",
+        "rev_015_054b5fbc.dart",
+        "rev_016_42cdec2b.dart",
+        "rev_017_d2469c54.dart",
+        "rev_018_4a1867d2.dart",
+        "rev_019_24445e6f.dart",
+        "rev_020_a1a08e5c.dart",
+        "rev_021_578889b0.dart",
+        "rev_022_d163ee8c.dart"
+      ],
+      "sha256": "cea4b282b5a555f5610688cc6ed1ade90c70f3590bbea4c2075b622438ab4608"
+    },
+    "2407": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_99f52b21.dart",
+        "rev_002_1df4bccf.dart",
+        "rev_003_0098c42b.dart",
+        "rev_004_a672c29a.dart",
+        "rev_005_68f96a68.dart",
+        "rev_006_9b55eaa2.dart",
+        "rev_007_5cf3bf1e.dart",
+        "rev_008_772ce9e3.dart",
+        "rev_009_56b61729.dart",
+        "rev_010_9643df6a.dart",
+        "rev_011_672ed006.dart",
+        "rev_012_d458d665.dart",
+        "rev_013_c65eac36.dart",
+        "rev_014_75374ea0.dart",
+        "rev_015_efd328d3.dart",
+        "rev_016_90ded36f.dart"
+      ],
+      "sha256": "5d3c4d89fbe35f4d43ed9db8d446f1e43a367058a39598ba409b5e1bee06635e"
+    },
+    "2408": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_99f52b21.dart",
+        "rev_002_1df4bccf.dart",
+        "rev_003_0098c42b.dart",
+        "rev_004_a672c29a.dart",
+        "rev_005_3edb0473.dart",
+        "rev_006_8494e314.dart",
+        "rev_007_bca7d9a2.dart",
+        "rev_008_68f96a68.dart",
+        "rev_009_9b55eaa2.dart",
+        "rev_010_f8458a9e.dart",
+        "rev_011_5cf3bf1e.dart",
+        "rev_012_63f37746.dart",
+        "rev_013_b768662a.dart",
+        "rev_014_d8a73e10.dart",
+        "rev_015_616dbed7.dart",
+        "rev_016_562803f5.dart",
+        "rev_017_772ce9e3.dart",
+        "rev_018_9643df6a.dart",
+        "rev_019_672ed006.dart",
+        "rev_020_d458d665.dart",
+        "rev_021_841333e2.dart",
+        "rev_022_c65eac36.dart",
+        "rev_023_75374ea0.dart",
+        "rev_024_efd328d3.dart",
+        "rev_025_90ded36f.dart",
+        "rev_026_b2b3b9db.dart",
+        "rev_027_fffc6ae5.dart"
+      ],
+      "sha256": "3a22a88ec8a46ba45565f06b28f793cf57e9ef7ee3344aa6d038ebee13f32931"
+    },
+    "2411": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_99f52b21.dart",
+        "rev_002_0098c42b.dart",
+        "rev_003_a672c29a.dart",
+        "rev_004_68f96a68.dart",
+        "rev_005_9b55eaa2.dart",
+        "rev_006_5cf3bf1e.dart",
+        "rev_007_772ce9e3.dart",
+        "rev_008_a8a7dcc5.dart",
+        "rev_009_9643df6a.dart",
+        "rev_010_672ed006.dart",
+        "rev_011_d458d665.dart",
+        "rev_012_c65eac36.dart",
+        "rev_013_75374ea0.dart",
+        "rev_014_efd328d3.dart",
+        "rev_015_90ded36f.dart",
+        "rev_016_b2b3b9db.dart",
+        "rev_017_fffc6ae5.dart"
+      ],
+      "sha256": "d01f543cb5827424244a310b7f9ad4dd59d11c29b16ad3f591d120f5a3e268a9"
+    },
+    "2412": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_99f52b21.dart",
+        "rev_002_1df4bccf.dart",
+        "rev_003_0098c42b.dart"
+      ],
+      "sha256": "b94edb3dffc2c8f6a0c7657b025abbe790a2e8b6ac2ad92ec52a2028f12a8a28"
+    },
+    "2430": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_52709f96.dart",
+        "rev_002_6d2c9fd0.dart",
+        "rev_003_ce6df3c7.dart",
+        "rev_004_de4c350c.dart",
+        "rev_005_f635f7a5.dart",
+        "rev_006_f1e3a910.dart"
+      ],
+      "sha256": "785549da694bfec9e1ac0d2a5a4130b8dd2fff8be52b6bc68e8299b086ab8927"
+    },
+    "2446": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_c7520466.dart",
+        "rev_002_704cf1b0.dart",
+        "rev_003_de4c350c.dart",
+        "rev_004_f635f7a5.dart",
+        "rev_005_f1e3a910.dart"
+      ],
+      "sha256": "8417e27dc1c1f17f8b8232aa7651c0179c74e904ec5535e6fbeeb2d13f3b2c90"
+    },
+    "2449": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_c7520466.dart",
+        "rev_002_6d2c9fd0.dart",
+        "rev_003_de4c350c.dart",
+        "rev_004_f635f7a5.dart",
+        "rev_005_f1e3a910.dart"
+      ],
+      "sha256": "bebc114a01127547d923db52160c00f5d783b8f6a2719575fefdd080609f199c"
+    },
+    "2457": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_008_b8eb0ab5.dart",
+        "rev_009_bdcf7003.dart",
+        "rev_010_ce6df3c7.dart",
+        "rev_011_704cf1b0.dart",
+        "rev_012_1db16608.dart",
+        "rev_013_de4c350c.dart",
+        "rev_014_f1e3a910.dart",
+        "rev_015_30d8f56a.dart",
+        "rev_016_c006a3aa.dart"
+      ],
+      "sha256": "0bffa03a9481757257dc301749933f4bbd2c0a4451b8a6e3a8e4175a586bbbd1"
+    },
+    "2466": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_08aa51e8.dart",
+        "rev_002_efd328d3.dart",
+        "rev_003_90ded36f.dart",
+        "rev_004_b2b3b9db.dart",
+        "rev_005_fffc6ae5.dart"
+      ],
+      "sha256": "ed09ab49a3919dd9eb63bdca85ee7a393ddf7b60ab5dde6c562df7fd70425b3e"
+    },
+    "2473": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_9643df6a.dart",
+        "rev_002_672ed006.dart",
+        "rev_003_efd328d3.dart",
+        "rev_004_90ded36f.dart",
+        "rev_005_b2b3b9db.dart",
+        "rev_006_fffc6ae5.dart"
+      ],
+      "sha256": "c65695fca3e7d037c75a215ad9547f12aeafd8659eb2461defac904caf65ac5d"
+    },
+    "2639": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_964dd572.dart",
+        "rev_002_fba8b029.dart"
+      ],
+      "sha256": "889b5c5e6a69303d2b4730ba83aca230ecc9a25b3226f2bd669a0de64b78f82f"
+    },
+    "2644": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_964dd572.dart",
+        "rev_002_fba8b029.dart"
+      ],
+      "sha256": "9697880e6d613917e575f66aa9307a0d36956c117e1885d7ce0147776fd4ea0e"
+    },
+    "2819": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_006_88543c0a.dart",
+        "rev_007_d58a0ef0.dart"
+      ],
+      "sha256": "a0d60a03e933fcf790769388efa5e2afe2269d0851583d8595b0592e9d7f0e43"
+    },
+    "2841": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_deb3f0c8.dart",
+        "rev_002_67ad4430.dart",
+        "rev_003_cd6800c4.dart",
+        "rev_004_e89651c3.dart",
+        "rev_005_855558ff.dart",
+        "rev_006_b92f8ee7.dart",
+        "rev_007_9900ec79.dart",
+        "rev_008_db94f6e0.dart"
+      ],
+      "sha256": "c108d8fc3f0e098dedd784f8e385b1a7915d513f4d98863760e08893d5722f2b"
+    },
+    "2844": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_9990358a.dart",
+        "rev_002_2d4b389f.dart"
+      ],
+      "sha256": "d9bd31a4c0c2cdee387c07b26a20ae72c9ebc720184aedc8d9a16f6551cc2ecb"
+    },
+    "2860": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_335e6fc9.dart",
+        "rev_002_213f9e67.dart"
+      ],
+      "sha256": "6f47ec0c3120f2e6e345fd8026aa06ba2a5f4649445cffc85961400c23fcbfcf"
+    },
+    "2861": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_335e6fc9.dart",
+        "rev_002_213f9e67.dart"
+      ],
+      "sha256": "947c6b1fc0c6b64c00522f148fd4e0d1d9e20dec4ff47020b49d480854ec6216"
+    },
+    "2866": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_845b3e07.dart",
+        "rev_002_6bbb8e8d.dart",
+        "rev_003_bf589932.dart",
+        "rev_005_a9d855a6.dart"
+      ],
+      "sha256": "6afef47509f19ab8cb2cfa31cf674f7d994806e47818af6334810b80d31ddd97"
+    },
+    "2871": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_7075e3f7.dart",
+        "rev_002_4acaae61.dart",
+        "rev_003_a7eb684f.dart"
+      ],
+      "sha256": "b8bda78e6c2f5aee30d0767f5f73232793e3c67b01bea30e206845c0c74fb3bd"
+    },
+    "2872": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_7075e3f7.dart",
+        "rev_002_4acaae61.dart"
+      ],
+      "sha256": "0075d8f650adefa39ed9e7a0d521e2d0960e4efe61ec3eb67189b0666a899172"
+    },
+    "2907": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_7da23c85.dart",
+        "rev_002_f4caa300.dart",
+        "rev_003_33ba011a.dart"
+      ],
+      "sha256": "feae6a0daa3fbd2dc65d2683617002519316b7e47806e56cbb98d9a61a5dcfbf"
+    },
+    "2941": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_d47256a6.dart",
+        "rev_002_7a74a622.dart",
+        "rev_003_49282111.dart"
+      ],
+      "sha256": "4ce466233e7330d2b5f506757de674a55055a95a6542e26d558b5ffa8a289ad7"
+    },
+    "2944": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_6a642d34.dart",
+        "rev_002_19ac2c28.dart"
+      ],
+      "sha256": "591e53352003cad0e40bfaac9c36ca49e67b93cab86fef9ca331ca1460506297"
+    },
+    "2953": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_a46d1727.dart",
+        "rev_002_1b77e180.dart",
+        "rev_003_4720427e.dart",
+        "rev_004_098d150a.dart"
+      ],
+      "sha256": "cc327495169859094af22ffebbcbe8caf501a7d80cdd449a448522ac85ad2dbd"
+    },
+    "2962": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_fefa1533.dart",
+        "rev_002_6a56bffb.dart"
+      ],
+      "sha256": "4f1c17f63e6d6eb7aa977a37dbb75f574056582f759d552a603a8d7faef7fd2c"
+    },
+    "2987": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_a2ef3b0d.dart",
+        "rev_002_43588307.dart"
+      ],
+      "sha256": "da77e363831eea08e0af6736d104372e65b7c153ed78f54301f95687d2b263d4"
+    },
+    "3029": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_009_b23a1e72.dart",
+        "rev_012_515000c6.dart",
+        "rev_013_023d5a97.dart",
+        "rev_014_4a12c5a1.dart",
+        "rev_015_1faaa941.dart",
+        "rev_016_c8f5d8e3.dart"
+      ],
+      "sha256": "d3040f1b0583ba2db66df6c30d0be701e30cef4f018e8502ae76f7a79429b524"
+    },
+    "3046": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_68168bde.dart",
+        "rev_002_b7791d18.dart",
+        "rev_003_20d4a04e.dart",
+        "rev_004_a5ca376e.dart",
+        "rev_005_6465e168.dart",
+        "rev_006_de772d07.dart",
+        "rev_007_cf79d832.dart",
+        "rev_009_fc1e02d9.dart",
+        "rev_010_b2bbcf97.dart",
+        "rev_011_cb746667.dart",
+        "rev_012_4dbf79c7.dart",
+        "rev_013_7b196048.dart"
+      ],
+      "sha256": "138fa6b6e7a199ad4cd2f8116d1657e2428db34986546708748790728e77df8d"
+    },
+    "3083": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_2d9d8648.dart",
+        "rev_002_c499b6ec.dart",
+        "rev_003_6e485ed7.dart",
+        "rev_004_cb42f92d.dart",
+        "rev_005_5061b81a.dart",
+        "rev_006_a448ce60.dart"
+      ],
+      "sha256": "101004f944425ad8659fb39f48cbc4683e0d12c8156e84ee241d3135f8045292"
+    },
+    "3101": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_74f12375.dart",
+        "rev_002_a448ce60.dart"
+      ],
+      "sha256": "6db9717506e468b5cd8908035ee64d64e8590b6f7b4f5006c4684c661b5cac87"
+    },
+    "3105": {
+      "adopted": "2026-09-15",
+      "reason": "adopted by hand",
+      "roles": [
+        "rev_001_a448ce60.dart",
+        "rev_002_0b64fdf1.dart",
+        "rev_003_9993b31d.dart",
+        "rev_004_6dcd4d4f.dart",
+        "rev_005_89c5856c.dart",
+        "rev_006_4878c4ef.dart"
+      ],
+      "sha256": "88274d9ef4befccb11a58699254ca84369a673f97f55c1131fb95a67ad5aacbc"
+    }
+  },
+  "version": 1
+}

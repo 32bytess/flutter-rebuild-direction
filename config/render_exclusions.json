@@ -1,0 +1,2497 @@
+{
+  "_comment": "Roles the device drew nothing useful for. Written by scripts/render_gate.py from the screenshots and raw logs of a measurement campaign; read by scripts/screen/rules.py as R21_renders_error and R22_renders_nothing. Hand-editable: add a role to record a verdict the artifacts cannot show, and say so in its `evidence`.",
+  "_coverage": "`unknown` is roles with neither a screenshot nor a raw log. The census is a FLOOR: a role that was never measured, or measured before --screenshots existed, cannot be condemned or cleared by this pass.",
+  "_merge": "Rows are MERGED, never replaced. A role this pass observed takes its new verdict, including being dropped when it now renders; a role it did not observe keeps what is on record, and `observed_in` on each row says which dataset root last saw it. A pass over the eligible endpoints does not see the roles R21 already excluded -- they stopped being endpoints because of it -- so replacing would let the exclusion erase its own evidence. `--replace` rebuilds from one root deliberately.",
+  "dataset": "dataset-new_samples",
+  "generated": "2026-10-03T21:38:49.065623+00:00",
+  "groups": {
+    "0314": {
+      "rev_002_df5ca135": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              103,
+              80,
+              164
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0314__rev_002_df5ca135.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_883908ec": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              103,
+              80,
+              164
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0314__rev_003_883908ec.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_52c491c2": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0314__rev_004_52c491c2.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0331": {
+      "rev_001_e9b9b621": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0331__rev_001_e9b9b621.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_15933220": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0331__rev_002_15933220.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_058037db": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0331__rev_004_058037db.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_005_65801721": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0331__rev_005_65801721.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0334": {
+      "rev_002_de871847": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0334__rev_002_de871847.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_005_54e60730": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0334__rev_005_54e60730.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_006_7781acc1": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0334__rev_006_7781acc1.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_007_e854d9d7": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0334__rev_007_e854d9d7.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0344": {
+      "rev_001_ff230faf": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 0.9993,
+            "shot": "0344__rev_001_ff230faf.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_76cef4b8": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0344__rev_002_76cef4b8.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_759046c6": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0344__rev_003_759046c6.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_ac39b5d2": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0344__rev_004_ac39b5d2.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0349": {
+      "rev_002_ae402f3c": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0349__rev_002_ae402f3c.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_2b387dd1": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0349__rev_003_2b387dd1.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_ebecf1c9": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0349__rev_004_ebecf1c9.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0452": {
+      "rev_002_46f1fb92": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'EdgeInsetsGeometry?'",
+          "log": "dataset-new_samples/0452/redmi9t/raw/20260910-173302/rev_002_46f1fb92/e1.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0452__rev_002_46f1fb92.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_003_46f1fb92": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'EdgeInsetsGeometry?'",
+          "log": "dataset-new_samples/0452/redmi9t/raw/20260910-173302/rev_003_46f1fb92/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0452__rev_003_46f1fb92.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_004_58cb26b6": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'EdgeInsetsGeometry?'",
+          "log": "dataset-new_samples/0452/redmi9t/raw/20260910-173302/rev_004_58cb26b6/e12.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0452__rev_004_58cb26b6.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0455": {
+      "rev_001_48efa32a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0455__rev_001_48efa32a.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_9ee5d23d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0455__rev_002_9ee5d23d.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_d8cd4b4c": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0455__rev_002_d8cd4b4c.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_003_21879d19": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 0.8676,
+            "flat": 0.8676,
+            "shot": "0455__rev_003_21879d19.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_003_d8cd4b4c": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 0.8676,
+            "flat": 0.8676,
+            "shot": "0455__rev_003_d8cd4b4c.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_004_21879d19": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 0.8676,
+            "flat": 0.8676,
+            "shot": "0455__rev_004_21879d19.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_005_8cb2e174": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 0.8676,
+            "flat": 0.8676,
+            "shot": "0455__rev_005_8cb2e174.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_006_8cb2e174": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 0.8676,
+            "flat": 0.8676,
+            "shot": "0455__rev_006_8cb2e174.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0463": {
+      "rev_002_23caef43": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0463__rev_002_23caef43.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_4dcb0b8f": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0463__rev_003_4dcb0b8f.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0508": {
+      "rev_001_14993d48": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_001_14993d48.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_85b46635": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_002_85b46635.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_007_59642fcc": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_007_59642fcc.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_014_84de200d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_014_84de200d.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_015_84de200d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_015_84de200d.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_015_9ed8fc40": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_015_9ed8fc40.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_016_9ed8fc40": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0508__rev_016_9ed8fc40.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0531": {
+      "rev_001_14993d48": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              245,
+              246,
+              250
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0531__rev_001_14993d48.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_85b46635": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              245,
+              246,
+              250
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0531__rev_002_85b46635.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_006_59642fcc": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              245,
+              246,
+              250
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0531__rev_006_59642fcc.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_007_02c163b0": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              245,
+              246,
+              250
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0531__rev_007_02c163b0.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_009_9ed8fc40": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              245,
+              246,
+              250
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0531__rev_009_9ed8fc40.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_010_9ed8fc40": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              245,
+              246,
+              250
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0531__rev_010_9ed8fc40.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0591": {
+      "rev_006_24973dfe": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'ThemeMode'",
+          "log": "dataset-new_samples/0591/redmi9t/raw/20260911-074045/rev_006_24973dfe/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0591__rev_006_24973dfe.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_007_5228a7d7": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'ThemeMode'",
+          "log": "dataset-new_samples/0591/redmi9t/raw/20260911-074045/rev_007_5228a7d7/e10.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0591__rev_007_5228a7d7.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0610": {
+      "rev_001_8424e8c8": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'AppThemeType'",
+          "log": "dataset-new_samples/0610/redmi9t/raw/20260911-105947/rev_001_8424e8c8/e10.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0610__rev_001_8424e8c8.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_002_39cfa6cf": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "Null check operator used on a null value",
+          "log": "dataset-new_samples/0610/redmi9t/raw/20260911-105947/rev_002_39cfa6cf/e4.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0610__rev_002_39cfa6cf.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0630": {
+      "rev_001_a8ce423c": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0630__rev_001_a8ce423c.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_459c92cc": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0630__rev_002_459c92cc.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_39cfa6cf": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0630__rev_003_39cfa6cf.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0632": {
+      "rev_002_39cfa6cf": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '(dynamic) => dynamic' is not a subtype of type '(Persona) => bool' of 'test'",
+          "log": "dataset-new_samples/0632/redmi9t/raw/20260917-142907/rev_002_39cfa6cf/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0632__rev_002_39cfa6cf.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_error"
+      },
+      "rev_009_bca4e2e7": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '(dynamic) => dynamic' is not a subtype of type '(Persona) => bool' of 'test'",
+          "log": "dataset-new_samples/0632/redmi9t/raw/20260917-142907/rev_009_bca4e2e7/e6.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0632__rev_009_bca4e2e7.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_error"
+      },
+      "rev_014_9016c75d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'bool'",
+          "log": "dataset-new_samples/0632/redmi9t/raw/20260911-133812/rev_014_9016c75d/e0.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0632__rev_014_9016c75d.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_018_035c01dd": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'bool'",
+          "log": "dataset-new_samples/0632/redmi9t/raw/20260911-133812/rev_018_035c01dd/e12.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0632__rev_018_035c01dd.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_019_ef044d72": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'bool'",
+          "log": "dataset-new_samples/0632/redmi9t/raw/20260911-133812/rev_019_ef044d72/e10.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0632__rev_019_ef044d72.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0650": {
+      "rev_002_86fdaf92": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'SyntaxThemeName'",
+          "log": "dataset-new_samples/0650/redmi9t/raw/20260911-152349/rev_002_86fdaf92/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0650__rev_002_86fdaf92.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_003_ece66b0a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'SyntaxThemeName'",
+          "log": "dataset-new_samples/0650/redmi9t/raw/20260911-152349/rev_003_ece66b0a/e6.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0650__rev_003_ece66b0a.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0653": {
+      "rev_001_75729f42": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0653__rev_001_75729f42.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_dd3b3254": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0653__rev_003_dd3b3254.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_39cfa6cf": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0653__rev_004_39cfa6cf.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_011_bca4e2e7": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "0653__rev_011_bca4e2e7.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "0719": {
+      "rev_001_c9556161": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0719__rev_001_c9556161.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_002_a87eb48e": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'String'",
+          "log": "dataset-new_samples/0719/redmi9t/raw/20260911-230614/rev_002_a87eb48e/e4.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0719__rev_002_a87eb48e.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0752": {
+      "rev_002_9016c75d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "0752__rev_002_9016c75d.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "0753": {
+      "rev_001_62f7d97f": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0753__rev_001_62f7d97f.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_9016c75d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0753__rev_002_9016c75d.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "0837": {
+      "rev_001_b1973107": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0837__rev_001_b1973107.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_7b810338": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0837__rev_002_7b810338.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "0994": {
+      "rev_001_517fa8c6": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0994__rev_001_517fa8c6.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_e136e9ab": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "0994__rev_002_e136e9ab.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "1232": {
+      "rev_001_093ba8cd": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "1232__rev_001_093ba8cd.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_002_a6cfecbe": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "1232__rev_002_a6cfecbe.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "1414": {
+      "rev_001_c2b16d6a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "1414__rev_001_c2b16d6a.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_4f5d4e90": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "1414__rev_002_4f5d4e90.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_003_cdbc2f11": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "1414__rev_003_cdbc2f11.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_43b5d4fb": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "1414__rev_004_43b5d4fb.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "1468": {
+      "rev_001_3987ebfd": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "1468__rev_001_3987ebfd.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_bf09593e": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "1468__rev_002_bf09593e.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_003_ebc1b1ef": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "1468__rev_003_ebc1b1ef.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "1927": {
+      "rev_002_a0304d99": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '(dynamic) => dynamic' is not a subtype of type '(String) => bool' of 'test'",
+          "log": "dataset-new_samples/1927/redmi9t/raw/20260912-155457/rev_002_a0304d99/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "1927__rev_002_a0304d99.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_004_84d9d336": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '(dynamic) => dynamic' is not a subtype of type '(String) => bool' of 'test'",
+          "log": "dataset-new_samples/1927/redmi9t/raw/20260912-155457/rev_004_84d9d336/e6.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "1927__rev_004_84d9d336.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2039": {
+      "rev_003_ac7a9c17": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2039__rev_003_ac7a9c17.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_004_a0b447fb": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2039__rev_004_a0b447fb.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_005_225cd9c1": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2039__rev_005_225cd9c1.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_006_530b89eb": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2039__rev_006_530b89eb.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_007_1acfd5a2": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2039__rev_007_1acfd5a2.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "2052": {
+      "rev_001_20915456": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2052__rev_001_20915456.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_005_facfde4c": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2052__rev_005_facfde4c.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "2283": {
+      "rev_001_ef02929a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2283__rev_001_ef02929a.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_5e5cc0aa": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2283__rev_002_5e5cc0aa.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_003_2ea58bf3": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2283__rev_003_2ea58bf3.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "2379": {
+      "rev_001_9b865dd2": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 0.9993,
+            "shot": "2379__rev_001_9b865dd2.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_ce76b192": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 0.9993,
+            "shot": "2379__rev_002_ce76b192.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_003_886b9b59": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 0.9993,
+            "shot": "2379__rev_003_886b9b59.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "2382": {
+      "rev_001_ad140f38": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 0.9993,
+            "shot": "2382__rev_001_ad140f38.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_002_411d2fe6": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 0.9992,
+            "shot": "2382__rev_002_411d2fe6.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "2408": {
+      "rev_023_75374ea0": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'FlutterClawConfig'",
+          "log": "dataset-new_samples/2408/redmi9t/raw/20260913-142642/rev_023_75374ea0/e4.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2408__rev_023_75374ea0.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_025_90ded36f": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'FlutterClawConfig'",
+          "log": "dataset-new_samples/2408/redmi9t/raw/20260913-142642/rev_025_90ded36f/e13.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2408__rev_025_90ded36f.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2411": {
+      "rev_002_0098c42b": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'FlutterClawConfig'",
+          "log": "dataset-new_samples/2411/redmi9t/raw/20260913-143611/rev_002_0098c42b/e8.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2411__rev_002_0098c42b.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_015_90ded36f": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'FlutterClawConfig'",
+          "log": "dataset-new_samples/2411/redmi9t/raw/20260913-143611/rev_015_90ded36f/e8.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2411__rev_015_90ded36f.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2412": {
+      "rev_003_0098c42b": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2412__rev_003_0098c42b.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2449": {
+      "rev_003_de4c350c": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'ButtonStyle?'",
+          "log": "dataset-new_samples/2449/redmi9t/raw/20260913-181855/rev_003_de4c350c/e2.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2449__rev_003_de4c350c.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2457": {
+      "rev_008_b8eb0ab5": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2457__rev_008_b8eb0ab5.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_009_bdcf7003": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2457__rev_009_bdcf7003.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_015_30d8f56a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2457__rev_015_30d8f56a.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      },
+      "rev_016_c006a3aa": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "error_red": 0.0,
+            "flat": 1.0,
+            "shot": "2457__rev_016_c006a3aa.png"
+          }
+        },
+        "observed_in": "dataset-new_samples",
+        "verdict": "renders_nothing"
+      }
+    },
+    "2473": {
+      "rev_001_9643df6a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              0,
+              0,
+              0
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2473__rev_001_9643df6a.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_003_efd328d3": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'String'",
+          "log": "dataset-new_samples/2473/redmi9t/raw/20260913-194248/rev_003_efd328d3/e4.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2473__rev_003_efd328d3.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2639": {
+      "rev_002_fba8b029": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2639__rev_002_fba8b029.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "2644": {
+      "rev_001_964dd572": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              0,
+              0,
+              0
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2644__rev_001_964dd572.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_fba8b029": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              0,
+              0,
+              0
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2644__rev_002_fba8b029.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      }
+    },
+    "2819": {
+      "rev_006_88543c0a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2819__rev_006_88543c0a.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_007_d58a0ef0": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type '_Stub' is not a subtype of type 'Color?'",
+          "log": "dataset-new_samples/2819/redmi9t/raw/20260913-201009/rev_007_d58a0ef0/e11.log",
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "2819__rev_007_d58a0ef0.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "2907": {
+      "rev_002_f4caa300": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2907__rev_002_f4caa300.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_003_33ba011a": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "2907__rev_003_33ba011a.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "3029": {
+      "rev_016_c8f5d8e3": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type 'Null' is not a subtype of type 'double'",
+          "log": "dataset-new_samples/3029/redmi9t/raw/20260913-234450/rev_016_c8f5d8e3/e4.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "3029__rev_016_c8f5d8e3.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "3083": {
+      "rev_004_cb42f92d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "type 'List<dynamic>' is not a subtype of type 'List<Widget>'",
+          "log": "dataset-new_samples/3083/redmi9t/raw/20260913-234640/rev_004_cb42f92d/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "3083__rev_004_cb42f92d.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_006_a448ce60": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "Null check operator used on a null value",
+          "log": "dataset-new_samples/3083/redmi9t/raw/20260913-234640/rev_006_a448ce60/e6.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "3083__rev_006_a448ce60.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "3101": {
+      "rev_001_74f12375": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "shot_evidence": {
+            "dominant": [
+              254,
+              247,
+              255
+            ],
+            "error_grey": 0.0,
+            "flat": 1.0,
+            "shot": "3101__rev_001_74f12375.png"
+          }
+        },
+        "verdict": "renders_nothing"
+      },
+      "rev_002_a448ce60": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "Null check operator used on a null value",
+          "log": "dataset-new_samples/3101/redmi9t/raw/20260913-234735/rev_002_a448ce60/e11.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "3101__rev_002_a448ce60.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    },
+    "3105": {
+      "rev_002_0b64fdf1": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "Null check operator used on a null value",
+          "log": "dataset-new_samples/3105/redmi9t/raw/20260913-234829/rev_002_0b64fdf1/e3.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "3105__rev_002_0b64fdf1.png"
+          }
+        },
+        "verdict": "renders_error"
+      },
+      "rev_003_9993b31d": {
+        "devices": [
+          "redmi9t"
+        ],
+        "evidence": {
+          "exception": "Null check operator used on a null value",
+          "log": "dataset-new_samples/3105/redmi9t/raw/20260913-234829/rev_003_9993b31d/e6.log",
+          "shot_evidence": {
+            "dominant": [
+              196,
+              196,
+              196
+            ],
+            "error_grey": 1.0,
+            "flat": 1.0,
+            "shot": "3105__rev_003_9993b31d.png"
+          }
+        },
+        "verdict": "renders_error"
+      }
+    }
+  },
+  "role_verdicts": {
+    "ok": 130,
+    "renders_error": 2,
+    "renders_nothing": 57,
+    "unknown": 5
+  },
+  "rows_carried_from_earlier_passes": 64,
+  "version": 1
+}
