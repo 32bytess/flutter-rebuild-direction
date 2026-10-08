@@ -15,6 +15,7 @@ authors:
     alias: 32bytess
 version: 1.0.0
 date-released: 2026-10-08
+doi: 10.5281/zenodo.23226698
 license: MIT
 repository-code: "https://github.com/32bytess/flutter-rebuild-direction"
 url: "https://github.com/32bytess/flutter-rebuild-direction"
